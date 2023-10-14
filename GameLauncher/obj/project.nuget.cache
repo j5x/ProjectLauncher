@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "IYQRxv1Gusd7EhQHzm12E2JzmPBf1tWS5L4j6IEehDPMPgpN3NUOrt7x8a4wX5HLsjhEqf5mDQI3Zw90GqtUbw==",
+  "success": true,
+  "projectFilePath": "D:\\VBS\\Launcher\\GameLauncher\\GameLauncher\\GameLauncher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jason\\.nuget\\packages\\google.apis\\1.62.0\\google.apis.1.62.0.nupkg.sha512",
+    "C:\\Users\\jason\\.nuget\\packages\\google.apis.auth\\1.62.0\\google.apis.auth.1.62.0.nupkg.sha512",
+    "C:\\Users\\jason\\.nuget\\packages\\google.apis.core\\1.62.0\\google.apis.core.1.62.0.nupkg.sha512",
+    "C:\\Users\\jason\\.nuget\\packages\\google.apis.drive.v3\\1.62.0.3155\\google.apis.drive.v3.1.62.0.3155.nupkg.sha512",
+    "C:\\Users\\jason\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
