@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IYQRxv1Gusd7EhQHzm12E2JzmPBf1tWS5L4j6IEehDPMPgpN3NUOrt7x8a4wX5HLsjhEqf5mDQI3Zw90GqtUbw==",
+  "dgSpecHash": "BL3NdzhQA6XKNf59Wm+3BM4O1KRCRP4mvKbIxtzDSr6BovcxCFsE7tO0b3kSt55GtqDvCXA2yEDqVk9oSqr0Jg==",
   "success": true,
-  "projectFilePath": "D:\\VBS\\Launcher\\GameLauncher\\GameLauncher\\GameLauncher.csproj",
+  "projectFilePath": "D:\\VBS\\Launcher\\GameLauncher\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jason\\.nuget\\packages\\google.apis\\1.62.0\\google.apis.1.62.0.nupkg.sha512",
     "C:\\Users\\jason\\.nuget\\packages\\google.apis.auth\\1.62.0\\google.apis.auth.1.62.0.nupkg.sha512",
