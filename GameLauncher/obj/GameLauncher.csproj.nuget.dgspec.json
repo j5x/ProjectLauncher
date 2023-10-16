@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VBS\\Launcher\\GameLauncher\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj": {}
+    "C:\\MA\\ProjectLauncher\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj": {}
   },
   "projects": {
-    "D:\\VBS\\Launcher\\GameLauncher\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj": {
+    "C:\\MA\\ProjectLauncher\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VBS\\Launcher\\GameLauncher\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj",
+        "projectUniqueName": "C:\\MA\\ProjectLauncher\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj",
         "projectName": "GameLauncher",
-        "projectPath": "D:\\VBS\\Launcher\\GameLauncher\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj",
+        "projectPath": "C:\\MA\\ProjectLauncher\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj",
         "packagesPath": "C:\\Users\\jason\\.nuget\\packages\\",
-        "outputPath": "D:\\VBS\\Launcher\\GameLauncher\\ProjectLauncher\\GameLauncher\\obj\\",
+        "outputPath": "C:\\MA\\ProjectLauncher\\ProjectLauncher\\GameLauncher\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jason\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows"
+          "net6.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -43,6 +43,10 @@
             "Google.Apis.Drive.v3": {
               "target": "Package",
               "version": "[1.62.0.3155, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -51,8 +55,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -64,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
