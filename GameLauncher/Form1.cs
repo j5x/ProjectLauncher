@@ -17,7 +17,7 @@ namespace GameLauncher
             gameDirectory = Properties.Settings.Default.GameDirectory;
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private async void button2_Click(object sender, EventArgs e)
         {
             using (var client = new WebClient())
             {
@@ -31,19 +31,32 @@ namespace GameLauncher
 
                         try
                         {
-                            client.DownloadFile(githubLink, downloadPath);
-                            MessageBox.Show("Download complete!");
+                            client.DownloadProgressChanged += (s, args) =>
+                            {
+                                // Update the progress bar while downloading
+                                progressBar1.Value = args.ProgressPercentage;
+                            };
 
-                            // Extract the downloaded ZIP file
-                            if (File.Exists(downloadPath))
+                            client.DownloadFileCompleted += (s, args) =>
                             {
-                                System.IO.Compression.ZipFile.ExtractToDirectory(downloadPath, Path.Combine(Path.GetDirectoryName(downloadPath), "ExtractedFiles"));
-                                MessageBox.Show("Extraction complete!");
-                            }
-                            else
-                            {
-                                MessageBox.Show("Downloaded file not found!");
-                            }
+                                MessageBox.Show("Download complete!");
+                                // Reset the progress bar after download is complete
+                                progressBar1.Value = 0;
+
+                                // Extract the downloaded ZIP file
+                                if (File.Exists(downloadPath))
+                                {
+                                    System.IO.Compression.ZipFile.ExtractToDirectory(downloadPath, Path.Combine(Path.GetDirectoryName(downloadPath), "ExtractedFiles"));
+                                    MessageBox.Show("Extraction complete!");
+                                }
+                                else
+                                {
+                                    MessageBox.Show("Downloaded file not found!");
+                                }
+                            };
+
+                            // Start the download asynchronously
+                            await client.DownloadFileTaskAsync(githubLink, downloadPath);
                         }
                         catch (Exception ex)
                         {
@@ -87,6 +100,6 @@ namespace GameLauncher
             {
                 MessageBox.Show($"Failed to launch the game: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
+        }       
     }
 }
