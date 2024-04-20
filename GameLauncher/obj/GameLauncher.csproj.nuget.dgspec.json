@@ -1,24 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MA\\ProjectLauncher\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj": {}
+    "C:\\Code\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj": {}
   },
   "projects": {
-    "C:\\MA\\ProjectLauncher\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj": {
+    "C:\\Code\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MA\\ProjectLauncher\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj",
+        "projectUniqueName": "C:\\Code\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj",
         "projectName": "GameLauncher",
-        "projectPath": "C:\\MA\\ProjectLauncher\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj",
-        "packagesPath": "C:\\Users\\jason\\.nuget\\packages\\",
-        "outputPath": "C:\\MA\\ProjectLauncher\\ProjectLauncher\\GameLauncher\\obj\\",
+        "projectPath": "C:\\Code\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj",
+        "packagesPath": "C:\\Users\\siege\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\ProjectLauncher\\GameLauncher\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\jason\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\siege\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows7.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -34,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,7 +64,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -67,7 +77,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14\\RuntimeIdentifierGraph.json"
         }
       }
     }

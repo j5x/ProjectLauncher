@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Code\\ProjectLauncher\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|c:\\code\\projectlauncher\\gamelauncher\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|solutionrelative:gamelauncher\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|c:\\code\\projectlauncher\\gamelauncher\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|solutionrelative:gamelauncher\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|c:\\code\\projectlauncher\\gamelauncher\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|solutionrelative:gamelauncher\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|C:\\Code\\ProjectLauncher\\gamelauncher\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|solutionrelative:gamelauncher\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|c:\\code\\projectlauncher\\gamelauncher\\googledriveapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|solutionrelative:gamelauncher\\googledriveapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|c:\\code\\projectlauncher\\gamelauncher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|solutionrelative:gamelauncher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|C:\\Code\\ProjectLauncher\\gamelauncher\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|solutionrelative:gamelauncher\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Code\\ProjectLauncher\\GameLauncher\\Form1.cs",
+              "RelativeDocumentMoniker": "GameLauncher\\Form1.cs",
+              "ToolTip": "C:\\Code\\ProjectLauncher\\GameLauncher\\Form1.cs [Design]",
+              "RelativeToolTip": "GameLauncher\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T14:53:37.475Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Code\\ProjectLauncher\\GameLauncher\\Form1.cs",
+              "RelativeDocumentMoniker": "GameLauncher\\Form1.cs",
+              "ToolTip": "C:\\Code\\ProjectLauncher\\GameLauncher\\Form1.cs",
+              "RelativeToolTip": "GameLauncher\\Form1.cs",
+              "ViewState": "AQIAAOMAAAAAAAAAAADwv/AAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T12:31:44.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Code\\ProjectLauncher\\GameLauncher\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "GameLauncher\\Form1.Designer.cs",
+              "ToolTip": "C:\\Code\\ProjectLauncher\\GameLauncher\\Form1.Designer.cs",
+              "RelativeToolTip": "GameLauncher\\Form1.Designer.cs",
+              "ViewState": "AQIAAMUAAAAAAAAAAAArwNEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T23:59:31.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GoogleDriveApi.cs",
+              "DocumentMoniker": "C:\\Code\\ProjectLauncher\\GameLauncher\\GoogleDriveApi.cs",
+              "RelativeDocumentMoniker": "GameLauncher\\GoogleDriveApi.cs",
+              "ToolTip": "C:\\Code\\ProjectLauncher\\GameLauncher\\GoogleDriveApi.cs",
+              "RelativeToolTip": "GameLauncher\\GoogleDriveApi.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAABUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T23:05:04.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Code\\ProjectLauncher\\GameLauncher\\Program.cs",
+              "RelativeDocumentMoniker": "GameLauncher\\Program.cs",
+              "ToolTip": "C:\\Code\\ProjectLauncher\\GameLauncher\\Program.cs",
+              "RelativeToolTip": "GameLauncher\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T23:05:06.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\Code\\ProjectLauncher\\GameLauncher\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "GameLauncher\\Properties\\Settings.settings",
+              "ToolTip": "C:\\Code\\ProjectLauncher\\GameLauncher\\Properties\\Settings.settings",
+              "RelativeToolTip": "GameLauncher\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2024-04-16T23:05:04.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Code\\ProjectLauncher\\GameLauncher\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "GameLauncher\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Code\\ProjectLauncher\\GameLauncher\\Properties\\Resources.resx",
+              "RelativeToolTip": "GameLauncher\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-04-16T23:05:04.883Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
