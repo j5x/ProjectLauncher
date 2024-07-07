@@ -32,6 +32,7 @@
             progressBar1 = new ProgressBar();
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
+            btn_install = new Button();
             tabPage2 = new TabPage();
             splitContainer1 = new SplitContainer();
             splitContainer2 = new SplitContainer();
@@ -41,7 +42,9 @@
             button1 = new Button();
             pictureBox1 = new PictureBox();
             button3 = new Button();
+            textBox1 = new TextBox();
             tabControl1.SuspendLayout();
+            tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
@@ -80,6 +83,8 @@
             // 
             tabPage1.BackgroundImage = (Image)resources.GetObject("tabPage1.BackgroundImage");
             tabPage1.BackgroundImageLayout = ImageLayout.Stretch;
+            tabPage1.Controls.Add(textBox1);
+            tabPage1.Controls.Add(btn_install);
             tabPage1.Location = new Point(4, 24);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
@@ -88,6 +93,18 @@
             tabPage1.Text = "Home";
             tabPage1.UseVisualStyleBackColor = true;
             // 
+            // btn_install
+            // 
+            btn_install.BackColor = Color.LimeGreen;
+            btn_install.Cursor = Cursors.Hand;
+            btn_install.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            btn_install.Location = new Point(344, 273);
+            btn_install.Name = "btn_install";
+            btn_install.Size = new Size(400, 80);
+            btn_install.TabIndex = 0;
+            btn_install.Text = "Install";
+            btn_install.UseVisualStyleBackColor = false;
+            // 
             // tabPage2
             // 
             tabPage2.BackColor = Color.Transparent;
@@ -95,7 +112,7 @@
             tabPage2.Location = new Point(4, 24);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(1216, 593);
+            tabPage2.Size = new Size(1256, 733);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Projects";
             // 
@@ -118,8 +135,8 @@
             splitContainer1.Panel2.Controls.Add(progressBar1);
             splitContainer1.Panel2.Controls.Add(pictureBox1);
             splitContainer1.Panel2.Controls.Add(button3);
-            splitContainer1.Size = new Size(1210, 587);
-            splitContainer1.SplitterDistance = 840;
+            splitContainer1.Size = new Size(1250, 727);
+            splitContainer1.SplitterDistance = 867;
             splitContainer1.TabIndex = 5;
             // 
             // splitContainer2
@@ -207,12 +224,29 @@
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
+            // textBox1
+            // 
+            textBox1.BackColor = Color.Black;
+            textBox1.BorderStyle = BorderStyle.None;
+            textBox1.CharacterCasing = CharacterCasing.Upper;
+            textBox1.Enabled = false;
+            textBox1.Font = new Font("Segoe UI", 32F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox1.ForeColor = Color.White;
+            textBox1.Location = new Point(444, 187);
+            textBox1.Margin = new Padding(0);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(300, 57);
+            textBox1.TabIndex = 1;
+            textBox1.Text = "ISLE OF ELINE";
+            textBox1.TextAlign = HorizontalAlignment.Center;
+            // 
             // Form1
             // 
             AccessibleRole = AccessibleRole.Client;
             AutoScaleDimensions = new SizeF(96F, 96F);
             AutoScaleMode = AutoScaleMode.Dpi;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            BackColor = SystemColors.Control;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1264, 761);
@@ -220,9 +254,14 @@
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.SizableToolWindow;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximumSize = new Size(2160, 1440);
+            MinimumSize = new Size(800, 600);
             Name = "Form1";
             Text = "Veldboom Studios";
+            TopMost = true;
             tabControl1.ResumeLayout(false);
+            tabPage1.ResumeLayout(false);
+            tabPage1.PerformLayout();
             tabPage2.ResumeLayout(false);
             splitContainer1.Panel1.ResumeLayout(false);
             splitContainer1.Panel2.ResumeLayout(false);
@@ -250,5 +289,7 @@
         private Button button2;
         private Button button1;
         private RichTextBox richTextBox2;
+        private Button btn_install;
+        private TextBox textBox1;
     }
 }

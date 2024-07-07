@@ -239,5 +239,6 @@ namespace GameLauncher
             // If none of the above conditions are met, version1 is not greater than version2
             return false;
         }
+
     }
 }
