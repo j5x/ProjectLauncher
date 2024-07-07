@@ -72,7 +72,7 @@
             tabControl1.Location = new Point(0, 0);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(1224, 621);
+            tabControl1.Size = new Size(1264, 761);
             tabControl1.SizeMode = TabSizeMode.FillToRight;
             tabControl1.TabIndex = 3;
             // 
@@ -83,7 +83,7 @@
             tabPage1.Location = new Point(4, 24);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(1216, 593);
+            tabPage1.Size = new Size(1256, 733);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Home";
             tabPage1.UseVisualStyleBackColor = true;
@@ -95,7 +95,7 @@
             tabPage2.Location = new Point(4, 24);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(1593, 1060);
+            tabPage2.Size = new Size(1216, 593);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Projects";
             // 
@@ -118,8 +118,8 @@
             splitContainer1.Panel2.Controls.Add(progressBar1);
             splitContainer1.Panel2.Controls.Add(pictureBox1);
             splitContainer1.Panel2.Controls.Add(button3);
-            splitContainer1.Size = new Size(1587, 1054);
-            splitContainer1.SplitterDistance = 1102;
+            splitContainer1.Size = new Size(1210, 587);
+            splitContainer1.SplitterDistance = 840;
             splitContainer1.TabIndex = 5;
             // 
             // splitContainer2
@@ -215,7 +215,7 @@
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1224, 621);
+            ClientSize = new Size(1264, 761);
             Controls.Add(tabControl1);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.SizableToolWindow;
