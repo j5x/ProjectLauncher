@@ -532,24 +532,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\siege\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Jahva\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj",
+      "projectUniqueName": "C:\\Users\\Jahva\\Documents\\C# Projects\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj",
       "projectName": "GameLauncher",
-      "projectPath": "C:\\Code\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj",
-      "packagesPath": "C:\\Users\\siege\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\ProjectLauncher\\GameLauncher\\obj\\",
+      "projectPath": "C:\\Users\\Jahva\\Documents\\C# Projects\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj",
+      "packagesPath": "C:\\Users\\Jahva\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jahva\\Documents\\C# Projects\\ProjectLauncher\\GameLauncher\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\siege\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Jahva\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -600,6 +595,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.29, 6.0.29]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.29, 6.0.29]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.29, 6.0.29]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.29, 6.0.29]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -608,7 +621,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -57,10 +57,10 @@
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(24, 494);
-            progressBar1.Margin = new Padding(3, 2, 3, 2);
+            progressBar1.Location = new Point(30, 618);
+            progressBar1.Margin = new Padding(4, 2, 4, 2);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(326, 22);
+            progressBar1.Size = new Size(408, 28);
             progressBar1.TabIndex = 2;
             // 
             // tabControl1
@@ -70,9 +70,10 @@
             tabControl1.Controls.Add(tabPage2);
             tabControl1.Dock = DockStyle.Fill;
             tabControl1.Location = new Point(0, 0);
+            tabControl1.Margin = new Padding(4);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(1264, 681);
+            tabControl1.Size = new Size(1986, 1285);
             tabControl1.SizeMode = TabSizeMode.FillToRight;
             tabControl1.TabIndex = 3;
             // 
@@ -80,10 +81,11 @@
             // 
             tabPage1.BackgroundImage = (Image)resources.GetObject("tabPage1.BackgroundImage");
             tabPage1.BackgroundImageLayout = ImageLayout.Stretch;
-            tabPage1.Location = new Point(4, 24);
+            tabPage1.Location = new Point(4, 29);
+            tabPage1.Margin = new Padding(4);
             tabPage1.Name = "tabPage1";
-            tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(1256, 653);
+            tabPage1.Padding = new Padding(4);
+            tabPage1.Size = new Size(1978, 1252);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Home";
             tabPage1.UseVisualStyleBackColor = true;
@@ -92,17 +94,19 @@
             // 
             tabPage2.BackColor = Color.Transparent;
             tabPage2.Controls.Add(splitContainer1);
-            tabPage2.Location = new Point(4, 24);
+            tabPage2.Location = new Point(4, 29);
+            tabPage2.Margin = new Padding(4);
             tabPage2.Name = "tabPage2";
-            tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(1256, 653);
+            tabPage2.Padding = new Padding(4);
+            tabPage2.Size = new Size(1254, 720);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Projects";
             // 
             // splitContainer1
             // 
             splitContainer1.Dock = DockStyle.Fill;
-            splitContainer1.Location = new Point(3, 3);
+            splitContainer1.Location = new Point(4, 4);
+            splitContainer1.Margin = new Padding(4);
             splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -118,14 +122,16 @@
             splitContainer1.Panel2.Controls.Add(progressBar1);
             splitContainer1.Panel2.Controls.Add(pictureBox1);
             splitContainer1.Panel2.Controls.Add(button3);
-            splitContainer1.Size = new Size(1250, 647);
-            splitContainer1.SplitterDistance = 870;
+            splitContainer1.Size = new Size(1246, 712);
+            splitContainer1.SplitterDistance = 866;
+            splitContainer1.SplitterWidth = 5;
             splitContainer1.TabIndex = 5;
             // 
             // splitContainer2
             // 
             splitContainer2.BackColor = Color.White;
-            splitContainer2.Location = new Point(-3, -3);
+            splitContainer2.Location = new Point(-4, -4);
+            splitContainer2.Margin = new Padding(4);
             splitContainer2.Name = "splitContainer2";
             splitContainer2.Orientation = Orientation.Horizontal;
             // 
@@ -137,8 +143,9 @@
             // splitContainer2.Panel2
             // 
             splitContainer2.Panel2.Controls.Add(richTextBox2);
-            splitContainer2.Size = new Size(849, 653);
-            splitContainer2.SplitterDistance = 395;
+            splitContainer2.Size = new Size(1061, 816);
+            splitContainer2.SplitterDistance = 493;
+            splitContainer2.SplitterWidth = 5;
             splitContainer2.TabIndex = 3;
             // 
             // pictureBox2
@@ -147,8 +154,9 @@
             pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox2.Dock = DockStyle.Fill;
             pictureBox2.Location = new Point(0, 0);
+            pictureBox2.Margin = new Padding(4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(849, 395);
+            pictureBox2.Size = new Size(1061, 493);
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
             // 
@@ -157,17 +165,19 @@
             richTextBox2.Dock = DockStyle.Fill;
             richTextBox2.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
             richTextBox2.Location = new Point(0, 0);
+            richTextBox2.Margin = new Padding(4);
             richTextBox2.Name = "richTextBox2";
-            richTextBox2.Size = new Size(849, 254);
+            richTextBox2.Size = new Size(1061, 318);
             richTextBox2.TabIndex = 1;
             richTextBox2.Text = resources.GetString("richTextBox2.Text");
             // 
             // button2
             // 
             button2.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.Location = new Point(24, 396);
+            button2.Location = new Point(30, 495);
+            button2.Margin = new Padding(4);
             button2.Name = "button2";
-            button2.Size = new Size(326, 76);
+            button2.Size = new Size(408, 95);
             button2.TabIndex = 8;
             button2.Text = "Download Game";
             button2.UseVisualStyleBackColor = true;
@@ -176,9 +186,10 @@
             // button1
             // 
             button1.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.Location = new Point(24, 296);
+            button1.Location = new Point(30, 370);
+            button1.Margin = new Padding(4);
             button1.Name = "button1";
-            button1.Size = new Size(326, 76);
+            button1.Size = new Size(408, 95);
             button1.TabIndex = 7;
             button1.Text = "Launch Game";
             button1.UseVisualStyleBackColor = true;
@@ -188,9 +199,10 @@
             // 
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(24, 22);
+            pictureBox1.Location = new Point(30, 28);
+            pictureBox1.Margin = new Padding(4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(326, 255);
+            pictureBox1.Size = new Size(408, 319);
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
             // 
@@ -199,9 +211,10 @@
             button3.BackColor = Color.White;
             button3.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
             button3.ForeColor = SystemColors.ActiveCaptionText;
-            button3.Location = new Point(24, 543);
+            button3.Location = new Point(30, 679);
+            button3.Margin = new Padding(4);
             button3.Name = "button3";
-            button3.Size = new Size(326, 59);
+            button3.Size = new Size(408, 74);
             button3.TabIndex = 3;
             button3.Text = "Check for Updates";
             button3.UseVisualStyleBackColor = false;
@@ -210,16 +223,17 @@
             // Form1
             // 
             AccessibleRole = AccessibleRole.Client;
-            AutoScaleDimensions = new SizeF(96F, 96F);
+            AutoScaleDimensions = new SizeF(120F, 120F);
             AutoScaleMode = AutoScaleMode.Dpi;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1264, 681);
+            ClientSize = new Size(1986, 1285);
             Controls.Add(tabControl1);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.SizableToolWindow;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(4);
             Name = "Form1";
             Text = "Veldboom Studios";
             tabControl1.ResumeLayout(false);

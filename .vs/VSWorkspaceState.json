@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\GameLauncher"
+    "\\GameLauncher",
+    "\\GameLauncher\\img",
+    "\\GameLauncher\\Properties"
   ],
   "SelectedNode": "\\GameLauncher.sln",
   "PreviewInSolutionExplorer": false

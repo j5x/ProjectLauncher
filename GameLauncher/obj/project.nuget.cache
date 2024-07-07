@@ -1,20 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "zLW9xikcNm8=",
+  "dgSpecHash": "TpHqv2YvtRV6ve34O7Dq/x1WtMNfq+mTn4z0hL0P3U2RsG6Jw2RgeHAjSaz4RaQe5lQ1AZCf6guUbbydVqXZNQ==",
   "success": true,
-  "projectFilePath": "C:\\Code\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj",
+  "projectFilePath": "C:\\Users\\Jahva\\Documents\\C# Projects\\ProjectLauncher\\GameLauncher\\GameLauncher.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\siege\\.nuget\\packages\\google.apis\\1.62.0\\google.apis.1.62.0.nupkg.sha512",
-    "C:\\Users\\siege\\.nuget\\packages\\google.apis.auth\\1.62.0\\google.apis.auth.1.62.0.nupkg.sha512",
-    "C:\\Users\\siege\\.nuget\\packages\\google.apis.core\\1.62.0\\google.apis.core.1.62.0.nupkg.sha512",
-    "C:\\Users\\siege\\.nuget\\packages\\google.apis.drive.v3\\1.62.0.3155\\google.apis.drive.v3.1.62.0.3155.nupkg.sha512",
-    "C:\\Users\\siege\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
-    "C:\\Users\\siege\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\siege\\.nuget\\packages\\system.configuration.configurationmanager\\7.0.0\\system.configuration.configurationmanager.7.0.0.nupkg.sha512",
-    "C:\\Users\\siege\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
-    "C:\\Users\\siege\\.nuget\\packages\\system.security.cryptography.protecteddata\\7.0.0\\system.security.cryptography.protecteddata.7.0.0.nupkg.sha512",
-    "C:\\Users\\siege\\.nuget\\packages\\system.security.permissions\\7.0.0\\system.security.permissions.7.0.0.nupkg.sha512",
-    "C:\\Users\\siege\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
+    "C:\\Users\\Jahva\\.nuget\\packages\\google.apis\\1.62.0\\google.apis.1.62.0.nupkg.sha512",
+    "C:\\Users\\Jahva\\.nuget\\packages\\google.apis.auth\\1.62.0\\google.apis.auth.1.62.0.nupkg.sha512",
+    "C:\\Users\\Jahva\\.nuget\\packages\\google.apis.core\\1.62.0\\google.apis.core.1.62.0.nupkg.sha512",
+    "C:\\Users\\Jahva\\.nuget\\packages\\google.apis.drive.v3\\1.62.0.3155\\google.apis.drive.v3.1.62.0.3155.nupkg.sha512",
+    "C:\\Users\\Jahva\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\Jahva\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Jahva\\.nuget\\packages\\system.configuration.configurationmanager\\7.0.0\\system.configuration.configurationmanager.7.0.0.nupkg.sha512",
+    "C:\\Users\\Jahva\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\Jahva\\.nuget\\packages\\system.security.cryptography.protecteddata\\7.0.0\\system.security.cryptography.protecteddata.7.0.0.nupkg.sha512",
+    "C:\\Users\\Jahva\\.nuget\\packages\\system.security.permissions\\7.0.0\\system.security.permissions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Jahva\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Jahva\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Jahva\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Jahva\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Jahva\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
   ],
   "logs": []
 }
