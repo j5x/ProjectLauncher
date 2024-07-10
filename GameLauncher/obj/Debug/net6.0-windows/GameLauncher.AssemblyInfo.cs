@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GameLauncher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1e71aada66bddba9bfcde72ed4c79310a4859fe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6bdd56b0471e3324378a75f7ae5aa9c23ac83d4d")]
 [assembly: System.Reflection.AssemblyProductAttribute("GameLauncher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GameLauncher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
