@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Jahva\\Documents\\C# Projects\\ProjectLauncher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|c:\\users\\jahva\\documents\\c# projects\\projectlauncher\\gamelauncher\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|solutionrelative:gamelauncher\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|c:\\users\\jahva\\documents\\c# projects\\projectlauncher\\gamelauncher\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|solutionrelative:gamelauncher\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|c:\\users\\jahva\\documents\\c# projects\\projectlauncher\\gamelauncher\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|solutionrelative:gamelauncher\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|c:\\users\\jahva\\documents\\c# projects\\projectlauncher\\gamelauncher\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|solutionrelative:gamelauncher\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|c:\\users\\jahva\\documents\\c# projects\\projectlauncher\\gamelauncher\\visualstudio.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|solutionrelative:gamelauncher\\visualstudio.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|c:\\users\\jahva\\documents\\c# projects\\projectlauncher\\gamelauncher\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|solutionrelative:gamelauncher\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|c:\\users\\jahva\\documents\\c# projects\\projectlauncher\\gamelauncher\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|solutionrelative:gamelauncher\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,16 +30,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Jahva\\Documents\\C# Projects\\ProjectLauncher\\GameLauncher\\Form2.cs",
               "RelativeDocumentMoniker": "GameLauncher\\Form2.cs",
-              "ToolTip": "C:\\Users\\Jahva\\Documents\\C# Projects\\ProjectLauncher\\GameLauncher\\Form2.cs [Design]",
-              "RelativeToolTip": "GameLauncher\\Form2.cs [Design]",
+              "ToolTip": "C:\\Users\\Jahva\\Documents\\C# Projects\\ProjectLauncher\\GameLauncher\\Form2.cs [Design]*",
+              "RelativeToolTip": "GameLauncher\\Form2.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T17:41:19.807Z",
               "IsPinned": true,
@@ -43,13 +47,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\Jahva\\Documents\\C# Projects\\ProjectLauncher\\GameLauncher\\Form2.cs",
               "RelativeDocumentMoniker": "GameLauncher\\Form2.cs",
-              "ToolTip": "C:\\Users\\Jahva\\Documents\\C# Projects\\ProjectLauncher\\GameLauncher\\Form2.cs",
-              "RelativeToolTip": "GameLauncher\\Form2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBMAAAAfAAAA",
+              "ToolTip": "C:\\Users\\Jahva\\Documents\\C# Projects\\ProjectLauncher\\GameLauncher\\Form2.cs*",
+              "RelativeToolTip": "GameLauncher\\Form2.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T17:43:28.18Z",
               "IsPinned": true,
@@ -57,25 +61,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Jahva\\Documents\\C# Projects\\ProjectLauncher\\GameLauncher\\Form1.cs",
-              "RelativeDocumentMoniker": "GameLauncher\\Form1.cs",
-              "ToolTip": "C:\\Users\\Jahva\\Documents\\C# Projects\\ProjectLauncher\\GameLauncher\\Form1.cs [Design]",
-              "RelativeToolTip": "GameLauncher\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T18:24:10.253Z",
-              "EditorCaption": " [Design]"
+              "DocumentIndex": 2,
+              "Title": "VisualStudio.gitignore",
+              "DocumentMoniker": "C:\\Users\\Jahva\\Documents\\C# Projects\\ProjectLauncher\\GameLauncher\\VisualStudio.gitignore",
+              "RelativeDocumentMoniker": "GameLauncher\\VisualStudio.gitignore",
+              "ToolTip": "C:\\Users\\Jahva\\Documents\\C# Projects\\ProjectLauncher\\GameLauncher\\VisualStudio.gitignore",
+              "RelativeToolTip": "GameLauncher\\VisualStudio.gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-10T18:33:10.87Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Jahva\\Documents\\C# Projects\\ProjectLauncher\\GameLauncher\\.gitignore",
+              "RelativeDocumentMoniker": "GameLauncher\\.gitignore",
+              "ToolTip": "C:\\Users\\Jahva\\Documents\\C# Projects\\ProjectLauncher\\GameLauncher\\.gitignore",
+              "RelativeToolTip": "GameLauncher\\.gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-10T18:32:41.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Form2.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Jahva\\Documents\\C# Projects\\ProjectLauncher\\GameLauncher\\Form2.Designer.cs",
               "RelativeDocumentMoniker": "GameLauncher\\Form2.Designer.cs",
-              "ToolTip": "C:\\Users\\Jahva\\Documents\\C# Projects\\ProjectLauncher\\GameLauncher\\Form2.Designer.cs",
-              "RelativeToolTip": "GameLauncher\\Form2.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAFAAAA",
+              "ToolTip": "C:\\Users\\Jahva\\Documents\\C# Projects\\ProjectLauncher\\GameLauncher\\Form2.Designer.cs*",
+              "RelativeToolTip": "GameLauncher\\Form2.Designer.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T17:56:48.307Z",
               "EditorCaption": ""
