@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GameLauncher.UserControls;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,7 +16,29 @@ namespace GameLauncher.Properties
         public Form2()
         {
             InitializeComponent();
+            UC_Home uc = new UC_Home();
+            addUserControl(uc);
         }
 
+        private void addUserControl(UserControl userControl)
+        {
+            userControl.Dock = DockStyle.Fill;
+            panelContainer.Controls.Clear();
+            panelContainer.Controls.Add(userControl);
+            userControl.BringToFront();
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            UC_Home uc = new UC_Home();
+            addUserControl(uc);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            UC_Projects uc = new UC_Projects();
+            addUserControl(uc);
+        }
+
+        
     }
 }

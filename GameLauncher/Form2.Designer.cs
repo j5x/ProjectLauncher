@@ -32,14 +32,14 @@
             panel1 = new Panel();
             panelContainer = new Panel();
             panel3 = new Panel();
+            button5 = new Button();
+            button4 = new Button();
+            button3 = new Button();
+            button2 = new Button();
+            button1 = new Button();
             panel2 = new Panel();
             label1 = new Label();
             pictureBox1 = new PictureBox();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
             panelContainer.SuspendLayout();
             panel3.SuspendLayout();
             panel2.SuspendLayout();
@@ -49,9 +49,9 @@
             // panel1
             // 
             panel1.BorderStyle = BorderStyle.FixedSingle;
-            panel1.Location = new Point(44, 98);
+            panel1.Location = new Point(6, 6);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1280, 720);
+            panel1.Size = new Size(1071, 840);
             panel1.TabIndex = 0;
             // 
             // panelContainer
@@ -77,86 +77,21 @@
             panel3.Size = new Size(1080, 80);
             panel3.TabIndex = 1;
             // 
-            // panel2
+            // button5
             // 
-            panel2.BackColor = Color.FromArgb(72, 73, 85);
-            panel2.Controls.Add(label1);
-            panel2.Controls.Add(pictureBox1);
-            panel2.Dock = DockStyle.Left;
-            panel2.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            panel2.Location = new Point(0, 0);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(200, 720);
-            panel2.TabIndex = 0;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(72, 16);
-            label1.Name = "label1";
-            label1.Size = new Size(123, 15);
-            label1.TabIndex = 1;
-            label1.Text = "Veldboom Studios";
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(3, 3);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(64, 44);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            // 
-            // button1
-            // 
-            button1.FlatAppearance.BorderColor = Color.FromArgb(160, 228, 196);
-            button1.FlatAppearance.BorderSize = 4;
-            button1.FlatAppearance.MouseDownBackColor = Color.DarkGray;
-            button1.FlatAppearance.MouseOverBackColor = Color.LightGray;
-            button1.FlatStyle = FlatStyle.System;
-            button1.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(0, 12);
-            button1.Name = "button1";
-            button1.Size = new Size(128, 50);
-            button1.TabIndex = 0;
-            button1.Text = "Home";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.FlatAppearance.BorderColor = Color.FromArgb(160, 228, 196);
-            button2.FlatAppearance.BorderSize = 4;
-            button2.FlatAppearance.MouseDownBackColor = Color.DarkGray;
-            button2.FlatAppearance.MouseOverBackColor = Color.LightGray;
-            button2.FlatStyle = FlatStyle.System;
-            button2.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.ForeColor = Color.White;
-            button2.Location = new Point(134, 12);
-            button2.Name = "button2";
-            button2.Size = new Size(128, 50);
-            button2.TabIndex = 1;
-            button2.Text = "Projects";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.FlatAppearance.BorderColor = Color.FromArgb(160, 228, 196);
-            button3.FlatAppearance.BorderSize = 4;
-            button3.FlatAppearance.MouseDownBackColor = Color.DarkGray;
-            button3.FlatAppearance.MouseOverBackColor = Color.LightGray;
-            button3.FlatStyle = FlatStyle.System;
-            button3.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            button3.ForeColor = Color.White;
-            button3.Location = new Point(268, 12);
-            button3.Name = "button3";
-            button3.Size = new Size(128, 50);
-            button3.TabIndex = 2;
-            button3.Text = "News";
-            button3.UseVisualStyleBackColor = true;
+            button5.FlatAppearance.BorderColor = Color.FromArgb(160, 228, 196);
+            button5.FlatAppearance.BorderSize = 4;
+            button5.FlatAppearance.MouseDownBackColor = Color.DarkGray;
+            button5.FlatAppearance.MouseOverBackColor = Color.LightGray;
+            button5.FlatStyle = FlatStyle.System;
+            button5.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            button5.ForeColor = Color.White;
+            button5.Location = new Point(536, 12);
+            button5.Name = "button5";
+            button5.Size = new Size(128, 50);
+            button5.TabIndex = 4;
+            button5.Text = "Placeholder2";
+            button5.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
@@ -174,21 +109,88 @@
             button4.Text = "Placeholder1";
             button4.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // button3
             // 
-            button5.FlatAppearance.BorderColor = Color.FromArgb(160, 228, 196);
-            button5.FlatAppearance.BorderSize = 4;
-            button5.FlatAppearance.MouseDownBackColor = Color.DarkGray;
-            button5.FlatAppearance.MouseOverBackColor = Color.LightGray;
-            button5.FlatStyle = FlatStyle.System;
-            button5.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            button5.ForeColor = Color.White;
-            button5.Location = new Point(536, 12);
-            button5.Name = "button5";
-            button5.Size = new Size(128, 50);
-            button5.TabIndex = 4;
-            button5.Text = "Placeholder2";
-            button5.UseVisualStyleBackColor = true;
+            button3.FlatAppearance.BorderColor = Color.FromArgb(160, 228, 196);
+            button3.FlatAppearance.BorderSize = 4;
+            button3.FlatAppearance.MouseDownBackColor = Color.DarkGray;
+            button3.FlatAppearance.MouseOverBackColor = Color.LightGray;
+            button3.FlatStyle = FlatStyle.System;
+            button3.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            button3.ForeColor = Color.White;
+            button3.Location = new Point(268, 12);
+            button3.Name = "button3";
+            button3.Size = new Size(128, 50);
+            button3.TabIndex = 2;
+            button3.Text = "News";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.FlatAppearance.BorderColor = Color.FromArgb(160, 228, 196);
+            button2.FlatAppearance.BorderSize = 4;
+            button2.FlatAppearance.MouseDownBackColor = Color.DarkGray;
+            button2.FlatAppearance.MouseOverBackColor = Color.LightGray;
+            button2.FlatStyle = FlatStyle.System;
+            button2.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(134, 12);
+            button2.Name = "button2";
+            button2.Size = new Size(128, 50);
+            button2.TabIndex = 1;
+            button2.Text = "Projects";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // button1
+            // 
+            button1.FlatAppearance.BorderColor = Color.FromArgb(160, 228, 196);
+            button1.FlatAppearance.BorderSize = 4;
+            button1.FlatAppearance.MouseDownBackColor = Color.DarkGray;
+            button1.FlatAppearance.MouseOverBackColor = Color.LightGray;
+            button1.FlatStyle = FlatStyle.System;
+            button1.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(0, 12);
+            button1.Name = "button1";
+            button1.Size = new Size(128, 50);
+            button1.TabIndex = 0;
+            button1.Text = "Home";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.FromArgb(72, 73, 85);
+            panel2.Controls.Add(label1);
+            panel2.Controls.Add(pictureBox1);
+            panel2.Dock = DockStyle.Left;
+            panel2.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            panel2.Location = new Point(0, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(200, 720);
+            panel2.TabIndex = 0;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(72, 28);
+            label1.Name = "label1";
+            label1.Size = new Size(123, 15);
+            label1.TabIndex = 1;
+            label1.Text = "Veldboom Studios";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(5, 15);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(64, 44);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
             // 
             // Form2
             // 

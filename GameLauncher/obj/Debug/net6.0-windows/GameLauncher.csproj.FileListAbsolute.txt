@@ -133,3 +133,5 @@ C:\Users\Jahva\Documents\C# Projects\ProjectLauncher\GameLauncher\obj\Debug\net6
 C:\Users\Jahva\Documents\C# Projects\ProjectLauncher\GameLauncher\obj\Debug\net6.0-windows\GameLauncher.pdb
 C:\Users\Jahva\Documents\C# Projects\ProjectLauncher\GameLauncher\obj\Debug\net6.0-windows\GameLauncher.genruntimeconfig.cache
 C:\Users\Jahva\Documents\C# Projects\ProjectLauncher\GameLauncher\obj\Debug\net6.0-windows\ref\GameLauncher.dll
+C:\Users\Jahva\Documents\C# Projects\ProjectLauncher\GameLauncher\obj\Debug\net6.0-windows\GameLauncher.UserControls.UC_Home.resources
+C:\Users\Jahva\Documents\C# Projects\ProjectLauncher\GameLauncher\obj\Debug\net6.0-windows\GameLauncher.UserControls.UC_Projects.resources
