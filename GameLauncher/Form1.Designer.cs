@@ -43,6 +43,7 @@
             button1 = new Button();
             pictureBox1 = new PictureBox();
             button3 = new Button();
+            pictureBox3 = new PictureBox();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
@@ -56,6 +57,7 @@
             splitContainer2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // progressBar1
@@ -83,6 +85,7 @@
             // 
             tabPage1.BackgroundImage = (Image)resources.GetObject("tabPage1.BackgroundImage");
             tabPage1.BackgroundImageLayout = ImageLayout.Stretch;
+            tabPage1.Controls.Add(pictureBox3);
             tabPage1.Controls.Add(textBox1);
             tabPage1.Controls.Add(btn_install);
             tabPage1.Location = new Point(4, 24);
@@ -120,6 +123,7 @@
             btn_install.TabIndex = 0;
             btn_install.Text = "Install";
             btn_install.UseVisualStyleBackColor = false;
+            btn_install.Click += btn_install_Click;
             // 
             // tabPage2
             // 
@@ -240,6 +244,16 @@
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(344, 187);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(100, 57);
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox3.TabIndex = 2;
+            pictureBox3.TabStop = false;
+            // 
             // Form1
             // 
             AccessibleRole = AccessibleRole.Client;
@@ -274,6 +288,7 @@
             splitContainer2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
         }
 
@@ -292,5 +307,6 @@
         private RichTextBox richTextBox2;
         private Button btn_install;
         private TextBox textBox1;
+        private PictureBox pictureBox3;
     }
 }

@@ -240,5 +240,9 @@ namespace GameLauncher
             return false;
         }
 
+        private void btn_install_Click(object sender, EventArgs e)
+        {
+            DownloadGame("");
+        }
     }
 }
