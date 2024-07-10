@@ -58,14 +58,14 @@
             // 
             panelContainer.Controls.Add(panel1);
             panelContainer.Dock = DockStyle.Fill;
-            panelContainer.Location = new Point(200, 50);
+            panelContainer.Location = new Point(200, 80);
             panelContainer.Name = "panelContainer";
-            panelContainer.Size = new Size(1080, 670);
+            panelContainer.Size = new Size(1080, 640);
             panelContainer.TabIndex = 2;
             // 
             // panel3
             // 
-            panel3.BackColor = Color.White;
+            panel3.BackColor = Color.FromArgb(72, 73, 85);
             panel3.Controls.Add(button5);
             panel3.Controls.Add(button4);
             panel3.Controls.Add(button3);
@@ -74,7 +74,7 @@
             panel3.Dock = DockStyle.Top;
             panel3.Location = new Point(200, 0);
             panel3.Name = "panel3";
-            panel3.Size = new Size(1080, 50);
+            panel3.Size = new Size(1080, 80);
             panel3.TabIndex = 1;
             // 
             // panel2
@@ -119,7 +119,7 @@
             button1.FlatStyle = FlatStyle.System;
             button1.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(0, 0);
+            button1.Location = new Point(0, 12);
             button1.Name = "button1";
             button1.Size = new Size(128, 50);
             button1.TabIndex = 0;
@@ -135,7 +135,7 @@
             button2.FlatStyle = FlatStyle.System;
             button2.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
             button2.ForeColor = Color.White;
-            button2.Location = new Point(134, 0);
+            button2.Location = new Point(134, 12);
             button2.Name = "button2";
             button2.Size = new Size(128, 50);
             button2.TabIndex = 1;
@@ -151,7 +151,7 @@
             button3.FlatStyle = FlatStyle.System;
             button3.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
             button3.ForeColor = Color.White;
-            button3.Location = new Point(268, 0);
+            button3.Location = new Point(268, 12);
             button3.Name = "button3";
             button3.Size = new Size(128, 50);
             button3.TabIndex = 2;
@@ -167,7 +167,7 @@
             button4.FlatStyle = FlatStyle.System;
             button4.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
             button4.ForeColor = Color.White;
-            button4.Location = new Point(402, 0);
+            button4.Location = new Point(402, 12);
             button4.Name = "button4";
             button4.Size = new Size(128, 50);
             button4.TabIndex = 3;
@@ -183,7 +183,7 @@
             button5.FlatStyle = FlatStyle.System;
             button5.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
             button5.ForeColor = Color.White;
-            button5.Location = new Point(536, 0);
+            button5.Location = new Point(536, 12);
             button5.Name = "button5";
             button5.Size = new Size(128, 50);
             button5.TabIndex = 4;

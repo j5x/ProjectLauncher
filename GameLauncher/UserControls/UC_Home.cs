@@ -16,5 +16,6 @@ namespace GameLauncher.UserControls
         {
             InitializeComponent();
         }
+
     }
 }
