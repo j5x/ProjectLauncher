@@ -32,6 +32,7 @@
             progressBar1 = new ProgressBar();
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
+            textBox1 = new TextBox();
             btn_install = new Button();
             tabPage2 = new TabPage();
             splitContainer1 = new SplitContainer();
@@ -42,7 +43,6 @@
             button1 = new Button();
             pictureBox1 = new PictureBox();
             button3 = new Button();
-            textBox1 = new TextBox();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
@@ -72,10 +72,10 @@
             tabControl1.Controls.Add(tabPage1);
             tabControl1.Controls.Add(tabPage2);
             tabControl1.Dock = DockStyle.Fill;
-            tabControl1.Location = new Point(0, 0);
+            tabControl1.Location = new Point(4, 4);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(1264, 761);
+            tabControl1.Size = new Size(1256, 753);
             tabControl1.SizeMode = TabSizeMode.FillToRight;
             tabControl1.TabIndex = 3;
             // 
@@ -88,10 +88,26 @@
             tabPage1.Location = new Point(4, 24);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(1256, 733);
+            tabPage1.Size = new Size(1248, 725);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Home";
             tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            textBox1.BackColor = Color.Black;
+            textBox1.BorderStyle = BorderStyle.None;
+            textBox1.CharacterCasing = CharacterCasing.Upper;
+            textBox1.Enabled = false;
+            textBox1.Font = new Font("Segoe UI", 32F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox1.ForeColor = Color.White;
+            textBox1.Location = new Point(444, 187);
+            textBox1.Margin = new Padding(0);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(300, 57);
+            textBox1.TabIndex = 1;
+            textBox1.Text = "ISLE OF ELINE";
+            textBox1.TextAlign = HorizontalAlignment.Center;
             // 
             // btn_install
             // 
@@ -112,7 +128,7 @@
             tabPage2.Location = new Point(4, 24);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(1256, 733);
+            tabPage2.Size = new Size(1248, 725);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Projects";
             // 
@@ -135,8 +151,8 @@
             splitContainer1.Panel2.Controls.Add(progressBar1);
             splitContainer1.Panel2.Controls.Add(pictureBox1);
             splitContainer1.Panel2.Controls.Add(button3);
-            splitContainer1.Size = new Size(1250, 727);
-            splitContainer1.SplitterDistance = 867;
+            splitContainer1.Size = new Size(1242, 719);
+            splitContainer1.SplitterDistance = 861;
             splitContainer1.TabIndex = 5;
             // 
             // splitContainer2
@@ -224,27 +240,12 @@
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
-            // textBox1
-            // 
-            textBox1.BackColor = Color.Black;
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.CharacterCasing = CharacterCasing.Upper;
-            textBox1.Enabled = false;
-            textBox1.Font = new Font("Segoe UI", 32F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox1.ForeColor = Color.White;
-            textBox1.Location = new Point(444, 187);
-            textBox1.Margin = new Padding(0);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(300, 57);
-            textBox1.TabIndex = 1;
-            textBox1.Text = "ISLE OF ELINE";
-            textBox1.TextAlign = HorizontalAlignment.Center;
-            // 
             // Form1
             // 
             AccessibleRole = AccessibleRole.Client;
             AutoScaleDimensions = new SizeF(96F, 96F);
             AutoScaleMode = AutoScaleMode.Dpi;
+            AutoScroll = true;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
             BackColor = SystemColors.Control;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
@@ -257,8 +258,8 @@
             MaximumSize = new Size(2160, 1440);
             MinimumSize = new Size(800, 600);
             Name = "Form1";
+            Padding = new Padding(4);
             Text = "Veldboom Studios";
-            TopMost = true;
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
             tabPage1.PerformLayout();
