@@ -32,6 +32,7 @@
             progressBar1 = new ProgressBar();
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
+            pictureBox3 = new PictureBox();
             textBox1 = new TextBox();
             btn_install = new Button();
             tabPage2 = new TabPage();
@@ -43,9 +44,9 @@
             button1 = new Button();
             pictureBox1 = new PictureBox();
             button3 = new Button();
-            pictureBox3 = new PictureBox();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
@@ -57,7 +58,6 @@
             splitContainer2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // progressBar1
@@ -83,6 +83,7 @@
             // 
             // tabPage1
             // 
+            tabPage1.AutoScroll = true;
             tabPage1.BackgroundImage = (Image)resources.GetObject("tabPage1.BackgroundImage");
             tabPage1.BackgroundImageLayout = ImageLayout.Stretch;
             tabPage1.Controls.Add(pictureBox3);
@@ -96,9 +97,20 @@
             tabPage1.Text = "Home";
             tabPage1.UseVisualStyleBackColor = true;
             // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(344, 170);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(100, 100);
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox3.TabIndex = 2;
+            pictureBox3.TabStop = false;
+            // 
             // textBox1
             // 
-            textBox1.BackColor = Color.Black;
+            textBox1.AccessibleRole = AccessibleRole.TitleBar;
+            textBox1.BackColor = Color.White;
             textBox1.BorderStyle = BorderStyle.None;
             textBox1.CharacterCasing = CharacterCasing.Upper;
             textBox1.Enabled = false;
@@ -116,7 +128,9 @@
             // 
             btn_install.BackColor = Color.LimeGreen;
             btn_install.Cursor = Cursors.Hand;
+            btn_install.FlatAppearance.BorderSize = 4;
             btn_install.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            btn_install.ForeColor = Color.White;
             btn_install.Location = new Point(344, 273);
             btn_install.Name = "btn_install";
             btn_install.Size = new Size(400, 80);
@@ -144,7 +158,6 @@
             // 
             // splitContainer1.Panel1
             // 
-            splitContainer1.Panel1.AutoScroll = true;
             splitContainer1.Panel1.Controls.Add(splitContainer2);
             // 
             // splitContainer1.Panel2
@@ -191,11 +204,11 @@
             // 
             // richTextBox2
             // 
-            richTextBox2.Dock = DockStyle.Fill;
+            richTextBox2.BorderStyle = BorderStyle.FixedSingle;
             richTextBox2.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            richTextBox2.Location = new Point(0, 0);
+            richTextBox2.Location = new Point(3, 1);
             richTextBox2.Name = "richTextBox2";
-            richTextBox2.Size = new Size(849, 255);
+            richTextBox2.Size = new Size(849, 320);
             richTextBox2.TabIndex = 1;
             richTextBox2.Text = resources.GetString("richTextBox2.Text");
             // 
@@ -244,16 +257,6 @@
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
-            // pictureBox3
-            // 
-            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(344, 187);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(100, 57);
-            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox3.TabIndex = 2;
-            pictureBox3.TabStop = false;
-            // 
             // Form1
             // 
             AccessibleRole = AccessibleRole.Client;
@@ -277,6 +280,7 @@
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
             tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             tabPage2.ResumeLayout(false);
             splitContainer1.Panel1.ResumeLayout(false);
             splitContainer1.Panel2.ResumeLayout(false);
@@ -288,7 +292,6 @@
             splitContainer2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
         }
 
