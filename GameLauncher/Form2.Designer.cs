@@ -38,12 +38,40 @@
             button2 = new Button();
             button1 = new Button();
             panel2 = new Panel();
-            label1 = new Label();
+            panel8 = new Panel();
+            button10 = new Button();
+            pictureBox6 = new PictureBox();
+            panel7 = new Panel();
+            button9 = new Button();
+            pictureBox5 = new PictureBox();
+            panel6 = new Panel();
+            button8 = new Button();
+            pictureBox4 = new PictureBox();
+            flowLayoutPanel1 = new FlowLayoutPanel();
             pictureBox1 = new PictureBox();
+            label1 = new Label();
+            panel5 = new Panel();
+            button7 = new Button();
+            pictureBox3 = new PictureBox();
+            panel4 = new Panel();
+            button6 = new Button();
+            pictureBox2 = new PictureBox();
+            button11 = new Button();
             panelContainer.SuspendLayout();
             panel3.SuspendLayout();
             panel2.SuspendLayout();
+            panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -66,6 +94,7 @@
             // panel3
             // 
             panel3.BackColor = Color.FromArgb(72, 73, 85);
+            panel3.Controls.Add(button11);
             panel3.Controls.Add(button5);
             panel3.Controls.Add(button4);
             panel3.Controls.Add(button3);
@@ -153,7 +182,7 @@
             button1.ForeColor = Color.White;
             button1.Location = new Point(0, 12);
             button1.Name = "button1";
-            button1.Size = new Size(128, 50);
+            button1.Size = new Size(128, 52);
             button1.TabIndex = 0;
             button1.Text = "Home";
             button1.UseVisualStyleBackColor = true;
@@ -162,8 +191,12 @@
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(72, 73, 85);
-            panel2.Controls.Add(label1);
-            panel2.Controls.Add(pictureBox1);
+            panel2.Controls.Add(panel8);
+            panel2.Controls.Add(panel7);
+            panel2.Controls.Add(panel6);
+            panel2.Controls.Add(flowLayoutPanel1);
+            panel2.Controls.Add(panel5);
+            panel2.Controls.Add(panel4);
             panel2.Dock = DockStyle.Left;
             panel2.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             panel2.Location = new Point(0, 0);
@@ -171,26 +204,207 @@
             panel2.Size = new Size(200, 720);
             panel2.TabIndex = 0;
             // 
+            // panel8
+            // 
+            panel8.Controls.Add(button10);
+            panel8.Controls.Add(pictureBox6);
+            panel8.Location = new Point(0, 608);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(200, 50);
+            panel8.TabIndex = 8;
+            // 
+            // button10
+            // 
+            button10.Dock = DockStyle.Right;
+            button10.Location = new Point(50, 0);
+            button10.Name = "button10";
+            button10.Size = new Size(150, 50);
+            button10.TabIndex = 2;
+            button10.Text = "Settings";
+            button10.TextAlign = ContentAlignment.MiddleLeft;
+            button10.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox6
+            // 
+            pictureBox6.Dock = DockStyle.Left;
+            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
+            pictureBox6.Location = new Point(0, 0);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(32, 50);
+            pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox6.TabIndex = 3;
+            pictureBox6.TabStop = false;
+            // 
+            // panel7
+            // 
+            panel7.Controls.Add(button9);
+            panel7.Controls.Add(pictureBox5);
+            panel7.Location = new Point(0, 512);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(200, 50);
+            panel7.TabIndex = 7;
+            // 
+            // button9
+            // 
+            button9.Dock = DockStyle.Right;
+            button9.Location = new Point(50, 0);
+            button9.Name = "button9";
+            button9.Size = new Size(150, 50);
+            button9.TabIndex = 2;
+            button9.Text = "Downloads";
+            button9.TextAlign = ContentAlignment.MiddleLeft;
+            button9.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.Dock = DockStyle.Left;
+            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
+            pictureBox5.Location = new Point(0, 0);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(32, 50);
+            pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox5.TabIndex = 3;
+            pictureBox5.TabStop = false;
+            // 
+            // panel6
+            // 
+            panel6.Controls.Add(button8);
+            panel6.Controls.Add(pictureBox4);
+            panel6.Location = new Point(0, 284);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(200, 50);
+            panel6.TabIndex = 6;
+            // 
+            // button8
+            // 
+            button8.Dock = DockStyle.Right;
+            button8.Location = new Point(50, 0);
+            button8.Name = "button8";
+            button8.Size = new Size(150, 50);
+            button8.TabIndex = 2;
+            button8.Text = "Engine";
+            button8.TextAlign = ContentAlignment.MiddleLeft;
+            button8.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.Dock = DockStyle.Left;
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new Point(0, 0);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(32, 50);
+            pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox4.TabIndex = 3;
+            pictureBox4.TabStop = false;
+            // 
+            // flowLayoutPanel1
+            // 
+            flowLayoutPanel1.Controls.Add(pictureBox1);
+            flowLayoutPanel1.Controls.Add(label1);
+            flowLayoutPanel1.Location = new Point(0, 12);
+            flowLayoutPanel1.Name = "flowLayoutPanel1";
+            flowLayoutPanel1.Size = new Size(200, 64);
+            flowLayoutPanel1.TabIndex = 4;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(3, 3);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(64, 59);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(72, 28);
+            label1.Location = new Point(73, 25);
             label1.Name = "label1";
             label1.Size = new Size(123, 15);
             label1.TabIndex = 1;
             label1.Text = "Veldboom Studios";
             // 
-            // pictureBox1
+            // panel5
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(5, 15);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(64, 44);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
+            panel5.Controls.Add(button7);
+            panel5.Controls.Add(pictureBox3);
+            panel5.Location = new Point(0, 192);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(200, 50);
+            panel5.TabIndex = 5;
+            // 
+            // button7
+            // 
+            button7.Dock = DockStyle.Right;
+            button7.Location = new Point(50, 0);
+            button7.Name = "button7";
+            button7.Size = new Size(150, 50);
+            button7.TabIndex = 2;
+            button7.Text = "Library";
+            button7.TextAlign = ContentAlignment.MiddleLeft;
+            button7.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Dock = DockStyle.Left;
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(0, 0);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(32, 50);
+            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox3.TabIndex = 3;
+            pictureBox3.TabStop = false;
+            // 
+            // panel4
+            // 
+            panel4.Controls.Add(button6);
+            panel4.Controls.Add(pictureBox2);
+            panel4.Location = new Point(0, 96);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(200, 50);
+            panel4.TabIndex = 4;
+            // 
+            // button6
+            // 
+            button6.Dock = DockStyle.Right;
+            button6.Location = new Point(50, 0);
+            button6.Name = "button6";
+            button6.Size = new Size(150, 50);
+            button6.TabIndex = 2;
+            button6.Text = "Store";
+            button6.TextAlign = ContentAlignment.MiddleLeft;
+            button6.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Dock = DockStyle.Left;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(0, 0);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(32, 50);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 3;
+            pictureBox2.TabStop = false;
+            // 
+            // button11
+            // 
+            button11.FlatAppearance.BorderColor = Color.FromArgb(160, 228, 196);
+            button11.FlatAppearance.BorderSize = 4;
+            button11.FlatAppearance.MouseDownBackColor = Color.DarkGray;
+            button11.FlatAppearance.MouseOverBackColor = Color.LightGray;
+            button11.FlatStyle = FlatStyle.System;
+            button11.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            button11.ForeColor = Color.White;
+            button11.Location = new Point(800, 8);
+            button11.Name = "button11";
+            button11.Size = new Size(128, 64);
+            button11.TabIndex = 5;
+            button11.Text = "Launch\r\nIsle Of Eline v0.0.2\r\n";
+            button11.UseVisualStyleBackColor = true;
             // 
             // Form2
             // 
@@ -210,8 +424,19 @@
             panelContainer.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel2.ResumeLayout(false);
-            panel2.PerformLayout();
+            panel8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            panel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            flowLayoutPanel1.ResumeLayout(false);
+            flowLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
         }
 
@@ -228,5 +453,22 @@
         private Button button2;
         private Button button5;
         private Button button4;
+        private PictureBox pictureBox2;
+        private Button button6;
+        private Panel panel4;
+        private Panel panel5;
+        private Button button7;
+        private PictureBox pictureBox3;
+        private FlowLayoutPanel flowLayoutPanel1;
+        private Panel panel6;
+        private Button button8;
+        private PictureBox pictureBox4;
+        private Panel panel7;
+        private Button button9;
+        private PictureBox pictureBox5;
+        private Panel panel8;
+        private Button button10;
+        private PictureBox pictureBox6;
+        private Button button11;
     }
 }
