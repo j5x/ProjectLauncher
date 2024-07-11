@@ -28,34 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // label1
+            // pictureBox1
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(479, 313);
-            label1.Name = "label1";
-            label1.Size = new Size(123, 15);
-            label1.TabIndex = 2;
-            label1.Text = "Veldboom Studios";
+            pictureBox1.Location = new Point(4, 4);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(1072, 632);
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
             // 
             // UC_Home
             // 
             AutoScaleMode = AutoScaleMode.None;
-            Controls.Add(label1);
+            Controls.Add(pictureBox1);
             Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
             Margin = new Padding(3, 4, 3, 4);
             Name = "UC_Home";
             Size = new Size(1080, 640);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
+        private PictureBox pictureBox1;
     }
 }

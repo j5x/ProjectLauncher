@@ -94,6 +94,7 @@
             // panel3
             // 
             panel3.BackColor = Color.FromArgb(72, 73, 85);
+            panel3.BorderStyle = BorderStyle.FixedSingle;
             panel3.Controls.Add(button11);
             panel3.Controls.Add(button5);
             panel3.Controls.Add(button4);
@@ -115,7 +116,7 @@
             button5.FlatStyle = FlatStyle.System;
             button5.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
             button5.ForeColor = Color.White;
-            button5.Location = new Point(536, 12);
+            button5.Location = new Point(540, 12);
             button5.Name = "button5";
             button5.Size = new Size(128, 50);
             button5.TabIndex = 4;
@@ -131,7 +132,7 @@
             button4.FlatStyle = FlatStyle.System;
             button4.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
             button4.ForeColor = Color.White;
-            button4.Location = new Point(402, 12);
+            button4.Location = new Point(406, 12);
             button4.Name = "button4";
             button4.Size = new Size(128, 50);
             button4.TabIndex = 3;
@@ -147,7 +148,7 @@
             button3.FlatStyle = FlatStyle.System;
             button3.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
             button3.ForeColor = Color.White;
-            button3.Location = new Point(268, 12);
+            button3.Location = new Point(272, 12);
             button3.Name = "button3";
             button3.Size = new Size(128, 50);
             button3.TabIndex = 2;
@@ -163,7 +164,7 @@
             button2.FlatStyle = FlatStyle.System;
             button2.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
             button2.ForeColor = Color.White;
-            button2.Location = new Point(134, 12);
+            button2.Location = new Point(138, 12);
             button2.Name = "button2";
             button2.Size = new Size(128, 50);
             button2.TabIndex = 1;
@@ -180,7 +181,7 @@
             button1.FlatStyle = FlatStyle.System;
             button1.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(0, 12);
+            button1.Location = new Point(4, 12);
             button1.Name = "button1";
             button1.Size = new Size(128, 52);
             button1.TabIndex = 0;
@@ -191,6 +192,7 @@
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(72, 73, 85);
+            panel2.BorderStyle = BorderStyle.FixedSingle;
             panel2.Controls.Add(panel8);
             panel2.Controls.Add(panel7);
             panel2.Controls.Add(panel6);
@@ -301,7 +303,7 @@
             // 
             flowLayoutPanel1.Controls.Add(pictureBox1);
             flowLayoutPanel1.Controls.Add(label1);
-            flowLayoutPanel1.Location = new Point(0, 12);
+            flowLayoutPanel1.Location = new Point(2, 10);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new Size(200, 64);
             flowLayoutPanel1.TabIndex = 4;
