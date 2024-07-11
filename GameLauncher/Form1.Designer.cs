@@ -62,10 +62,10 @@
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(24, 494);
+            progressBar1.Location = new Point(24, 615);
             progressBar1.Margin = new Padding(3, 2, 3, 2);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(326, 22);
+            progressBar1.Size = new Size(326, 24);
             progressBar1.TabIndex = 2;
             // 
             // tabControl1
@@ -74,7 +74,10 @@
             tabControl1.Controls.Add(tabPage1);
             tabControl1.Controls.Add(tabPage2);
             tabControl1.Dock = DockStyle.Fill;
+            tabControl1.HotTrack = true;
+            tabControl1.ItemSize = new Size(100, 24);
             tabControl1.Location = new Point(4, 4);
+            tabControl1.Multiline = true;
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
             tabControl1.Size = new Size(1256, 753);
@@ -89,10 +92,10 @@
             tabPage1.Controls.Add(pictureBox3);
             tabPage1.Controls.Add(textBox1);
             tabPage1.Controls.Add(btn_install);
-            tabPage1.Location = new Point(4, 24);
+            tabPage1.Location = new Point(4, 28);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(1248, 725);
+            tabPage1.Size = new Size(1248, 721);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Home";
             tabPage1.UseVisualStyleBackColor = true;
@@ -143,39 +146,49 @@
             // 
             tabPage2.BackColor = Color.Transparent;
             tabPage2.Controls.Add(splitContainer1);
-            tabPage2.Location = new Point(4, 24);
+            tabPage2.Location = new Point(4, 28);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(1248, 725);
+            tabPage2.Size = new Size(1248, 721);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Projects";
             // 
             // splitContainer1
             // 
-            splitContainer1.Dock = DockStyle.Fill;
+            splitContainer1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             splitContainer1.Location = new Point(3, 3);
+            splitContainer1.Margin = new Padding(0);
             splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
             // 
+            splitContainer1.Panel1.BackColor = Color.Transparent;
             splitContainer1.Panel1.Controls.Add(splitContainer2);
+            splitContainer1.Panel1.RightToLeft = RightToLeft.No;
+            splitContainer1.Panel1MinSize = 0;
             // 
             // splitContainer1.Panel2
             // 
-            splitContainer1.Panel2.BackColor = Color.SteelBlue;
+            splitContainer1.Panel2.BackColor = Color.FromArgb(72, 73, 85);
             splitContainer1.Panel2.Controls.Add(button2);
             splitContainer1.Panel2.Controls.Add(button1);
             splitContainer1.Panel2.Controls.Add(progressBar1);
             splitContainer1.Panel2.Controls.Add(pictureBox1);
             splitContainer1.Panel2.Controls.Add(button3);
-            splitContainer1.Size = new Size(1242, 719);
-            splitContainer1.SplitterDistance = 861;
+            splitContainer1.Panel2.RightToLeft = RightToLeft.No;
+            splitContainer1.Panel2MinSize = 0;
+            splitContainer1.Size = new Size(1242, 715);
+            splitContainer1.SplitterDistance = 838;
+            splitContainer1.SplitterWidth = 1;
             splitContainer1.TabIndex = 5;
             // 
             // splitContainer2
             // 
             splitContainer2.BackColor = Color.White;
-            splitContainer2.Location = new Point(-3, -3);
+            splitContainer2.BorderStyle = BorderStyle.FixedSingle;
+            splitContainer2.Dock = DockStyle.Fill;
+            splitContainer2.Location = new Point(0, 0);
+            splitContainer2.Margin = new Padding(0);
             splitContainer2.Name = "splitContainer2";
             splitContainer2.Orientation = Orientation.Horizontal;
             // 
@@ -183,41 +196,55 @@
             // 
             splitContainer2.Panel1.BackColor = Color.Black;
             splitContainer2.Panel1.Controls.Add(pictureBox2);
+            splitContainer2.Panel1.RightToLeft = RightToLeft.No;
+            splitContainer2.Panel1MinSize = 0;
             // 
             // splitContainer2.Panel2
             // 
+            splitContainer2.Panel2.BackColor = Color.FromArgb(72, 73, 85);
+            splitContainer2.Panel2.BackgroundImageLayout = ImageLayout.None;
             splitContainer2.Panel2.Controls.Add(richTextBox2);
-            splitContainer2.Size = new Size(849, 653);
-            splitContainer2.SplitterDistance = 394;
+            splitContainer2.Panel2.RightToLeft = RightToLeft.No;
+            splitContainer2.Panel2MinSize = 0;
+            splitContainer2.RightToLeft = RightToLeft.No;
+            splitContainer2.Size = new Size(838, 715);
+            splitContainer2.SplitterDistance = 429;
+            splitContainer2.SplitterWidth = 1;
             splitContainer2.TabIndex = 3;
             // 
             // pictureBox2
             // 
+            pictureBox2.AccessibleRole = AccessibleRole.Graphic;
+            pictureBox2.BackColor = Color.Transparent;
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
             pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox2.Dock = DockStyle.Fill;
             pictureBox2.Location = new Point(0, 0);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(849, 394);
+            pictureBox2.Size = new Size(836, 427);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
             // 
             // richTextBox2
             // 
-            richTextBox2.BorderStyle = BorderStyle.FixedSingle;
+            richTextBox2.BorderStyle = BorderStyle.None;
+            richTextBox2.Dock = DockStyle.Fill;
             richTextBox2.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            richTextBox2.Location = new Point(3, 1);
+            richTextBox2.Location = new Point(0, 0);
             richTextBox2.Name = "richTextBox2";
-            richTextBox2.Size = new Size(849, 320);
+            richTextBox2.ReadOnly = true;
+            richTextBox2.ScrollBars = RichTextBoxScrollBars.Vertical;
+            richTextBox2.Size = new Size(836, 283);
             richTextBox2.TabIndex = 1;
             richTextBox2.Text = resources.GetString("richTextBox2.Text");
             // 
             // button2
             // 
             button2.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.Location = new Point(24, 396);
+            button2.Location = new Point(24, 415);
             button2.Name = "button2";
-            button2.Size = new Size(326, 76);
+            button2.Size = new Size(326, 75);
             button2.TabIndex = 8;
             button2.Text = "Download Game";
             button2.UseVisualStyleBackColor = true;
@@ -226,9 +253,9 @@
             // button1
             // 
             button1.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.Location = new Point(24, 296);
+            button1.Location = new Point(24, 315);
             button1.Name = "button1";
-            button1.Size = new Size(326, 76);
+            button1.Size = new Size(326, 80);
             button1.TabIndex = 7;
             button1.Text = "Launch Game";
             button1.UseVisualStyleBackColor = true;
@@ -236,11 +263,12 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(24, 22);
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(326, 255);
+            pictureBox1.Size = new Size(403, 300);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
             // 
@@ -249,9 +277,9 @@
             button3.BackColor = Color.White;
             button3.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
             button3.ForeColor = SystemColors.ActiveCaptionText;
-            button3.Location = new Point(24, 543);
+            button3.Location = new Point(24, 515);
             button3.Name = "button3";
-            button3.Size = new Size(326, 59);
+            button3.Size = new Size(326, 50);
             button3.TabIndex = 3;
             button3.Text = "Check for Updates";
             button3.UseVisualStyleBackColor = false;
