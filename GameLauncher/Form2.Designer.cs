@@ -57,6 +57,8 @@
             panel4 = new Panel();
             button6 = new Button();
             pictureBox2 = new PictureBox();
+            uC_Home1 = new UserControls.UC_Home();
+            panel1.SuspendLayout();
             panelContainer.SuspendLayout();
             panel3.SuspendLayout();
             panel2.SuspendLayout();
@@ -77,6 +79,7 @@
             // panel1
             // 
             panel1.BorderStyle = BorderStyle.FixedSingle;
+            panel1.Controls.Add(uC_Home1);
             panel1.Location = new Point(8, 8);
             panel1.Name = "panel1";
             panel1.Size = new Size(1072, 840);
@@ -408,6 +411,17 @@
             pictureBox2.TabIndex = 3;
             pictureBox2.TabStop = false;
             // 
+            // uC_Home1
+            // 
+            uC_Home1.AutoScroll = true;
+            uC_Home1.BackColor = Color.FromArgb(72, 73, 85);
+            uC_Home1.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            uC_Home1.Location = new Point(-9, -9);
+            uC_Home1.Margin = new Padding(3, 4, 3, 4);
+            uC_Home1.Name = "uC_Home1";
+            uC_Home1.Size = new Size(1080, 640);
+            uC_Home1.TabIndex = 0;
+            // 
             // Form2
             // 
             AutoScaleMode = AutoScaleMode.None;
@@ -423,6 +437,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form2";
             WindowState = FormWindowState.Minimized;
+            panel1.ResumeLayout(false);
             panelContainer.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel2.ResumeLayout(false);
@@ -472,5 +487,6 @@
         private Button button10;
         private PictureBox pictureBox6;
         private Button button11;
+        private UserControls.UC_Home uC_Home1;
     }
 }
