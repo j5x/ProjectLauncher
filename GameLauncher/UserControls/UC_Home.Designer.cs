@@ -30,19 +30,19 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Home));
             panel1 = new Panel();
+            pictureBox1 = new PictureBox();
             flowLayoutPanel1 = new FlowLayoutPanel();
             panel2 = new Panel();
             panel3 = new Panel();
-            pictureBox1 = new PictureBox();
-            textBox1 = new TextBox();
             panel4 = new Panel();
             panel5 = new Panel();
             panel6 = new Panel();
             panel7 = new Panel();
             panel8 = new Panel();
+            textBox1 = new TextBox();
             panel1.SuspendLayout();
-            flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            flowLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -55,6 +55,16 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1072, 632);
             panel1.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.urumabackground;
+            pictureBox1.Location = new Point(133, 393);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(312, 224);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
             // 
             // flowLayoutPanel1
             // 
@@ -85,28 +95,6 @@
             panel3.Name = "panel3";
             panel3.Size = new Size(548, 224);
             panel3.TabIndex = 1;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = Properties.Resources.urumabackground;
-            pictureBox1.Location = new Point(133, 393);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(312, 224);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            // 
-            // textBox1
-            // 
-            textBox1.BackColor = SystemColors.ActiveBorder;
-            textBox1.ForeColor = Color.FromArgb(31, 31, 31);
-            textBox1.Location = new Point(776, 421);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 128);
-            textBox1.TabIndex = 0;
-            textBox1.Text = resources.GetString("textBox1.Text");
-            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // panel4
             // 
@@ -140,8 +128,19 @@
             // 
             panel8.Location = new Point(827, 233);
             panel8.Name = "panel8";
-            panel8.Size = new Size(201, 75);
+            panel8.Size = new Size(200, 75);
             panel8.TabIndex = 6;
+            // 
+            // textBox1
+            // 
+            textBox1.BackColor = SystemColors.ActiveBorder;
+            textBox1.ForeColor = Color.FromArgb(31, 31, 31);
+            textBox1.Location = new Point(776, 421);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(100, 128);
+            textBox1.TabIndex = 0;
+            textBox1.Text = resources.GetString("textBox1.Text");
             // 
             // UC_Home
             // 
@@ -155,8 +154,8 @@
             Size = new Size(1080, 640);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            flowLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            flowLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 

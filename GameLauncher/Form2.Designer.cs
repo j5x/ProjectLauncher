@@ -32,6 +32,7 @@
             panel1 = new Panel();
             panelContainer = new Panel();
             panel3 = new Panel();
+            button11 = new Button();
             button5 = new Button();
             button4 = new Button();
             button3 = new Button();
@@ -56,7 +57,6 @@
             panel4 = new Panel();
             button6 = new Button();
             pictureBox2 = new PictureBox();
-            button11 = new Button();
             panelContainer.SuspendLayout();
             panel3.SuspendLayout();
             panel2.SuspendLayout();
@@ -77,9 +77,9 @@
             // panel1
             // 
             panel1.BorderStyle = BorderStyle.FixedSingle;
-            panel1.Location = new Point(6, 6);
+            panel1.Location = new Point(8, 8);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1071, 840);
+            panel1.Size = new Size(1072, 840);
             panel1.TabIndex = 0;
             // 
             // panelContainer
@@ -106,6 +106,22 @@
             panel3.Name = "panel3";
             panel3.Size = new Size(1080, 80);
             panel3.TabIndex = 1;
+            // 
+            // button11
+            // 
+            button11.FlatAppearance.BorderColor = Color.FromArgb(160, 228, 196);
+            button11.FlatAppearance.BorderSize = 4;
+            button11.FlatAppearance.MouseDownBackColor = Color.DarkGray;
+            button11.FlatAppearance.MouseOverBackColor = Color.LightGray;
+            button11.FlatStyle = FlatStyle.System;
+            button11.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            button11.ForeColor = Color.White;
+            button11.Location = new Point(800, 8);
+            button11.Name = "button11";
+            button11.Size = new Size(128, 64);
+            button11.TabIndex = 5;
+            button11.Text = "Launch\r\nIsle Of Eline v0.0.2\r\n";
+            button11.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
@@ -391,22 +407,6 @@
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 3;
             pictureBox2.TabStop = false;
-            // 
-            // button11
-            // 
-            button11.FlatAppearance.BorderColor = Color.FromArgb(160, 228, 196);
-            button11.FlatAppearance.BorderSize = 4;
-            button11.FlatAppearance.MouseDownBackColor = Color.DarkGray;
-            button11.FlatAppearance.MouseOverBackColor = Color.LightGray;
-            button11.FlatStyle = FlatStyle.System;
-            button11.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            button11.ForeColor = Color.White;
-            button11.Location = new Point(800, 8);
-            button11.Name = "button11";
-            button11.Size = new Size(128, 64);
-            button11.TabIndex = 5;
-            button11.Text = "Launch\r\nIsle Of Eline v0.0.2\r\n";
-            button11.UseVisualStyleBackColor = true;
             // 
             // Form2
             // 
