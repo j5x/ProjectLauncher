@@ -117,4 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Isle of Eline 0.0.2 Released
+
+
+Battle-tested on our own productions, this release brings new features and improvements to performance, visual fidelity, and productivity for game developers and creators across industries.</value>
+  </data>
 </root>
