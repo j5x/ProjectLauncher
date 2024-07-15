@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             panel1 = new Panel();
+            uC_Home1 = new UserControls.UC_Home();
             panelContainer = new Panel();
             panel3 = new Panel();
             button11 = new Button();
@@ -57,7 +58,6 @@
             panel4 = new Panel();
             button6 = new Button();
             pictureBox2 = new PictureBox();
-            uC_Home1 = new UserControls.UC_Home();
             panel1.SuspendLayout();
             panelContainer.SuspendLayout();
             panel3.SuspendLayout();
@@ -84,6 +84,17 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1072, 840);
             panel1.TabIndex = 0;
+            // 
+            // uC_Home1
+            // 
+            uC_Home1.AutoScroll = true;
+            uC_Home1.BackColor = Color.FromArgb(72, 73, 85);
+            uC_Home1.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            uC_Home1.Location = new Point(-9, -12);
+            uC_Home1.Margin = new Padding(3, 4, 3, 4);
+            uC_Home1.Name = "uC_Home1";
+            uC_Home1.Size = new Size(1080, 640);
+            uC_Home1.TabIndex = 0;
             // 
             // panelContainer
             // 
@@ -119,7 +130,7 @@
             button11.FlatStyle = FlatStyle.System;
             button11.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
             button11.ForeColor = Color.White;
-            button11.Location = new Point(800, 8);
+            button11.Location = new Point(900, 5);
             button11.Name = "button11";
             button11.Size = new Size(128, 64);
             button11.TabIndex = 5;
@@ -410,17 +421,6 @@
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 3;
             pictureBox2.TabStop = false;
-            // 
-            // uC_Home1
-            // 
-            uC_Home1.AutoScroll = true;
-            uC_Home1.BackColor = Color.FromArgb(72, 73, 85);
-            uC_Home1.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            uC_Home1.Location = new Point(-9, -9);
-            uC_Home1.Margin = new Padding(3, 4, 3, 4);
-            uC_Home1.Name = "uC_Home1";
-            uC_Home1.Size = new Size(1080, 640);
-            uC_Home1.TabIndex = 0;
             // 
             // Form2
             // 
