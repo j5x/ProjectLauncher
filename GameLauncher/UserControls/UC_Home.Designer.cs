@@ -30,6 +30,15 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Home));
             panel1 = new Panel();
+            flowLayoutPanel2 = new FlowLayoutPanel();
+            panel10 = new Panel();
+            panel11 = new Panel();
+            textBox4 = new TextBox();
+            textBox3 = new TextBox();
+            textBox2 = new TextBox();
+            tableLayoutPanel2 = new TableLayoutPanel();
+            panel9 = new Panel();
+            pictureBox2 = new PictureBox();
             flowLayoutPanel1 = new FlowLayoutPanel();
             panel2 = new Panel();
             pictureBox1 = new PictureBox();
@@ -40,43 +49,109 @@
             panel6 = new Panel();
             panel7 = new Panel();
             panel8 = new Panel();
-            tableLayoutPanel1 = new TableLayoutPanel();
-            panel9 = new Panel();
-            tableLayoutPanel2 = new TableLayoutPanel();
-            pictureBox2 = new PictureBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            pictureBox3 = new PictureBox();
-            pictureBox4 = new PictureBox();
-            pictureBox5 = new PictureBox();
-            textBox4 = new TextBox();
             panel1.SuspendLayout();
+            flowLayoutPanel2.SuspendLayout();
+            panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             flowLayoutPanel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel3.SuspendLayout();
-            panel9.SuspendLayout();
-            tableLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             SuspendLayout();
             // 
             // panel1
             // 
+            panel1.Controls.Add(flowLayoutPanel2);
             panel1.Controls.Add(textBox4);
             panel1.Controls.Add(textBox3);
             panel1.Controls.Add(textBox2);
             panel1.Controls.Add(tableLayoutPanel2);
             panel1.Controls.Add(panel9);
-            panel1.Controls.Add(tableLayoutPanel1);
             panel1.Controls.Add(flowLayoutPanel1);
             panel1.Location = new Point(3, 3);
             panel1.Margin = new Padding(4);
             panel1.Name = "panel1";
             panel1.Size = new Size(1072, 632);
             panel1.TabIndex = 0;
+            // 
+            // flowLayoutPanel2
+            // 
+            flowLayoutPanel2.Controls.Add(panel10);
+            flowLayoutPanel2.Controls.Add(panel11);
+            flowLayoutPanel2.Location = new Point(5, 343);
+            flowLayoutPanel2.Name = "flowLayoutPanel2";
+            flowLayoutPanel2.Size = new Size(750, 500);
+            flowLayoutPanel2.TabIndex = 7;
+            // 
+            // panel10
+            // 
+            panel10.Location = new Point(3, 3);
+            panel10.Name = "panel10";
+            panel10.Size = new Size(200, 250);
+            panel10.TabIndex = 0;
+            // 
+            // panel11
+            // 
+            panel11.Location = new Point(209, 3);
+            panel11.Name = "panel11";
+            panel11.Size = new Size(200, 250);
+            panel11.TabIndex = 1;
+            // 
+            // textBox4
+            // 
+            textBox4.Location = new Point(5, 310);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(203, 27);
+            textBox4.TabIndex = 6;
+            textBox4.Text = "Featured Content";
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(844, 310);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(200, 27);
+            textBox3.TabIndex = 5;
+            textBox3.Text = "Featured Screenshot";
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(844, 445);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(200, 27);
+            textBox2.TabIndex = 4;
+            textBox2.Text = "Weekly Spotlights";
+            // 
+            // tableLayoutPanel2
+            // 
+            tableLayoutPanel2.ColumnCount = 1;
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel2.Location = new Point(844, 476);
+            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            tableLayoutPanel2.RowCount = 3;
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333359F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333359F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333359F));
+            tableLayoutPanel2.Size = new Size(200, 148);
+            tableLayoutPanel2.TabIndex = 3;
+            // 
+            // panel9
+            // 
+            panel9.Controls.Add(pictureBox2);
+            panel9.Location = new Point(844, 343);
+            panel9.Name = "panel9";
+            panel9.Size = new Size(200, 100);
+            panel9.TabIndex = 2;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Dock = DockStyle.Fill;
+            pictureBox2.Image = Properties.Resources.usp_banner;
+            pictureBox2.Location = new Point(0, 0);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(200, 100);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 0;
+            pictureBox2.TabStop = false;
             // 
             // flowLayoutPanel1
             // 
@@ -170,105 +245,6 @@
             panel8.Size = new Size(200, 75);
             panel8.TabIndex = 6;
             // 
-            // tableLayoutPanel1
-            // 
-            tableLayoutPanel1.ColumnCount = 4;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Location = new Point(190, 339);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 3;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Size = new Size(620, 276);
-            tableLayoutPanel1.TabIndex = 1;
-            // 
-            // panel9
-            // 
-            panel9.Controls.Add(pictureBox2);
-            panel9.Location = new Point(829, 339);
-            panel9.Name = "panel9";
-            panel9.Size = new Size(200, 100);
-            panel9.TabIndex = 2;
-            // 
-            // tableLayoutPanel2
-            // 
-            tableLayoutPanel2.ColumnCount = 1;
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            tableLayoutPanel2.Controls.Add(pictureBox3, 0, 0);
-            tableLayoutPanel2.Controls.Add(pictureBox4, 0, 1);
-            tableLayoutPanel2.Controls.Add(pictureBox5, 0, 2);
-            tableLayoutPanel2.Location = new Point(829, 467);
-            tableLayoutPanel2.Name = "tableLayoutPanel2";
-            tableLayoutPanel2.RowCount = 3;
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333359F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333359F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333359F));
-            tableLayoutPanel2.Size = new Size(200, 148);
-            tableLayoutPanel2.TabIndex = 3;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Dock = DockStyle.Fill;
-            pictureBox2.Image = Properties.Resources.usp_banner;
-            pictureBox2.Location = new Point(0, 0);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(200, 100);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 0;
-            pictureBox2.TabStop = false;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(829, 445);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(200, 27);
-            textBox2.TabIndex = 4;
-            textBox2.Text = "Weekly Spotlights";
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(829, 310);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(200, 27);
-            textBox3.TabIndex = 5;
-            textBox3.Text = "Featured Screenshot";
-            // 
-            // pictureBox3
-            // 
-            pictureBox3.BackColor = Color.Red;
-            pictureBox3.Location = new Point(3, 3);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(194, 43);
-            pictureBox3.TabIndex = 0;
-            pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            pictureBox4.BackColor = Color.Lime;
-            pictureBox4.Location = new Point(3, 52);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(194, 43);
-            pictureBox4.TabIndex = 1;
-            pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            pictureBox5.BackColor = Color.Blue;
-            pictureBox5.Location = new Point(3, 101);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(194, 44);
-            pictureBox5.TabIndex = 2;
-            pictureBox5.TabStop = false;
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(190, 310);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(203, 27);
-            textBox4.TabIndex = 6;
-            textBox4.Text = "Featured Content";
-            // 
             // UC_Home
             // 
             AutoScaleMode = AutoScaleMode.None;
@@ -281,17 +257,14 @@
             Size = new Size(1080, 640);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            flowLayoutPanel2.ResumeLayout(false);
+            panel9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             flowLayoutPanel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            panel9.ResumeLayout(false);
-            tableLayoutPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ResumeLayout(false);
         }
 
@@ -308,15 +281,14 @@
         private Panel panel6;
         private Panel panel7;
         private Panel panel8;
-        private TableLayoutPanel tableLayoutPanel1;
         private TableLayoutPanel tableLayoutPanel2;
         private Panel panel9;
         private PictureBox pictureBox2;
         private TextBox textBox4;
         private TextBox textBox3;
         private TextBox textBox2;
-        private PictureBox pictureBox3;
-        private PictureBox pictureBox4;
-        private PictureBox pictureBox5;
+        private FlowLayoutPanel flowLayoutPanel2;
+        private Panel panel10;
+        private Panel panel11;
     }
 }
