@@ -58,6 +58,7 @@
             panel4 = new Panel();
             button6 = new Button();
             pictureBox2 = new PictureBox();
+            vScrollBar1 = new VScrollBar();
             panel1.SuspendLayout();
             panelContainer.SuspendLayout();
             panel3.SuspendLayout();
@@ -80,9 +81,9 @@
             // 
             panel1.BorderStyle = BorderStyle.FixedSingle;
             panel1.Controls.Add(uC_Home1);
-            panel1.Location = new Point(8, 8);
+            panel1.Location = new Point(3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1072, 840);
+            panel1.Size = new Size(1060, 620);
             panel1.TabIndex = 0;
             // 
             // uC_Home1
@@ -90,7 +91,7 @@
             uC_Home1.AutoScroll = true;
             uC_Home1.BackColor = Color.FromArgb(72, 73, 85);
             uC_Home1.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            uC_Home1.Location = new Point(-9, -12);
+            uC_Home1.Location = new Point(-1, -1);
             uC_Home1.Margin = new Padding(3, 4, 3, 4);
             uC_Home1.Name = "uC_Home1";
             uC_Home1.Size = new Size(1080, 640);
@@ -98,6 +99,7 @@
             // 
             // panelContainer
             // 
+            panelContainer.Controls.Add(vScrollBar1);
             panelContainer.Controls.Add(panel1);
             panelContainer.Dock = DockStyle.Fill;
             panelContainer.Location = new Point(200, 80);
@@ -422,6 +424,14 @@
             pictureBox2.TabIndex = 3;
             pictureBox2.TabStop = false;
             // 
+            // vScrollBar1
+            // 
+            vScrollBar1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            vScrollBar1.Location = new Point(1060, 0);
+            vScrollBar1.Name = "vScrollBar1";
+            vScrollBar1.Size = new Size(18, 640);
+            vScrollBar1.TabIndex = 1;
+            // 
             // Form2
             // 
             AutoScaleMode = AutoScaleMode.None;
@@ -488,5 +498,6 @@
         private PictureBox pictureBox6;
         private Button button11;
         private UserControls.UC_Home uC_Home1;
+        private VScrollBar vScrollBar1;
     }
 }

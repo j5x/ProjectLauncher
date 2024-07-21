@@ -31,6 +31,9 @@
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Home));
             panel1 = new Panel();
+            richTextBox1 = new RichTextBox();
+            textBox1 = new TextBox();
+            pictureBox1 = new PictureBox();
             flowLayoutPanel2 = new FlowLayoutPanel();
             panel10 = new Panel();
             panel11 = new Panel();
@@ -40,15 +43,12 @@
             tableLayoutPanel2 = new TableLayoutPanel();
             panel9 = new Panel();
             pictureBox2 = new PictureBox();
-            pictureBox1 = new PictureBox();
             contextMenuStrip1 = new ContextMenuStrip(components);
-            textBox1 = new TextBox();
-            richTextBox1 = new RichTextBox();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             flowLayoutPanel2.SuspendLayout();
             panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -62,11 +62,53 @@
             panel1.Controls.Add(textBox2);
             panel1.Controls.Add(tableLayoutPanel2);
             panel1.Controls.Add(panel9);
-            panel1.Location = new Point(3, 3);
+            panel1.Location = new Point(0, 0);
             panel1.Margin = new Padding(4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1072, 632);
+            panel1.Size = new Size(1060, 620);
             panel1.TabIndex = 0;
+            // 
+            // richTextBox1
+            // 
+            richTextBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            richTextBox1.BackColor = SystemColors.ActiveBorder;
+            richTextBox1.BorderStyle = BorderStyle.None;
+            richTextBox1.ForeColor = SystemColors.Window;
+            richTextBox1.Location = new Point(508, 28);
+            richTextBox1.Margin = new Padding(0);
+            richTextBox1.Name = "richTextBox1";
+            richTextBox1.ReadOnly = true;
+            richTextBox1.ScrollBars = RichTextBoxScrollBars.None;
+            richTextBox1.Size = new Size(488, 205);
+            richTextBox1.TabIndex = 10;
+            richTextBox1.Text = resources.GetString("richTextBox1.Text");
+            richTextBox1.ZoomFactor = 0.82F;
+            // 
+            // textBox1
+            // 
+            textBox1.AllowDrop = true;
+            textBox1.BackColor = SystemColors.ActiveBorder;
+            textBox1.BorderStyle = BorderStyle.None;
+            textBox1.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox1.ForeColor = SystemColors.Window;
+            textBox1.Location = new Point(508, 8);
+            textBox1.Margin = new Padding(0);
+            textBox1.Name = "textBox1";
+            textBox1.ReadOnly = true;
+            textBox1.Size = new Size(488, 20);
+            textBox1.TabIndex = 9;
+            textBox1.Text = "    Isle Of Eline 0.2 Released";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.urumabackground;
+            pictureBox1.Location = new Point(8, 8);
+            pictureBox1.Margin = new Padding(0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(500, 225);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 8;
+            pictureBox1.TabStop = false;
             // 
             // flowLayoutPanel2
             // 
@@ -74,7 +116,7 @@
             flowLayoutPanel2.Controls.Add(panel11);
             flowLayoutPanel2.Location = new Point(5, 343);
             flowLayoutPanel2.Name = "flowLayoutPanel2";
-            flowLayoutPanel2.Size = new Size(750, 500);
+            flowLayoutPanel2.Size = new Size(750, 274);
             flowLayoutPanel2.TabIndex = 7;
             // 
             // panel10
@@ -125,7 +167,7 @@
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333359F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333359F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333359F));
-            tableLayoutPanel2.Size = new Size(200, 148);
+            tableLayoutPanel2.Size = new Size(200, 130);
             tableLayoutPanel2.TabIndex = 3;
             // 
             // panel9
@@ -147,52 +189,10 @@
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = Properties.Resources.urumabackground;
-            pictureBox1.Location = new Point(8, 8);
-            pictureBox1.Margin = new Padding(0);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(500, 225);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 8;
-            pictureBox1.TabStop = false;
-            // 
             // contextMenuStrip1
             // 
             contextMenuStrip1.Name = "contextMenuStrip1";
             contextMenuStrip1.Size = new Size(61, 4);
-            // 
-            // textBox1
-            // 
-            textBox1.AllowDrop = true;
-            textBox1.BackColor = SystemColors.ActiveBorder;
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox1.ForeColor = SystemColors.Window;
-            textBox1.Location = new Point(508, 8);
-            textBox1.Margin = new Padding(0);
-            textBox1.Name = "textBox1";
-            textBox1.ReadOnly = true;
-            textBox1.Size = new Size(500, 20);
-            textBox1.TabIndex = 9;
-            textBox1.Text = "    Isle Of Eline 0.2 Released";
-            // 
-            // richTextBox1
-            // 
-            richTextBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            richTextBox1.BackColor = SystemColors.ActiveBorder;
-            richTextBox1.BorderStyle = BorderStyle.None;
-            richTextBox1.ForeColor = SystemColors.Window;
-            richTextBox1.Location = new Point(508, 28);
-            richTextBox1.Margin = new Padding(0);
-            richTextBox1.Name = "richTextBox1";
-            richTextBox1.ReadOnly = true;
-            richTextBox1.ScrollBars = RichTextBoxScrollBars.None;
-            richTextBox1.Size = new Size(500, 205);
-            richTextBox1.TabIndex = 10;
-            richTextBox1.Text = resources.GetString("richTextBox1.Text");
-            richTextBox1.ZoomFactor = 0.82F;
             // 
             // UC_Home
             // 
@@ -203,13 +203,13 @@
             Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
             Margin = new Padding(3, 4, 3, 4);
             Name = "UC_Home";
-            Size = new Size(1080, 640);
+            Size = new Size(1060, 620);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             flowLayoutPanel2.ResumeLayout(false);
             panel9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
