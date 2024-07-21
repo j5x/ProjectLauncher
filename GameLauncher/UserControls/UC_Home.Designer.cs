@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Home));
             panel1 = new Panel();
             flowLayoutPanel2 = new FlowLayoutPanel();
@@ -39,35 +40,28 @@
             tableLayoutPanel2 = new TableLayoutPanel();
             panel9 = new Panel();
             pictureBox2 = new PictureBox();
-            flowLayoutPanel1 = new FlowLayoutPanel();
-            panel2 = new Panel();
             pictureBox1 = new PictureBox();
-            panel3 = new Panel();
+            contextMenuStrip1 = new ContextMenuStrip(components);
             textBox1 = new TextBox();
-            panel4 = new Panel();
-            panel5 = new Panel();
-            panel6 = new Panel();
-            panel7 = new Panel();
-            panel8 = new Panel();
+            richTextBox1 = new RichTextBox();
             panel1.SuspendLayout();
             flowLayoutPanel2.SuspendLayout();
             panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            flowLayoutPanel1.SuspendLayout();
-            panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            panel3.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
+            panel1.Controls.Add(richTextBox1);
+            panel1.Controls.Add(textBox1);
+            panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(flowLayoutPanel2);
             panel1.Controls.Add(textBox4);
             panel1.Controls.Add(textBox3);
             panel1.Controls.Add(textBox2);
             panel1.Controls.Add(tableLayoutPanel2);
             panel1.Controls.Add(panel9);
-            panel1.Controls.Add(flowLayoutPanel1);
             panel1.Location = new Point(3, 3);
             panel1.Margin = new Padding(4);
             panel1.Name = "panel1";
@@ -153,97 +147,52 @@
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
             // 
-            // flowLayoutPanel1
-            // 
-            flowLayoutPanel1.BorderStyle = BorderStyle.Fixed3D;
-            flowLayoutPanel1.Controls.Add(panel2);
-            flowLayoutPanel1.Controls.Add(panel3);
-            flowLayoutPanel1.Controls.Add(panel4);
-            flowLayoutPanel1.Controls.Add(panel5);
-            flowLayoutPanel1.Controls.Add(panel6);
-            flowLayoutPanel1.Controls.Add(panel7);
-            flowLayoutPanel1.Controls.Add(panel8);
-            flowLayoutPanel1.Dock = DockStyle.Top;
-            flowLayoutPanel1.Location = new Point(0, 0);
-            flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(1072, 320);
-            flowLayoutPanel1.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            panel2.Controls.Add(pictureBox1);
-            panel2.Location = new Point(0, 0);
-            panel2.Margin = new Padding(0);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(500, 224);
-            panel2.TabIndex = 0;
-            // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.urumabackground;
-            pictureBox1.Location = new Point(188, 0);
+            pictureBox1.Location = new Point(8, 8);
+            pictureBox1.Margin = new Padding(0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(312, 224);
+            pictureBox1.Size = new Size(500, 225);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 0;
+            pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
             // 
-            // panel3
+            // contextMenuStrip1
             // 
-            panel3.Controls.Add(textBox1);
-            panel3.Location = new Point(500, 0);
-            panel3.Margin = new Padding(0);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(548, 224);
-            panel3.TabIndex = 1;
+            contextMenuStrip1.Name = "contextMenuStrip1";
+            contextMenuStrip1.Size = new Size(61, 4);
             // 
             // textBox1
             // 
+            textBox1.AllowDrop = true;
             textBox1.BackColor = SystemColors.ActiveBorder;
             textBox1.BorderStyle = BorderStyle.None;
-            textBox1.ForeColor = Color.FromArgb(31, 31, 31);
-            textBox1.Location = new Point(0, 0);
+            textBox1.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox1.ForeColor = SystemColors.Window;
+            textBox1.Location = new Point(508, 8);
             textBox1.Margin = new Padding(0);
-            textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(542, 226);
-            textBox1.TabIndex = 0;
-            textBox1.Text = resources.GetString("textBox1.Text");
+            textBox1.ReadOnly = true;
+            textBox1.Size = new Size(500, 20);
+            textBox1.TabIndex = 9;
+            textBox1.Text = "    Isle Of Eline 0.2 Released";
             // 
-            // panel4
+            // richTextBox1
             // 
-            panel4.Location = new Point(3, 227);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(200, 75);
-            panel4.TabIndex = 2;
-            // 
-            // panel5
-            // 
-            panel5.Location = new Point(209, 227);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(200, 75);
-            panel5.TabIndex = 3;
-            // 
-            // panel6
-            // 
-            panel6.Location = new Point(415, 227);
-            panel6.Name = "panel6";
-            panel6.Size = new Size(200, 75);
-            panel6.TabIndex = 4;
-            // 
-            // panel7
-            // 
-            panel7.Location = new Point(621, 227);
-            panel7.Name = "panel7";
-            panel7.Size = new Size(200, 75);
-            panel7.TabIndex = 5;
-            // 
-            // panel8
-            // 
-            panel8.Location = new Point(827, 227);
-            panel8.Name = "panel8";
-            panel8.Size = new Size(200, 75);
-            panel8.TabIndex = 6;
+            richTextBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            richTextBox1.BackColor = SystemColors.ActiveBorder;
+            richTextBox1.BorderStyle = BorderStyle.None;
+            richTextBox1.ForeColor = SystemColors.Window;
+            richTextBox1.Location = new Point(508, 28);
+            richTextBox1.Margin = new Padding(0);
+            richTextBox1.Name = "richTextBox1";
+            richTextBox1.ReadOnly = true;
+            richTextBox1.ScrollBars = RichTextBoxScrollBars.None;
+            richTextBox1.Size = new Size(500, 205);
+            richTextBox1.TabIndex = 10;
+            richTextBox1.Text = resources.GetString("richTextBox1.Text");
+            richTextBox1.ZoomFactor = 0.82F;
             // 
             // UC_Home
             // 
@@ -260,27 +209,13 @@
             flowLayoutPanel2.ResumeLayout(false);
             panel9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            flowLayoutPanel1.ResumeLayout(false);
-            panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            panel3.ResumeLayout(false);
-            panel3.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
         private Panel panel1;
-        private FlowLayoutPanel flowLayoutPanel1;
-        private Panel panel2;
-        private PictureBox pictureBox1;
-        private Panel panel3;
-        private TextBox textBox1;
-        private Panel panel4;
-        private Panel panel5;
-        private Panel panel6;
-        private Panel panel7;
-        private Panel panel8;
         private TableLayoutPanel tableLayoutPanel2;
         private Panel panel9;
         private PictureBox pictureBox2;
@@ -290,5 +225,9 @@
         private FlowLayoutPanel flowLayoutPanel2;
         private Panel panel10;
         private Panel panel11;
+        private PictureBox pictureBox1;
+        private ContextMenuStrip contextMenuStrip1;
+        private TextBox textBox1;
+        private RichTextBox richTextBox1;
     }
 }
