@@ -77,7 +77,6 @@
             // 
             // uC_Home1
             // 
-            uC_Home1.AutoScroll = true;
             uC_Home1.BackColor = Color.FromArgb(72, 73, 85);
             uC_Home1.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
             uC_Home1.Location = new Point(0, 0);

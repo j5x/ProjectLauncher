@@ -38,6 +38,14 @@
             textBox3 = new TextBox();
             textBox5 = new TextBox();
             FC_Panel = new Panel();
+            panel6 = new Panel();
+            panel5 = new Panel();
+            panel4 = new Panel();
+            panel3 = new Panel();
+            panel2 = new Panel();
+            richTextBox2 = new RichTextBox();
+            textBox7 = new TextBox();
+            pictureBox8 = new PictureBox();
             Section02_Home = new Panel();
             HyperlinkedIconBox05 = new Panel();
             pictureBox7 = new PictureBox();
@@ -62,6 +70,9 @@
             FS_Panel = new Panel();
             pictureBox2 = new PictureBox();
             panel1.SuspendLayout();
+            FC_Panel.SuspendLayout();
+            panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             Section02_Home.SuspendLayout();
             HyperlinkedIconBox05.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
@@ -96,14 +107,14 @@
             panel1.Location = new Point(0, 0);
             panel1.Margin = new Padding(4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1056, 1196);
+            panel1.Size = new Size(1056, 1280);
             panel1.TabIndex = 0;
             // 
             // BL_Panel
             // 
-            BL_Panel.Location = new Point(4, 782);
+            BL_Panel.Location = new Point(4, 768);
             BL_Panel.Name = "BL_Panel";
-            BL_Panel.Size = new Size(800, 400);
+            BL_Panel.Size = new Size(800, 500);
             BL_Panel.TabIndex = 20;
             // 
             // textBox6
@@ -112,7 +123,7 @@
             textBox6.BorderStyle = BorderStyle.None;
             textBox6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             textBox6.ForeColor = SystemColors.Window;
-            textBox6.Location = new Point(4, 754);
+            textBox6.Location = new Point(14, 740);
             textBox6.Name = "textBox6";
             textBox6.Size = new Size(208, 22);
             textBox6.TabIndex = 19;
@@ -122,12 +133,12 @@
             // 
             CR_LPanel.ColumnCount = 1;
             CR_LPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            CR_LPanel.Location = new Point(844, 782);
+            CR_LPanel.Location = new Point(829, 768);
             CR_LPanel.Name = "CR_LPanel";
             CR_LPanel.RowCount = 2;
             CR_LPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             CR_LPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            CR_LPanel.Size = new Size(200, 175);
+            CR_LPanel.Size = new Size(215, 175);
             CR_LPanel.TabIndex = 18;
             // 
             // textBox2
@@ -136,7 +147,7 @@
             textBox2.BorderStyle = BorderStyle.None;
             textBox2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             textBox2.ForeColor = SystemColors.Window;
-            textBox2.Location = new Point(846, 754);
+            textBox2.Location = new Point(829, 741);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(208, 22);
             textBox2.TabIndex = 17;
@@ -146,13 +157,13 @@
             // 
             WS_LPanel.ColumnCount = 1;
             WS_LPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            WS_LPanel.Location = new Point(844, 476);
+            WS_LPanel.Location = new Point(829, 476);
             WS_LPanel.Name = "WS_LPanel";
             WS_LPanel.RowCount = 3;
             WS_LPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333359F));
             WS_LPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333359F));
             WS_LPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333359F));
-            WS_LPanel.Size = new Size(200, 239);
+            WS_LPanel.Size = new Size(215, 240);
             WS_LPanel.TabIndex = 3;
             // 
             // textBox3
@@ -161,7 +172,7 @@
             textBox3.BorderStyle = BorderStyle.None;
             textBox3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             textBox3.ForeColor = SystemColors.Window;
-            textBox3.Location = new Point(844, 448);
+            textBox3.Location = new Point(827, 449);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(208, 22);
             textBox3.TabIndex = 16;
@@ -173,7 +184,7 @@
             textBox5.BorderStyle = BorderStyle.None;
             textBox5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             textBox5.ForeColor = SystemColors.Window;
-            textBox5.Location = new Point(846, 287);
+            textBox5.Location = new Point(829, 288);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(208, 22);
             textBox5.TabIndex = 15;
@@ -182,10 +193,98 @@
             // FC_Panel
             // 
             FC_Panel.BorderStyle = BorderStyle.FixedSingle;
+            FC_Panel.Controls.Add(panel6);
+            FC_Panel.Controls.Add(panel5);
+            FC_Panel.Controls.Add(panel4);
+            FC_Panel.Controls.Add(panel3);
+            FC_Panel.Controls.Add(panel2);
             FC_Panel.Location = new Point(4, 315);
+            FC_Panel.Margin = new Padding(6);
             FC_Panel.Name = "FC_Panel";
             FC_Panel.Size = new Size(800, 400);
             FC_Panel.TabIndex = 14;
+            // 
+            // panel6
+            // 
+            panel6.Location = new Point(602, 246);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(193, 150);
+            panel6.TabIndex = 3;
+            // 
+            // panel5
+            // 
+            panel5.Location = new Point(288, 251);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(193, 145);
+            panel5.TabIndex = 3;
+            // 
+            // panel4
+            // 
+            panel4.Location = new Point(9, 251);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(193, 145);
+            panel4.TabIndex = 2;
+            // 
+            // panel3
+            // 
+            panel3.Location = new Point(420, 4);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(375, 236);
+            panel3.TabIndex = 1;
+            // 
+            // panel2
+            // 
+            panel2.Controls.Add(richTextBox2);
+            panel2.Controls.Add(textBox7);
+            panel2.Controls.Add(pictureBox8);
+            panel2.Location = new Point(9, 4);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(348, 236);
+            panel2.TabIndex = 0;
+            // 
+            // richTextBox2
+            // 
+            richTextBox2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            richTextBox2.BackColor = SystemColors.ActiveBorder;
+            richTextBox2.BorderStyle = BorderStyle.None;
+            richTextBox2.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            richTextBox2.ForeColor = SystemColors.Window;
+            richTextBox2.Location = new Point(0, 156);
+            richTextBox2.Margin = new Padding(0);
+            richTextBox2.Name = "richTextBox2";
+            richTextBox2.ReadOnly = true;
+            richTextBox2.ScrollBars = RichTextBoxScrollBars.None;
+            richTextBox2.Size = new Size(370, 80);
+            richTextBox2.TabIndex = 11;
+            richTextBox2.Text = "\nThis project includes 500+ AAA quality animations to help you get\nstarted with Motion Matching.\n";
+            richTextBox2.ZoomFactor = 0.82F;
+            // 
+            // textBox7
+            // 
+            textBox7.BackColor = Color.FromArgb(72, 73, 85);
+            textBox7.BorderStyle = BorderStyle.FixedSingle;
+            textBox7.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox7.ForeColor = SystemColors.Window;
+            textBox7.Location = new Point(0, 92);
+            textBox7.Margin = new Padding(0);
+            textBox7.Multiline = true;
+            textBox7.Name = "textBox7";
+            textBox7.ReadOnly = true;
+            textBox7.Size = new Size(281, 64);
+            textBox7.TabIndex = 1;
+            textBox7.TabStop = false;
+            textBox7.Text = "Game Animation Sample Project Released!";
+            // 
+            // pictureBox8
+            // 
+            pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
+            pictureBox8.Location = new Point(0, 0);
+            pictureBox8.Margin = new Padding(0);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new Size(348, 92);
+            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox8.TabIndex = 0;
+            pictureBox8.TabStop = false;
             // 
             // Section02_Home
             // 
@@ -407,7 +506,7 @@
             Section1_Home.Location = new Point(4, 4);
             Section1_Home.Margin = new Padding(4);
             Section1_Home.Name = "Section1_Home";
-            Section1_Home.Size = new Size(1042, 225);
+            Section1_Home.Size = new Size(1040, 225);
             Section1_Home.TabIndex = 12;
             // 
             // textBox1
@@ -420,7 +519,7 @@
             textBox1.Margin = new Padding(0);
             textBox1.Name = "textBox1";
             textBox1.ReadOnly = true;
-            textBox1.Size = new Size(515, 27);
+            textBox1.Size = new Size(513, 27);
             textBox1.TabIndex = 9;
             textBox1.Text = "   Isle Of Eline 0.2 Released";
             // 
@@ -443,10 +542,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.urumabackground;
-            pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Location = new Point(10, 0);
             pictureBox1.Margin = new Padding(0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(525, 225);
+            pictureBox1.Size = new Size(515, 225);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
@@ -457,7 +556,7 @@
             textBox4.BorderStyle = BorderStyle.None;
             textBox4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             textBox4.ForeColor = SystemColors.Window;
-            textBox4.Location = new Point(4, 287);
+            textBox4.Location = new Point(14, 288);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(203, 22);
             textBox4.TabIndex = 6;
@@ -465,19 +564,20 @@
             // 
             // FS_Panel
             // 
-            FS_Panel.BorderStyle = BorderStyle.Fixed3D;
+            FS_Panel.BorderStyle = BorderStyle.FixedSingle;
             FS_Panel.Controls.Add(pictureBox2);
-            FS_Panel.Location = new Point(844, 315);
+            FS_Panel.Location = new Point(829, 315);
             FS_Panel.Name = "FS_Panel";
-            FS_Panel.Size = new Size(200, 100);
+            FS_Panel.Size = new Size(215, 125);
             FS_Panel.TabIndex = 2;
             // 
             // pictureBox2
             // 
+            pictureBox2.Dock = DockStyle.Fill;
             pictureBox2.Image = Properties.Resources.usp_banner;
             pictureBox2.Location = new Point(0, 0);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(200, 100);
+            pictureBox2.Size = new Size(213, 123);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
@@ -490,9 +590,13 @@
             Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
             Margin = new Padding(3, 4, 3, 4);
             Name = "UC_Home";
-            Size = new Size(1060, 1200);
+            Size = new Size(1060, 1280);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            FC_Panel.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             Section02_Home.ResumeLayout(false);
             HyperlinkedIconBox05.ResumeLayout(false);
             HyperlinkedIconBox05.PerformLayout();
@@ -551,5 +655,13 @@
         private TextBox textBox2;
         private Panel BL_Panel;
         private TextBox textBox6;
+        private Panel panel2;
+        private Panel panel3;
+        private Panel panel6;
+        private Panel panel5;
+        private Panel panel4;
+        private PictureBox pictureBox8;
+        private TextBox textBox7;
+        private RichTextBox richTextBox2;
     }
 }
