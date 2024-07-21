@@ -117,13 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="richTextBox1.Text" xml:space="preserve">
-    <value>
-
-    Battle-tested on our own productions, this release brigngs new features and
-    improvements to performance, visual fidelity, and productivity for game developers and
-    creators across industries.</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -774,7 +767,7 @@
   <data name="pictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAA/7JJREFUeF7s/QmcXFd1PorWG+57796XG/KSG2Kp527Nnm0cBpOEhEACBBJmY7Dx
+        vAAADrwBlbxySQAA/7JJREFUeF7s/QmcXFd1PorWG+57796XG/KSG2Kp527Nnm0cBpOEhEACBBJmY7Dx
         wEwAM0+BOCHJHwgQIARiPCF1Da3Glm0cDDbgCVtzS+p5ntRqSZ6lru46JTGct7919jq1z65d1dXq6u6q
         1lq/3/eTLEt1qqv2Xutbc0xEZLnEj8X+bwXhW7gx9n8viPbY/yOCh2L/zwhuiv1vIdpj/68Q98X+34Tb
         Y/+fCNpj/zvh3tj/EWJb7P9L+K/Y7xBujf2fhHjsd4Fn22PPU//mec/dHvs9QL3O751IxP5/vsLJ9tjv
@@ -2850,5 +2843,14 @@
         CCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBC
         CCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBAyrKy00v8HzBEetyL2gyUAAAAASUVORK5CYII=
 </value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>
+
+
+
+    Battle-tested on our own productions, this release brigngs new features and
+    improvements to performance, visual fidelity, and productivity for game developers and
+    creators across industries.</value>
   </data>
 </root>

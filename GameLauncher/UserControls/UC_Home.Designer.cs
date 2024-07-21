@@ -30,14 +30,22 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Home));
             panel1 = new Panel();
-            panel3 = new Panel();
-            panel5 = new Panel();
+            BL_Panel = new Panel();
+            textBox6 = new TextBox();
+            CR_LPanel = new TableLayoutPanel();
+            textBox2 = new TextBox();
+            WS_LPanel = new TableLayoutPanel();
+            textBox3 = new TextBox();
+            textBox5 = new TextBox();
+            FC_Panel = new Panel();
+            Section02_Home = new Panel();
+            HyperlinkedIconBox05 = new Panel();
             pictureBox7 = new PictureBox();
             linkLabel5 = new LinkLabel();
-            panel4 = new Panel();
+            HyperlinkedIconBox04 = new Panel();
             pictureBox6 = new PictureBox();
             linkLabel4 = new LinkLabel();
-            panel2 = new Panel();
+            HyperlinkedIconBox03 = new Panel();
             pictureBox5 = new PictureBox();
             linkLabel3 = new LinkLabel();
             HyperlinkedIconBox02 = new Panel();
@@ -47,25 +55,19 @@
             pictureBox3 = new PictureBox();
             linkLabel1 = new LinkLabel();
             Section1_Home = new Panel();
-            richTextBox1 = new RichTextBox();
             textBox1 = new TextBox();
+            richTextBox1 = new RichTextBox();
             pictureBox1 = new PictureBox();
-            flowLayoutPanel2 = new FlowLayoutPanel();
-            panel10 = new Panel();
-            panel11 = new Panel();
             textBox4 = new TextBox();
-            textBox3 = new TextBox();
-            textBox2 = new TextBox();
-            tableLayoutPanel2 = new TableLayoutPanel();
-            panel9 = new Panel();
+            FS_Panel = new Panel();
             pictureBox2 = new PictureBox();
             panel1.SuspendLayout();
-            panel3.SuspendLayout();
-            panel5.SuspendLayout();
+            Section02_Home.SuspendLayout();
+            HyperlinkedIconBox05.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
-            panel4.SuspendLayout();
+            HyperlinkedIconBox04.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
-            panel2.SuspendLayout();
+            HyperlinkedIconBox03.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             HyperlinkedIconBox02.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
@@ -73,50 +75,141 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             Section1_Home.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            flowLayoutPanel2.SuspendLayout();
-            panel9.SuspendLayout();
+            FS_Panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // panel1
             // 
-            panel1.Controls.Add(panel3);
-            panel1.Controls.Add(Section1_Home);
-            panel1.Controls.Add(flowLayoutPanel2);
-            panel1.Controls.Add(textBox4);
-            panel1.Controls.Add(textBox3);
+            panel1.Controls.Add(BL_Panel);
+            panel1.Controls.Add(textBox6);
+            panel1.Controls.Add(CR_LPanel);
             panel1.Controls.Add(textBox2);
-            panel1.Controls.Add(tableLayoutPanel2);
-            panel1.Controls.Add(panel9);
+            panel1.Controls.Add(WS_LPanel);
+            panel1.Controls.Add(textBox3);
+            panel1.Controls.Add(textBox5);
+            panel1.Controls.Add(FC_Panel);
+            panel1.Controls.Add(Section02_Home);
+            panel1.Controls.Add(Section1_Home);
+            panel1.Controls.Add(textBox4);
+            panel1.Controls.Add(FS_Panel);
             panel1.Location = new Point(0, 0);
             panel1.Margin = new Padding(4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1060, 620);
+            panel1.Size = new Size(1056, 1196);
             panel1.TabIndex = 0;
             // 
-            // panel3
+            // BL_Panel
             // 
-            panel3.BackColor = Color.Transparent;
-            panel3.Controls.Add(panel5);
-            panel3.Controls.Add(panel4);
-            panel3.Controls.Add(panel2);
-            panel3.Controls.Add(HyperlinkedIconBox02);
-            panel3.Controls.Add(HyperlinkedIconBox01);
-            panel3.Location = new Point(4, 230);
-            panel3.Margin = new Padding(4);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(1050, 50);
-            panel3.TabIndex = 13;
+            BL_Panel.Location = new Point(4, 782);
+            BL_Panel.Name = "BL_Panel";
+            BL_Panel.Size = new Size(800, 400);
+            BL_Panel.TabIndex = 20;
             // 
-            // panel5
+            // textBox6
             // 
-            panel5.Controls.Add(pictureBox7);
-            panel5.Controls.Add(linkLabel5);
-            panel5.Location = new Point(708, 12);
-            panel5.Margin = new Padding(0);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(105, 25);
-            panel5.TabIndex = 18;
+            textBox6.BackColor = Color.FromArgb(72, 73, 85);
+            textBox6.BorderStyle = BorderStyle.None;
+            textBox6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox6.ForeColor = SystemColors.Window;
+            textBox6.Location = new Point(4, 754);
+            textBox6.Name = "textBox6";
+            textBox6.Size = new Size(208, 22);
+            textBox6.TabIndex = 19;
+            textBox6.Text = "Blog";
+            // 
+            // CR_LPanel
+            // 
+            CR_LPanel.ColumnCount = 1;
+            CR_LPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            CR_LPanel.Location = new Point(844, 782);
+            CR_LPanel.Name = "CR_LPanel";
+            CR_LPanel.RowCount = 2;
+            CR_LPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            CR_LPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            CR_LPanel.Size = new Size(200, 175);
+            CR_LPanel.TabIndex = 18;
+            // 
+            // textBox2
+            // 
+            textBox2.BackColor = Color.FromArgb(72, 73, 85);
+            textBox2.BorderStyle = BorderStyle.None;
+            textBox2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox2.ForeColor = SystemColors.Window;
+            textBox2.Location = new Point(846, 754);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(208, 22);
+            textBox2.TabIndex = 17;
+            textBox2.Text = "Community Resources";
+            // 
+            // WS_LPanel
+            // 
+            WS_LPanel.ColumnCount = 1;
+            WS_LPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            WS_LPanel.Location = new Point(844, 476);
+            WS_LPanel.Name = "WS_LPanel";
+            WS_LPanel.RowCount = 3;
+            WS_LPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333359F));
+            WS_LPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333359F));
+            WS_LPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333359F));
+            WS_LPanel.Size = new Size(200, 239);
+            WS_LPanel.TabIndex = 3;
+            // 
+            // textBox3
+            // 
+            textBox3.BackColor = Color.FromArgb(72, 73, 85);
+            textBox3.BorderStyle = BorderStyle.None;
+            textBox3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox3.ForeColor = SystemColors.Window;
+            textBox3.Location = new Point(844, 448);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(208, 22);
+            textBox3.TabIndex = 16;
+            textBox3.Text = "Weekly Spotlights";
+            // 
+            // textBox5
+            // 
+            textBox5.BackColor = Color.FromArgb(72, 73, 85);
+            textBox5.BorderStyle = BorderStyle.None;
+            textBox5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox5.ForeColor = SystemColors.Window;
+            textBox5.Location = new Point(846, 287);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(208, 22);
+            textBox5.TabIndex = 15;
+            textBox5.Text = "Featured Screenshot";
+            // 
+            // FC_Panel
+            // 
+            FC_Panel.BorderStyle = BorderStyle.FixedSingle;
+            FC_Panel.Location = new Point(4, 315);
+            FC_Panel.Name = "FC_Panel";
+            FC_Panel.Size = new Size(800, 400);
+            FC_Panel.TabIndex = 14;
+            // 
+            // Section02_Home
+            // 
+            Section02_Home.BackColor = Color.Transparent;
+            Section02_Home.Controls.Add(HyperlinkedIconBox05);
+            Section02_Home.Controls.Add(HyperlinkedIconBox04);
+            Section02_Home.Controls.Add(HyperlinkedIconBox03);
+            Section02_Home.Controls.Add(HyperlinkedIconBox02);
+            Section02_Home.Controls.Add(HyperlinkedIconBox01);
+            Section02_Home.Location = new Point(4, 230);
+            Section02_Home.Margin = new Padding(4);
+            Section02_Home.Name = "Section02_Home";
+            Section02_Home.Size = new Size(1040, 50);
+            Section02_Home.TabIndex = 13;
+            // 
+            // HyperlinkedIconBox05
+            // 
+            HyperlinkedIconBox05.Controls.Add(pictureBox7);
+            HyperlinkedIconBox05.Controls.Add(linkLabel5);
+            HyperlinkedIconBox05.Location = new Point(708, 12);
+            HyperlinkedIconBox05.Margin = new Padding(0);
+            HyperlinkedIconBox05.Name = "HyperlinkedIconBox05";
+            HyperlinkedIconBox05.Size = new Size(105, 25);
+            HyperlinkedIconBox05.TabIndex = 18;
             // 
             // pictureBox7
             // 
@@ -147,15 +240,15 @@
             linkLabel5.Text = "Roadmap";
             linkLabel5.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // panel4
+            // HyperlinkedIconBox04
             // 
-            panel4.Controls.Add(pictureBox6);
-            panel4.Controls.Add(linkLabel4);
-            panel4.Location = new Point(584, 12);
-            panel4.Margin = new Padding(0);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(100, 25);
-            panel4.TabIndex = 17;
+            HyperlinkedIconBox04.Controls.Add(pictureBox6);
+            HyperlinkedIconBox04.Controls.Add(linkLabel4);
+            HyperlinkedIconBox04.Location = new Point(584, 12);
+            HyperlinkedIconBox04.Margin = new Padding(0);
+            HyperlinkedIconBox04.Name = "HyperlinkedIconBox04";
+            HyperlinkedIconBox04.Size = new Size(100, 25);
+            HyperlinkedIconBox04.TabIndex = 17;
             // 
             // pictureBox6
             // 
@@ -186,15 +279,15 @@
             linkLabel4.Text = "Forums";
             linkLabel4.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // panel2
+            // HyperlinkedIconBox03
             // 
-            panel2.Controls.Add(pictureBox5);
-            panel2.Controls.Add(linkLabel3);
-            panel2.Location = new Point(460, 12);
-            panel2.Margin = new Padding(0);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(100, 25);
-            panel2.TabIndex = 16;
+            HyperlinkedIconBox03.Controls.Add(pictureBox5);
+            HyperlinkedIconBox03.Controls.Add(linkLabel3);
+            HyperlinkedIconBox03.Location = new Point(460, 12);
+            HyperlinkedIconBox03.Margin = new Padding(0);
+            HyperlinkedIconBox03.Name = "HyperlinkedIconBox03";
+            HyperlinkedIconBox03.Size = new Size(100, 25);
+            HyperlinkedIconBox03.TabIndex = 16;
             // 
             // pictureBox5
             // 
@@ -308,14 +401,28 @@
             // Section1_Home
             // 
             Section1_Home.BackColor = Color.Transparent;
-            Section1_Home.Controls.Add(richTextBox1);
             Section1_Home.Controls.Add(textBox1);
+            Section1_Home.Controls.Add(richTextBox1);
             Section1_Home.Controls.Add(pictureBox1);
             Section1_Home.Location = new Point(4, 4);
             Section1_Home.Margin = new Padding(4);
             Section1_Home.Name = "Section1_Home";
-            Section1_Home.Size = new Size(1050, 220);
+            Section1_Home.Size = new Size(1042, 225);
             Section1_Home.TabIndex = 12;
+            // 
+            // textBox1
+            // 
+            textBox1.BackColor = SystemColors.ActiveBorder;
+            textBox1.BorderStyle = BorderStyle.None;
+            textBox1.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox1.ForeColor = SystemColors.Window;
+            textBox1.Location = new Point(525, 20);
+            textBox1.Margin = new Padding(0);
+            textBox1.Name = "textBox1";
+            textBox1.ReadOnly = true;
+            textBox1.Size = new Size(515, 27);
+            textBox1.TabIndex = 9;
+            textBox1.Text = "   Isle Of Eline 0.2 Released";
             // 
             // richTextBox1
             // 
@@ -323,29 +430,15 @@
             richTextBox1.BackColor = SystemColors.ActiveBorder;
             richTextBox1.BorderStyle = BorderStyle.None;
             richTextBox1.ForeColor = SystemColors.Window;
-            richTextBox1.Location = new Point(525, 20);
+            richTextBox1.Location = new Point(525, 0);
             richTextBox1.Margin = new Padding(0);
             richTextBox1.Name = "richTextBox1";
             richTextBox1.ReadOnly = true;
             richTextBox1.ScrollBars = RichTextBoxScrollBars.None;
-            richTextBox1.Size = new Size(525, 205);
+            richTextBox1.Size = new Size(515, 225);
             richTextBox1.TabIndex = 10;
             richTextBox1.Text = resources.GetString("richTextBox1.Text");
             richTextBox1.ZoomFactor = 0.82F;
-            // 
-            // textBox1
-            // 
-            textBox1.BackColor = SystemColors.ActiveBorder;
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox1.ForeColor = SystemColors.Window;
-            textBox1.Location = new Point(525, 0);
-            textBox1.Margin = new Padding(0);
-            textBox1.Name = "textBox1";
-            textBox1.ReadOnly = true;
-            textBox1.Size = new Size(525, 20);
-            textBox1.TabIndex = 9;
-            textBox1.Text = "    Isle Of Eline 0.2 Released";
             // 
             // pictureBox1
             // 
@@ -353,82 +446,34 @@
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Margin = new Padding(0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(525, 224);
+            pictureBox1.Size = new Size(525, 225);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
             // 
-            // flowLayoutPanel2
-            // 
-            flowLayoutPanel2.Controls.Add(panel10);
-            flowLayoutPanel2.Controls.Add(panel11);
-            flowLayoutPanel2.Location = new Point(5, 342);
-            flowLayoutPanel2.Name = "flowLayoutPanel2";
-            flowLayoutPanel2.Size = new Size(750, 274);
-            flowLayoutPanel2.TabIndex = 7;
-            // 
-            // panel10
-            // 
-            panel10.Location = new Point(3, 3);
-            panel10.Name = "panel10";
-            panel10.Size = new Size(200, 250);
-            panel10.TabIndex = 0;
-            // 
-            // panel11
-            // 
-            panel11.Location = new Point(209, 3);
-            panel11.Name = "panel11";
-            panel11.Size = new Size(200, 250);
-            panel11.TabIndex = 1;
-            // 
             // textBox4
             // 
-            textBox4.Location = new Point(5, 310);
+            textBox4.BackColor = Color.FromArgb(72, 73, 85);
+            textBox4.BorderStyle = BorderStyle.None;
+            textBox4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox4.ForeColor = SystemColors.Window;
+            textBox4.Location = new Point(4, 287);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(203, 27);
+            textBox4.Size = new Size(203, 22);
             textBox4.TabIndex = 6;
             textBox4.Text = "Featured Content";
             // 
-            // textBox3
+            // FS_Panel
             // 
-            textBox3.Location = new Point(844, 310);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(200, 27);
-            textBox3.TabIndex = 5;
-            textBox3.Text = "Featured Screenshot";
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(844, 445);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(200, 27);
-            textBox2.TabIndex = 4;
-            textBox2.Text = "Weekly Spotlights";
-            // 
-            // tableLayoutPanel2
-            // 
-            tableLayoutPanel2.ColumnCount = 1;
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            tableLayoutPanel2.Location = new Point(844, 476);
-            tableLayoutPanel2.Name = "tableLayoutPanel2";
-            tableLayoutPanel2.RowCount = 3;
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333359F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333359F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333359F));
-            tableLayoutPanel2.Size = new Size(200, 130);
-            tableLayoutPanel2.TabIndex = 3;
-            // 
-            // panel9
-            // 
-            panel9.Controls.Add(pictureBox2);
-            panel9.Location = new Point(844, 343);
-            panel9.Name = "panel9";
-            panel9.Size = new Size(200, 100);
-            panel9.TabIndex = 2;
+            FS_Panel.BorderStyle = BorderStyle.Fixed3D;
+            FS_Panel.Controls.Add(pictureBox2);
+            FS_Panel.Location = new Point(844, 315);
+            FS_Panel.Name = "FS_Panel";
+            FS_Panel.Size = new Size(200, 100);
+            FS_Panel.TabIndex = 2;
             // 
             // pictureBox2
             // 
-            pictureBox2.Dock = DockStyle.Fill;
             pictureBox2.Image = Properties.Resources.usp_banner;
             pictureBox2.Location = new Point(0, 0);
             pictureBox2.Name = "pictureBox2";
@@ -440,24 +485,23 @@
             // UC_Home
             // 
             AutoScaleMode = AutoScaleMode.None;
-            AutoScroll = true;
             BackColor = Color.FromArgb(72, 73, 85);
             Controls.Add(panel1);
             Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
             Margin = new Padding(3, 4, 3, 4);
             Name = "UC_Home";
-            Size = new Size(1060, 620);
+            Size = new Size(1060, 1200);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            panel3.ResumeLayout(false);
-            panel5.ResumeLayout(false);
-            panel5.PerformLayout();
+            Section02_Home.ResumeLayout(false);
+            HyperlinkedIconBox05.ResumeLayout(false);
+            HyperlinkedIconBox05.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
-            panel4.ResumeLayout(false);
-            panel4.PerformLayout();
+            HyperlinkedIconBox04.ResumeLayout(false);
+            HyperlinkedIconBox04.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
-            panel2.ResumeLayout(false);
-            panel2.PerformLayout();
+            HyperlinkedIconBox03.ResumeLayout(false);
+            HyperlinkedIconBox03.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             HyperlinkedIconBox02.ResumeLayout(false);
             HyperlinkedIconBox02.PerformLayout();
@@ -468,8 +512,7 @@
             Section1_Home.ResumeLayout(false);
             Section1_Home.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            flowLayoutPanel2.ResumeLayout(false);
-            panel9.ResumeLayout(false);
+            FS_Panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
         }
@@ -477,34 +520,36 @@
         #endregion
 
         private Panel panel1;
-        private TableLayoutPanel tableLayoutPanel2;
-        private Panel panel9;
+        private TableLayoutPanel WS_LPanel;
+        private Panel FS_Panel;
         private PictureBox pictureBox2;
         private TextBox textBox4;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private FlowLayoutPanel flowLayoutPanel2;
-        private Panel panel10;
-        private Panel panel11;
         private PictureBox pictureBox1;
         private TextBox textBox1;
         private RichTextBox richTextBox1;
         private LinkLabel linkLabel1;
-        private Panel panel3;
+        private Panel Section02_Home;
         private Panel Section1_Home;
         private PictureBox pictureBox3;
         private Panel HyperlinkedIconBox01;
         private Panel HyperlinkedIconBox02;
         private PictureBox pictureBox4;
         private LinkLabel linkLabel2;
-        private Panel panel2;
+        private Panel HyperlinkedIconBox03;
         private PictureBox pictureBox5;
         private LinkLabel linkLabel3;
-        private Panel panel4;
+        private Panel HyperlinkedIconBox04;
         private PictureBox pictureBox6;
         private LinkLabel linkLabel4;
-        private Panel panel5;
+        private Panel HyperlinkedIconBox05;
         private PictureBox pictureBox7;
         private LinkLabel linkLabel5;
+        private Panel FC_Panel;
+        private TextBox textBox5;
+        private TextBox textBox3;
+        private TableLayoutPanel CR_LPanel;
+        private TextBox textBox2;
+        private Panel BL_Panel;
+        private TextBox textBox6;
     }
 }
