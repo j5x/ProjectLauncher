@@ -42,7 +42,7 @@
             panel5 = new Panel();
             panel4 = new Panel();
             panel3 = new Panel();
-            panel2 = new Panel();
+            FC_Container01 = new Panel();
             richTextBox2 = new RichTextBox();
             textBox7 = new TextBox();
             pictureBox8 = new PictureBox();
@@ -71,7 +71,7 @@
             pictureBox2 = new PictureBox();
             panel1.SuspendLayout();
             FC_Panel.SuspendLayout();
-            panel2.SuspendLayout();
+            FC_Container01.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             Section02_Home.SuspendLayout();
             HyperlinkedIconBox05.SuspendLayout();
@@ -197,7 +197,7 @@
             FC_Panel.Controls.Add(panel5);
             FC_Panel.Controls.Add(panel4);
             FC_Panel.Controls.Add(panel3);
-            FC_Panel.Controls.Add(panel2);
+            FC_Panel.Controls.Add(FC_Container01);
             FC_Panel.Location = new Point(4, 315);
             FC_Panel.Margin = new Padding(6);
             FC_Panel.Name = "FC_Panel";
@@ -220,7 +220,7 @@
             // 
             // panel4
             // 
-            panel4.Location = new Point(9, 251);
+            panel4.Location = new Point(10, 251);
             panel4.Name = "panel4";
             panel4.Size = new Size(193, 145);
             panel4.TabIndex = 2;
@@ -232,56 +232,60 @@
             panel3.Size = new Size(375, 236);
             panel3.TabIndex = 1;
             // 
-            // panel2
+            // FC_Container01
             // 
-            panel2.Controls.Add(richTextBox2);
-            panel2.Controls.Add(textBox7);
-            panel2.Controls.Add(pictureBox8);
-            panel2.Location = new Point(9, 4);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(348, 236);
-            panel2.TabIndex = 0;
+            FC_Container01.BackColor = SystemColors.ActiveBorder;
+            FC_Container01.Controls.Add(richTextBox2);
+            FC_Container01.Controls.Add(textBox7);
+            FC_Container01.Controls.Add(pictureBox8);
+            FC_Container01.Location = new Point(8, 0);
+            FC_Container01.Name = "FC_Container01";
+            FC_Container01.Size = new Size(326, 236);
+            FC_Container01.TabIndex = 0;
             // 
             // richTextBox2
             // 
-            richTextBox2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             richTextBox2.BackColor = SystemColors.ActiveBorder;
             richTextBox2.BorderStyle = BorderStyle.None;
-            richTextBox2.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            richTextBox2.Dock = DockStyle.Bottom;
+            richTextBox2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             richTextBox2.ForeColor = SystemColors.Window;
             richTextBox2.Location = new Point(0, 156);
             richTextBox2.Margin = new Padding(0);
             richTextBox2.Name = "richTextBox2";
             richTextBox2.ReadOnly = true;
             richTextBox2.ScrollBars = RichTextBoxScrollBars.None;
-            richTextBox2.Size = new Size(370, 80);
+            richTextBox2.Size = new Size(326, 80);
             richTextBox2.TabIndex = 11;
-            richTextBox2.Text = "\nThis project includes 500+ AAA quality animations to help you get\nstarted with Motion Matching.\n";
-            richTextBox2.ZoomFactor = 0.82F;
+            richTextBox2.Text = "This project includes 500+ AAA quality animations to help you get started\nwith Motion Matching.\n";
+            richTextBox2.WordWrap = false;
+            richTextBox2.ZoomFactor = 0.86F;
             // 
             // textBox7
             // 
-            textBox7.BackColor = Color.FromArgb(72, 73, 85);
-            textBox7.BorderStyle = BorderStyle.FixedSingle;
-            textBox7.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox7.BackColor = SystemColors.ActiveBorder;
+            textBox7.BorderStyle = BorderStyle.None;
+            textBox7.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
             textBox7.ForeColor = SystemColors.Window;
             textBox7.Location = new Point(0, 92);
             textBox7.Margin = new Padding(0);
             textBox7.Multiline = true;
             textBox7.Name = "textBox7";
             textBox7.ReadOnly = true;
-            textBox7.Size = new Size(281, 64);
+            textBox7.Size = new Size(326, 64);
             textBox7.TabIndex = 1;
             textBox7.TabStop = false;
             textBox7.Text = "Game Animation Sample Project Released!";
+            textBox7.TextAlign = HorizontalAlignment.Center;
             // 
             // pictureBox8
             // 
+            pictureBox8.Dock = DockStyle.Top;
             pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
             pictureBox8.Location = new Point(0, 0);
             pictureBox8.Margin = new Padding(0);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(348, 92);
+            pictureBox8.Size = new Size(326, 92);
             pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox8.TabIndex = 0;
             pictureBox8.TabStop = false;
@@ -594,8 +598,8 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             FC_Panel.ResumeLayout(false);
-            panel2.ResumeLayout(false);
-            panel2.PerformLayout();
+            FC_Container01.ResumeLayout(false);
+            FC_Container01.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             Section02_Home.ResumeLayout(false);
             HyperlinkedIconBox05.ResumeLayout(false);
@@ -655,7 +659,7 @@
         private TextBox textBox2;
         private Panel BL_Panel;
         private TextBox textBox6;
-        private Panel panel2;
+        private Panel FC_Container01;
         private Panel panel3;
         private Panel panel6;
         private Panel panel5;
