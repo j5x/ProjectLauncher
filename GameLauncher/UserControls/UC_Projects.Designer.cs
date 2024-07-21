@@ -36,7 +36,7 @@
             Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
             Margin = new Padding(3, 4, 3, 4);
             Name = "UC_Projects";
-            Size = new Size(1080, 640);
+            Size = new Size(1080, 620);
             ResumeLayout(false);
         }
 

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Home));
             panel1 = new Panel();
             richTextBox1 = new RichTextBox();
@@ -43,7 +42,6 @@
             tableLayoutPanel2 = new TableLayoutPanel();
             panel9 = new Panel();
             pictureBox2 = new PictureBox();
-            contextMenuStrip1 = new ContextMenuStrip(components);
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             flowLayoutPanel2.SuspendLayout();
@@ -189,11 +187,6 @@
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
             // 
-            // contextMenuStrip1
-            // 
-            contextMenuStrip1.Name = "contextMenuStrip1";
-            contextMenuStrip1.Size = new Size(61, 4);
-            // 
             // UC_Home
             // 
             AutoScaleMode = AutoScaleMode.None;
@@ -226,7 +219,6 @@
         private Panel panel10;
         private Panel panel11;
         private PictureBox pictureBox1;
-        private ContextMenuStrip contextMenuStrip1;
         private TextBox textBox1;
         private RichTextBox richTextBox1;
     }

@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
-            panel1 = new Panel();
             uC_Home1 = new UserControls.UC_Home();
             panelContainer = new Panel();
+            vScrollBar1 = new VScrollBar();
             panel3 = new Panel();
             button11 = new Button();
             button5 = new Button();
@@ -58,8 +58,6 @@
             panel4 = new Panel();
             button6 = new Button();
             pictureBox2 = new PictureBox();
-            vScrollBar1 = new VScrollBar();
-            panel1.SuspendLayout();
             panelContainer.SuspendLayout();
             panel3.SuspendLayout();
             panel2.SuspendLayout();
@@ -77,35 +75,33 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
-            // panel1
-            // 
-            panel1.BorderStyle = BorderStyle.FixedSingle;
-            panel1.Controls.Add(uC_Home1);
-            panel1.Location = new Point(3, 2);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(1060, 620);
-            panel1.TabIndex = 0;
-            // 
             // uC_Home1
             // 
             uC_Home1.AutoScroll = true;
             uC_Home1.BackColor = Color.FromArgb(72, 73, 85);
             uC_Home1.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            uC_Home1.Location = new Point(-1, -1);
-            uC_Home1.Margin = new Padding(3, 4, 3, 4);
+            uC_Home1.Location = new Point(0, 0);
+            uC_Home1.Margin = new Padding(0);
             uC_Home1.Name = "uC_Home1";
-            uC_Home1.Size = new Size(1080, 640);
+            uC_Home1.Size = new Size(1060, 620);
             uC_Home1.TabIndex = 0;
             // 
             // panelContainer
             // 
-            panelContainer.Controls.Add(vScrollBar1);
-            panelContainer.Controls.Add(panel1);
-            panelContainer.Dock = DockStyle.Fill;
+            panelContainer.Controls.Add(uC_Home1);
             panelContainer.Location = new Point(200, 80);
+            panelContainer.Margin = new Padding(0);
             panelContainer.Name = "panelContainer";
-            panelContainer.Size = new Size(1080, 640);
+            panelContainer.Size = new Size(1060, 640);
             panelContainer.TabIndex = 2;
+            // 
+            // vScrollBar1
+            // 
+            vScrollBar1.Dock = DockStyle.Right;
+            vScrollBar1.Location = new Point(1260, 80);
+            vScrollBar1.Name = "vScrollBar1";
+            vScrollBar1.Size = new Size(20, 640);
+            vScrollBar1.TabIndex = 1;
             // 
             // panel3
             // 
@@ -424,22 +420,15 @@
             pictureBox2.TabIndex = 3;
             pictureBox2.TabStop = false;
             // 
-            // vScrollBar1
-            // 
-            vScrollBar1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            vScrollBar1.Location = new Point(1060, 0);
-            vScrollBar1.Name = "vScrollBar1";
-            vScrollBar1.Size = new Size(18, 640);
-            vScrollBar1.TabIndex = 1;
-            // 
             // Form2
             // 
             AutoScaleMode = AutoScaleMode.None;
             AutoScroll = true;
             ClientSize = new Size(1280, 720);
-            Controls.Add(panelContainer);
+            Controls.Add(vScrollBar1);
             Controls.Add(panel3);
             Controls.Add(panel2);
+            Controls.Add(panelContainer);
             FormBorderStyle = FormBorderStyle.None;
             MaximumSize = new Size(2160, 1440);
             MinimumSize = new Size(800, 500);
@@ -447,7 +436,6 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form2";
             WindowState = FormWindowState.Minimized;
-            panel1.ResumeLayout(false);
             panelContainer.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel2.ResumeLayout(false);
@@ -468,8 +456,6 @@
         }
 
         #endregion
-
-        private Panel panel1;
         private Panel panel2;
         private Panel panel3;
         private PictureBox pictureBox1;
