@@ -97,7 +97,8 @@
             // 
             // vScrollBar1
             // 
-            vScrollBar1.Dock = DockStyle.Right;
+            vScrollBar1.AccessibleRole = AccessibleRole.ScrollBar;
+            vScrollBar1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
             vScrollBar1.Location = new Point(1260, 80);
             vScrollBar1.Name = "vScrollBar1";
             vScrollBar1.Size = new Size(20, 640);
