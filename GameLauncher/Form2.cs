@@ -8,8 +8,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
+using System.IO;
+using System.IO.Compression;
+using System.Net;
+using Newtonsoft.Json.Linq;
 
-namespace GameLauncher.Properties
+namespace GameLauncher
 {
     public partial class Form2 : Form
     {

@@ -1,4 +1,4 @@
-﻿namespace GameLauncher.Properties
+﻿namespace GameLauncher
 {
     partial class Form2
     {
@@ -423,6 +423,7 @@
             // 
             // Form2
             // 
+            AccessibleRole = AccessibleRole.Client;
             AutoScaleMode = AutoScaleMode.None;
             AutoScroll = true;
             BackColor = Color.FromArgb(72, 73, 85);
@@ -437,7 +438,6 @@
             Name = "Form2";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form2";
-            WindowState = FormWindowState.Minimized;
             panelContainer.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel2.ResumeLayout(false);
