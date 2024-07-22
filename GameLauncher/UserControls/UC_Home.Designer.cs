@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Home));
             panel1 = new Panel();
             BL_Panel = new Panel();
+            panel4 = new Panel();
             textBox6 = new TextBox();
             CR_LPanel = new TableLayoutPanel();
             textBox2 = new TextBox();
@@ -38,9 +39,6 @@
             textBox3 = new TextBox();
             textBox5 = new TextBox();
             FC_Panel = new Panel();
-            panel6 = new Panel();
-            panel5 = new Panel();
-            panel4 = new Panel();
             panel3 = new Panel();
             FC_Container01 = new Panel();
             richTextBox2 = new RichTextBox();
@@ -69,7 +67,12 @@
             textBox4 = new TextBox();
             FS_Panel = new Panel();
             pictureBox2 = new PictureBox();
+            richTextBox3 = new RichTextBox();
+            textBox8 = new TextBox();
+            pictureBox9 = new PictureBox();
+            panel2 = new Panel();
             panel1.SuspendLayout();
+            BL_Panel.SuspendLayout();
             FC_Panel.SuspendLayout();
             FC_Container01.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
@@ -88,6 +91,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             FS_Panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -107,15 +112,23 @@
             panel1.Location = new Point(0, 0);
             panel1.Margin = new Padding(4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1056, 1280);
+            panel1.Size = new Size(1060, 1500);
             panel1.TabIndex = 0;
             // 
             // BL_Panel
             // 
-            BL_Panel.Location = new Point(4, 768);
+            BL_Panel.Controls.Add(panel4);
+            BL_Panel.Location = new Point(4, 997);
             BL_Panel.Name = "BL_Panel";
             BL_Panel.Size = new Size(800, 500);
             BL_Panel.TabIndex = 20;
+            // 
+            // panel4
+            // 
+            panel4.Location = new Point(41, 30);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(193, 145);
+            panel4.TabIndex = 2;
             // 
             // textBox6
             // 
@@ -123,7 +136,7 @@
             textBox6.BorderStyle = BorderStyle.None;
             textBox6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             textBox6.ForeColor = SystemColors.Window;
-            textBox6.Location = new Point(14, 740);
+            textBox6.Location = new Point(14, 969);
             textBox6.Name = "textBox6";
             textBox6.Size = new Size(208, 22);
             textBox6.TabIndex = 19;
@@ -133,7 +146,7 @@
             // 
             CR_LPanel.ColumnCount = 1;
             CR_LPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            CR_LPanel.Location = new Point(829, 768);
+            CR_LPanel.Location = new Point(829, 997);
             CR_LPanel.Name = "CR_LPanel";
             CR_LPanel.RowCount = 2;
             CR_LPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
@@ -147,7 +160,7 @@
             textBox2.BorderStyle = BorderStyle.None;
             textBox2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             textBox2.ForeColor = SystemColors.Window;
-            textBox2.Location = new Point(829, 741);
+            textBox2.Location = new Point(829, 970);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(208, 22);
             textBox2.TabIndex = 17;
@@ -193,9 +206,7 @@
             // FC_Panel
             // 
             FC_Panel.BorderStyle = BorderStyle.FixedSingle;
-            FC_Panel.Controls.Add(panel6);
-            FC_Panel.Controls.Add(panel5);
-            FC_Panel.Controls.Add(panel4);
+            FC_Panel.Controls.Add(panel2);
             FC_Panel.Controls.Add(panel3);
             FC_Panel.Controls.Add(FC_Container01);
             FC_Panel.Location = new Point(4, 315);
@@ -203,27 +214,6 @@
             FC_Panel.Name = "FC_Panel";
             FC_Panel.Size = new Size(800, 400);
             FC_Panel.TabIndex = 14;
-            // 
-            // panel6
-            // 
-            panel6.Location = new Point(602, 246);
-            panel6.Name = "panel6";
-            panel6.Size = new Size(193, 150);
-            panel6.TabIndex = 3;
-            // 
-            // panel5
-            // 
-            panel5.Location = new Point(288, 251);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(193, 145);
-            panel5.TabIndex = 3;
-            // 
-            // panel4
-            // 
-            panel4.Location = new Point(10, 251);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(193, 145);
-            panel4.TabIndex = 2;
             // 
             // panel3
             // 
@@ -234,23 +224,22 @@
             // 
             // FC_Container01
             // 
-            FC_Container01.BackColor = SystemColors.ActiveBorder;
+            FC_Container01.BackColor = Color.Blue;
             FC_Container01.Controls.Add(richTextBox2);
             FC_Container01.Controls.Add(textBox7);
             FC_Container01.Controls.Add(pictureBox8);
             FC_Container01.Location = new Point(8, 0);
             FC_Container01.Name = "FC_Container01";
-            FC_Container01.Size = new Size(326, 236);
+            FC_Container01.Size = new Size(326, 318);
             FC_Container01.TabIndex = 0;
             // 
             // richTextBox2
             // 
-            richTextBox2.BackColor = SystemColors.ActiveBorder;
+            richTextBox2.BackColor = Color.Red;
             richTextBox2.BorderStyle = BorderStyle.None;
-            richTextBox2.Dock = DockStyle.Bottom;
             richTextBox2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             richTextBox2.ForeColor = SystemColors.Window;
-            richTextBox2.Location = new Point(0, 156);
+            richTextBox2.Location = new Point(0, 188);
             richTextBox2.Margin = new Padding(0);
             richTextBox2.Name = "richTextBox2";
             richTextBox2.ReadOnly = true;
@@ -263,16 +252,16 @@
             // 
             // textBox7
             // 
-            textBox7.BackColor = SystemColors.ActiveBorder;
+            textBox7.BackColor = Color.Lime;
             textBox7.BorderStyle = BorderStyle.None;
             textBox7.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
             textBox7.ForeColor = SystemColors.Window;
-            textBox7.Location = new Point(0, 92);
+            textBox7.Location = new Point(0, 124);
             textBox7.Margin = new Padding(0);
             textBox7.Multiline = true;
             textBox7.Name = "textBox7";
             textBox7.ReadOnly = true;
-            textBox7.Size = new Size(326, 64);
+            textBox7.Size = new Size(327, 64);
             textBox7.TabIndex = 1;
             textBox7.TabStop = false;
             textBox7.Text = "Game Animation Sample Project Released!";
@@ -285,7 +274,7 @@
             pictureBox8.Location = new Point(0, 0);
             pictureBox8.Margin = new Padding(0);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(326, 92);
+            pictureBox8.Size = new Size(326, 124);
             pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox8.TabIndex = 0;
             pictureBox8.TabStop = false;
@@ -298,10 +287,10 @@
             Section02_Home.Controls.Add(HyperlinkedIconBox03);
             Section02_Home.Controls.Add(HyperlinkedIconBox02);
             Section02_Home.Controls.Add(HyperlinkedIconBox01);
-            Section02_Home.Location = new Point(4, 230);
+            Section02_Home.Location = new Point(13, 230);
             Section02_Home.Margin = new Padding(4);
             Section02_Home.Name = "Section02_Home";
-            Section02_Home.Size = new Size(1040, 50);
+            Section02_Home.Size = new Size(1031, 50);
             Section02_Home.TabIndex = 13;
             // 
             // HyperlinkedIconBox05
@@ -507,10 +496,10 @@
             Section1_Home.Controls.Add(textBox1);
             Section1_Home.Controls.Add(richTextBox1);
             Section1_Home.Controls.Add(pictureBox1);
-            Section1_Home.Location = new Point(4, 4);
+            Section1_Home.Location = new Point(13, 8);
             Section1_Home.Margin = new Padding(4);
             Section1_Home.Name = "Section1_Home";
-            Section1_Home.Size = new Size(1040, 225);
+            Section1_Home.Size = new Size(1031, 225);
             Section1_Home.TabIndex = 12;
             // 
             // textBox1
@@ -525,20 +514,20 @@
             textBox1.ReadOnly = true;
             textBox1.Size = new Size(513, 27);
             textBox1.TabIndex = 9;
-            textBox1.Text = "   Isle Of Eline 0.2 Released";
+            textBox1.Text = " Isle Of Eline 0.2 Released";
             // 
             // richTextBox1
             // 
-            richTextBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             richTextBox1.BackColor = SystemColors.ActiveBorder;
             richTextBox1.BorderStyle = BorderStyle.None;
+            richTextBox1.Dock = DockStyle.Right;
             richTextBox1.ForeColor = SystemColors.Window;
-            richTextBox1.Location = new Point(525, 0);
+            richTextBox1.Location = new Point(515, 0);
             richTextBox1.Margin = new Padding(0);
             richTextBox1.Name = "richTextBox1";
             richTextBox1.ReadOnly = true;
             richTextBox1.ScrollBars = RichTextBoxScrollBars.None;
-            richTextBox1.Size = new Size(515, 225);
+            richTextBox1.Size = new Size(516, 225);
             richTextBox1.TabIndex = 10;
             richTextBox1.Text = resources.GetString("richTextBox1.Text");
             richTextBox1.ZoomFactor = 0.82F;
@@ -546,7 +535,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.urumabackground;
-            pictureBox1.Location = new Point(10, 0);
+            pictureBox1.Location = new Point(0, 0);
             pictureBox1.Margin = new Padding(0);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(515, 225);
@@ -586,6 +575,63 @@
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
             // 
+            // richTextBox3
+            // 
+            richTextBox3.BackColor = Color.Red;
+            richTextBox3.BorderStyle = BorderStyle.None;
+            richTextBox3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            richTextBox3.ForeColor = SystemColors.Window;
+            richTextBox3.Location = new Point(0, 188);
+            richTextBox3.Margin = new Padding(0);
+            richTextBox3.Name = "richTextBox3";
+            richTextBox3.ReadOnly = true;
+            richTextBox3.ScrollBars = RichTextBoxScrollBars.None;
+            richTextBox3.Size = new Size(326, 80);
+            richTextBox3.TabIndex = 11;
+            richTextBox3.Text = "This project includes 500+ AAA quality animations to help you get started\nwith Motion Matching.\n";
+            richTextBox3.WordWrap = false;
+            richTextBox3.ZoomFactor = 0.86F;
+            // 
+            // textBox8
+            // 
+            textBox8.BackColor = Color.Lime;
+            textBox8.BorderStyle = BorderStyle.None;
+            textBox8.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox8.ForeColor = SystemColors.Window;
+            textBox8.Location = new Point(0, 124);
+            textBox8.Margin = new Padding(0);
+            textBox8.Multiline = true;
+            textBox8.Name = "textBox8";
+            textBox8.ReadOnly = true;
+            textBox8.Size = new Size(327, 64);
+            textBox8.TabIndex = 1;
+            textBox8.TabStop = false;
+            textBox8.Text = "Game Animation Sample Project Released!";
+            textBox8.TextAlign = HorizontalAlignment.Center;
+            // 
+            // pictureBox9
+            // 
+            pictureBox9.Dock = DockStyle.Top;
+            pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
+            pictureBox9.Location = new Point(0, 0);
+            pictureBox9.Margin = new Padding(0);
+            pictureBox9.Name = "pictureBox9";
+            pictureBox9.Size = new Size(326, 124);
+            pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox9.TabIndex = 0;
+            pictureBox9.TabStop = false;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.Blue;
+            panel2.Controls.Add(richTextBox3);
+            panel2.Controls.Add(textBox8);
+            panel2.Controls.Add(pictureBox9);
+            panel2.Location = new Point(378, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(326, 318);
+            panel2.TabIndex = 4;
+            // 
             // UC_Home
             // 
             AutoScaleMode = AutoScaleMode.None;
@@ -594,9 +640,10 @@
             Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
             Margin = new Padding(3, 4, 3, 4);
             Name = "UC_Home";
-            Size = new Size(1060, 1280);
+            Size = new Size(1060, 1500);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            BL_Panel.ResumeLayout(false);
             FC_Panel.ResumeLayout(false);
             FC_Container01.ResumeLayout(false);
             FC_Container01.PerformLayout();
@@ -622,6 +669,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             FS_Panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -661,11 +711,13 @@
         private TextBox textBox6;
         private Panel FC_Container01;
         private Panel panel3;
-        private Panel panel6;
-        private Panel panel5;
         private Panel panel4;
         private PictureBox pictureBox8;
         private TextBox textBox7;
         private RichTextBox richTextBox2;
+        private Panel panel2;
+        private RichTextBox richTextBox3;
+        private TextBox textBox8;
+        private PictureBox pictureBox9;
     }
 }

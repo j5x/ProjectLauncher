@@ -87,6 +87,7 @@
             // 
             // panelContainer
             // 
+            panelContainer.BackColor = Color.FromArgb(72, 73, 85);
             panelContainer.Controls.Add(uC_Home1);
             panelContainer.Location = new Point(200, 80);
             panelContainer.Margin = new Padding(0);
@@ -424,6 +425,7 @@
             // 
             AutoScaleMode = AutoScaleMode.None;
             AutoScroll = true;
+            BackColor = Color.FromArgb(72, 73, 85);
             ClientSize = new Size(1280, 720);
             Controls.Add(vScrollBar1);
             Controls.Add(panel3);
