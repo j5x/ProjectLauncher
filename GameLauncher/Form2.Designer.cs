@@ -29,9 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
-            uC_Home1 = new UserControls.UC_Home();
             panelContainer = new Panel();
-            vScrollBar1 = new VScrollBar();
             panel3 = new Panel();
             button11 = new Button();
             button5 = new Button();
@@ -58,7 +56,7 @@
             panel4 = new Panel();
             button6 = new Button();
             pictureBox2 = new PictureBox();
-            panelContainer.SuspendLayout();
+            uC_Home1 = new UserControls.UC_Home();
             panel3.SuspendLayout();
             panel2.SuspendLayout();
             panel8.SuspendLayout();
@@ -75,34 +73,15 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
-            // uC_Home1
-            // 
-            uC_Home1.BackColor = Color.FromArgb(72, 73, 85);
-            uC_Home1.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
-            uC_Home1.Location = new Point(0, 0);
-            uC_Home1.Margin = new Padding(0);
-            uC_Home1.Name = "uC_Home1";
-            uC_Home1.Size = new Size(1060, 620);
-            uC_Home1.TabIndex = 0;
-            // 
             // panelContainer
             // 
+            panelContainer.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             panelContainer.BackColor = Color.FromArgb(72, 73, 85);
-            panelContainer.Controls.Add(uC_Home1);
-            panelContainer.Location = new Point(200, 80);
+            panelContainer.Location = new Point(200, 78);
             panelContainer.Margin = new Padding(0);
             panelContainer.Name = "panelContainer";
-            panelContainer.Size = new Size(1060, 640);
+            panelContainer.Size = new Size(1080, 640);
             panelContainer.TabIndex = 2;
-            // 
-            // vScrollBar1
-            // 
-            vScrollBar1.AccessibleRole = AccessibleRole.ScrollBar;
-            vScrollBar1.Dock = DockStyle.Right;
-            vScrollBar1.Location = new Point(1260, 80);
-            vScrollBar1.Name = "vScrollBar1";
-            vScrollBar1.Size = new Size(20, 640);
-            vScrollBar1.TabIndex = 1;
             // 
             // panel3
             // 
@@ -224,6 +203,7 @@
             panel2.BorderStyle = BorderStyle.FixedSingle;
             panel2.Controls.Add(panel8);
             panel2.Controls.Add(panel7);
+            panel2.Controls.Add(panelContainer);
             panel2.Controls.Add(panel6);
             panel2.Controls.Add(flowLayoutPanel1);
             panel2.Controls.Add(panel5);
@@ -421,6 +401,19 @@
             pictureBox2.TabIndex = 3;
             pictureBox2.TabStop = false;
             // 
+            // uC_Home1
+            // 
+            uC_Home1.AccessibleRole = AccessibleRole.Client;
+            uC_Home1.AutoScroll = true;
+            uC_Home1.BackColor = Color.FromArgb(72, 73, 85);
+            uC_Home1.Dock = DockStyle.Fill;
+            uC_Home1.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            uC_Home1.Location = new Point(200, 80);
+            uC_Home1.Margin = new Padding(0);
+            uC_Home1.Name = "uC_Home1";
+            uC_Home1.Size = new Size(1080, 640);
+            uC_Home1.TabIndex = 2;
+            // 
             // Form2
             // 
             AccessibleRole = AccessibleRole.Client;
@@ -428,17 +421,15 @@
             AutoScroll = true;
             BackColor = Color.FromArgb(72, 73, 85);
             ClientSize = new Size(1280, 720);
-            Controls.Add(vScrollBar1);
+            Controls.Add(uC_Home1);
             Controls.Add(panel3);
             Controls.Add(panel2);
-            Controls.Add(panelContainer);
             FormBorderStyle = FormBorderStyle.None;
             MaximumSize = new Size(2160, 1440);
             MinimumSize = new Size(800, 500);
             Name = "Form2";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form2";
-            panelContainer.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel8.ResumeLayout(false);
@@ -486,6 +477,5 @@
         private PictureBox pictureBox6;
         private Button button11;
         private UserControls.UC_Home uC_Home1;
-        private VScrollBar vScrollBar1;
     }
 }
