@@ -112,7 +112,7 @@
             button11.Name = "button11";
             button11.Size = new Size(128, 64);
             button11.TabIndex = 5;
-            button11.Text = "Launch\r\nIsle Of Eline v0.0.2\r\n";
+            button11.Text = "Launch\r\nIsle Of Eline v0.02\r\n";
             button11.UseVisualStyleBackColor = true;
             // 
             // button5
@@ -406,12 +406,11 @@
             uC_Home1.AccessibleRole = AccessibleRole.Client;
             uC_Home1.AutoScroll = true;
             uC_Home1.BackColor = Color.FromArgb(72, 73, 85);
-            uC_Home1.Dock = DockStyle.Fill;
             uC_Home1.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
             uC_Home1.Location = new Point(200, 80);
             uC_Home1.Margin = new Padding(0);
             uC_Home1.Name = "uC_Home1";
-            uC_Home1.Size = new Size(1080, 640);
+            uC_Home1.Size = new Size(1080, 638);
             uC_Home1.TabIndex = 2;
             // 
             // Form2
