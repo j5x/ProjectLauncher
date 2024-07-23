@@ -41,9 +41,14 @@
             textBox5 = new TextBox();
             FC_Panel = new Panel();
             panel7 = new Panel();
+            textBox12 = new TextBox();
+            richTextBox11 = new RichTextBox();
+            pictureBox21 = new PictureBox();
+            richTextBox10 = new RichTextBox();
             pictureBox17 = new PictureBox();
             pictureBox18 = new PictureBox();
             panel6 = new Panel();
+            pictureBox20 = new PictureBox();
             richTextBox8 = new RichTextBox();
             richTextBox9 = new RichTextBox();
             textBox11 = new TextBox();
@@ -93,18 +98,15 @@
             FS_Panel = new Panel();
             textBox9 = new TextBox();
             pictureBox2 = new PictureBox();
-            pictureBox20 = new PictureBox();
-            richTextBox10 = new RichTextBox();
-            pictureBox21 = new PictureBox();
-            richTextBox11 = new RichTextBox();
-            textBox12 = new TextBox();
             panel1.SuspendLayout();
             BL_Panel.SuspendLayout();
             FC_Panel.SuspendLayout();
             panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox21).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox18).BeginInit();
             panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox20).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
             panel5.SuspendLayout();
@@ -133,8 +135,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             FS_Panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox20).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox21).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -142,6 +142,7 @@
             panel1.Controls.Add(BL_Panel);
             panel1.Controls.Add(textBox6);
             panel1.Controls.Add(CR_LPanel);
+            panel1.Controls.Add(panel2);
             panel1.Controls.Add(textBox2);
             panel1.Controls.Add(WS_LPanel);
             panel1.Controls.Add(textBox3);
@@ -259,12 +260,11 @@
             FC_Panel.Controls.Add(panel7);
             FC_Panel.Controls.Add(panel6);
             FC_Panel.Controls.Add(panel5);
-            FC_Panel.Controls.Add(panel2);
             FC_Panel.Controls.Add(FC_Container01);
             FC_Panel.Location = new Point(10, 400);
             FC_Panel.Margin = new Padding(6);
             FC_Panel.Name = "FC_Panel";
-            FC_Panel.Size = new Size(816, 759);
+            FC_Panel.Size = new Size(780, 775);
             FC_Panel.TabIndex = 14;
             // 
             // panel7
@@ -276,11 +276,68 @@
             panel7.Controls.Add(richTextBox10);
             panel7.Controls.Add(pictureBox17);
             panel7.Controls.Add(pictureBox18);
-            panel7.Location = new Point(565, 409);
+            panel7.Location = new Point(530, 415);
             panel7.Margin = new Padding(0);
             panel7.Name = "panel7";
             panel7.Size = new Size(250, 350);
             panel7.TabIndex = 15;
+            // 
+            // textBox12
+            // 
+            textBox12.BackColor = SystemColors.ActiveBorder;
+            textBox12.BorderStyle = BorderStyle.None;
+            textBox12.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox12.ForeColor = SystemColors.Window;
+            textBox12.Location = new Point(0, 135);
+            textBox12.Margin = new Padding(0);
+            textBox12.Multiline = true;
+            textBox12.Name = "textBox12";
+            textBox12.ReadOnly = true;
+            textBox12.Size = new Size(250, 50);
+            textBox12.TabIndex = 19;
+            textBox12.TabStop = false;
+            textBox12.Text = "  Featured free Unreal\r\n  Marketplace content\r\n  June 2024";
+            // 
+            // richTextBox11
+            // 
+            richTextBox11.BackColor = SystemColors.ActiveBorder;
+            richTextBox11.BorderStyle = BorderStyle.None;
+            richTextBox11.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            richTextBox11.ForeColor = SystemColors.Window;
+            richTextBox11.Location = new Point(0, 190);
+            richTextBox11.Margin = new Padding(0);
+            richTextBox11.Name = "richTextBox11";
+            richTextBox11.ReadOnly = true;
+            richTextBox11.ScrollBars = RichTextBoxScrollBars.None;
+            richTextBox11.Size = new Size(250, 100);
+            richTextBox11.TabIndex = 18;
+            richTextBox11.Text = resources.GetString("richTextBox11.Text");
+            richTextBox11.WordWrap = false;
+            richTextBox11.ZoomFactor = 0.95F;
+            // 
+            // pictureBox21
+            // 
+            pictureBox21.BackColor = Color.White;
+            pictureBox21.Image = (Image)resources.GetObject("pictureBox21.Image");
+            pictureBox21.Location = new Point(222, 319);
+            pictureBox21.Margin = new Padding(0);
+            pictureBox21.Name = "pictureBox21";
+            pictureBox21.Size = new Size(16, 16);
+            pictureBox21.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox21.TabIndex = 17;
+            pictureBox21.TabStop = false;
+            // 
+            // richTextBox10
+            // 
+            richTextBox10.BackColor = SystemColors.ActiveBorder;
+            richTextBox10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            richTextBox10.ForeColor = SystemColors.Window;
+            richTextBox10.Location = new Point(-2, 298);
+            richTextBox10.Margin = new Padding(0);
+            richTextBox10.Name = "richTextBox10";
+            richTextBox10.Size = new Size(254, 54);
+            richTextBox10.TabIndex = 17;
+            richTextBox10.Text = "     \n     News";
             // 
             // pictureBox17
             // 
@@ -315,11 +372,23 @@
             panel6.Controls.Add(textBox11);
             panel6.Controls.Add(pictureBox15);
             panel6.Controls.Add(pictureBox16);
-            panel6.Location = new Point(278, 409);
+            panel6.Location = new Point(265, 415);
             panel6.Margin = new Padding(0);
             panel6.Name = "panel6";
             panel6.Size = new Size(250, 350);
             panel6.TabIndex = 14;
+            // 
+            // pictureBox20
+            // 
+            pictureBox20.BackColor = Color.White;
+            pictureBox20.Image = (Image)resources.GetObject("pictureBox20.Image");
+            pictureBox20.Location = new Point(223, 319);
+            pictureBox20.Margin = new Padding(0);
+            pictureBox20.Name = "pictureBox20";
+            pictureBox20.Size = new Size(16, 16);
+            pictureBox20.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox20.TabIndex = 15;
+            pictureBox20.TabStop = false;
             // 
             // richTextBox8
             // 
@@ -399,7 +468,7 @@
             panel5.Controls.Add(richTextBox7);
             panel5.Controls.Add(textBox10);
             panel5.Controls.Add(pictureBox14);
-            panel5.Location = new Point(0, 412);
+            panel5.Location = new Point(0, 415);
             panel5.Margin = new Padding(0);
             panel5.Name = "panel5";
             panel5.Size = new Size(250, 350);
@@ -494,16 +563,16 @@
             panel2.Controls.Add(richTextBox5);
             panel2.Controls.Add(textBox8);
             panel2.Controls.Add(pictureBox9);
-            panel2.Location = new Point(415, 0);
+            panel2.Location = new Point(410, 400);
             panel2.Name = "panel2";
-            panel2.Size = new Size(400, 400);
+            panel2.Size = new Size(380, 400);
             panel2.TabIndex = 4;
             // 
             // pictureBox12
             // 
             pictureBox12.BackColor = Color.White;
             pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
-            pictureBox12.Location = new Point(372, 358);
+            pictureBox12.Location = new Point(352, 358);
             pictureBox12.Margin = new Padding(0);
             pictureBox12.Name = "pictureBox12";
             pictureBox12.Size = new Size(16, 16);
@@ -522,7 +591,7 @@
             richTextBox3.Name = "richTextBox3";
             richTextBox3.ReadOnly = true;
             richTextBox3.ScrollBars = RichTextBoxScrollBars.None;
-            richTextBox3.Size = new Size(400, 100);
+            richTextBox3.Size = new Size(380, 120);
             richTextBox3.TabIndex = 11;
             richTextBox3.Text = resources.GetString("richTextBox3.Text");
             richTextBox3.ZoomFactor = 0.95F;
@@ -535,7 +604,7 @@
             richTextBox5.Location = new Point(-2, 348);
             richTextBox5.Margin = new Padding(0);
             richTextBox5.Name = "richTextBox5";
-            richTextBox5.Size = new Size(404, 54);
+            richTextBox5.Size = new Size(384, 54);
             richTextBox5.TabIndex = 14;
             richTextBox5.Text = "     \n     Inside Unreal";
             // 
@@ -563,7 +632,7 @@
             pictureBox9.Location = new Point(0, 0);
             pictureBox9.Margin = new Padding(0);
             pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(400, 150);
+            pictureBox9.Size = new Size(380, 150);
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox9.TabIndex = 0;
             pictureBox9.TabStop = false;
@@ -579,14 +648,14 @@
             FC_Container01.Location = new Point(0, 0);
             FC_Container01.Margin = new Padding(0);
             FC_Container01.Name = "FC_Container01";
-            FC_Container01.Size = new Size(400, 400);
+            FC_Container01.Size = new Size(380, 400);
             FC_Container01.TabIndex = 0;
             // 
             // pictureBox10
             // 
             pictureBox10.BackColor = Color.White;
             pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
-            pictureBox10.Location = new Point(372, 358);
+            pictureBox10.Location = new Point(352, 358);
             pictureBox10.Margin = new Padding(0);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(16, 16);
@@ -617,9 +686,9 @@
             richTextBox2.Name = "richTextBox2";
             richTextBox2.ReadOnly = true;
             richTextBox2.ScrollBars = RichTextBoxScrollBars.None;
-            richTextBox2.Size = new Size(400, 100);
+            richTextBox2.Size = new Size(380, 100);
             richTextBox2.TabIndex = 11;
-            richTextBox2.Text = "    This project includes 500+ AAA quality animations to help you get started\n    with Motion Matching.";
+            richTextBox2.Text = "    This project includes 500+ AAA quality animations to help you get \n    started with Motion Matching.";
             richTextBox2.ZoomFactor = 0.95F;
             // 
             // textBox7
@@ -646,7 +715,7 @@
             pictureBox8.Location = new Point(0, 0);
             pictureBox8.Margin = new Padding(0);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(400, 125);
+            pictureBox8.Size = new Size(380, 125);
             pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox8.TabIndex = 0;
             pictureBox8.TabStop = false;
@@ -891,13 +960,13 @@
             // 
             textBox1.BackColor = SystemColors.ActiveBorder;
             textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
             textBox1.ForeColor = SystemColors.Window;
             textBox1.Location = new Point(525, 20);
             textBox1.Margin = new Padding(0);
             textBox1.Name = "textBox1";
             textBox1.ReadOnly = true;
-            textBox1.Size = new Size(497, 27);
+            textBox1.Size = new Size(497, 32);
             textBox1.TabIndex = 9;
             textBox1.Text = " Isle Of Eline V0.02 Released";
             // 
@@ -946,13 +1015,15 @@
             FS_Panel.Controls.Add(textBox9);
             FS_Panel.Controls.Add(pictureBox2);
             FS_Panel.Location = new Point(844, 405);
+            FS_Panel.Margin = new Padding(0);
             FS_Panel.Name = "FS_Panel";
-            FS_Panel.Size = new Size(200, 196);
+            FS_Panel.Size = new Size(200, 188);
             FS_Panel.TabIndex = 2;
             // 
             // textBox9
             // 
             textBox9.BackColor = SystemColors.ActiveCaptionText;
+            textBox9.BorderStyle = BorderStyle.FixedSingle;
             textBox9.ForeColor = SystemColors.Window;
             textBox9.Location = new Point(-1, 160);
             textBox9.Margin = new Padding(0);
@@ -972,75 +1043,6 @@
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
             // 
-            // pictureBox20
-            // 
-            pictureBox20.BackColor = Color.White;
-            pictureBox20.Image = (Image)resources.GetObject("pictureBox20.Image");
-            pictureBox20.Location = new Point(223, 319);
-            pictureBox20.Margin = new Padding(0);
-            pictureBox20.Name = "pictureBox20";
-            pictureBox20.Size = new Size(16, 16);
-            pictureBox20.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox20.TabIndex = 15;
-            pictureBox20.TabStop = false;
-            // 
-            // richTextBox10
-            // 
-            richTextBox10.BackColor = SystemColors.ActiveBorder;
-            richTextBox10.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            richTextBox10.ForeColor = SystemColors.Window;
-            richTextBox10.Location = new Point(-2, 298);
-            richTextBox10.Margin = new Padding(0);
-            richTextBox10.Name = "richTextBox10";
-            richTextBox10.Size = new Size(254, 54);
-            richTextBox10.TabIndex = 17;
-            richTextBox10.Text = "     \n     News";
-            // 
-            // pictureBox21
-            // 
-            pictureBox21.BackColor = Color.White;
-            pictureBox21.Image = (Image)resources.GetObject("pictureBox21.Image");
-            pictureBox21.Location = new Point(222, 319);
-            pictureBox21.Margin = new Padding(0);
-            pictureBox21.Name = "pictureBox21";
-            pictureBox21.Size = new Size(16, 16);
-            pictureBox21.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox21.TabIndex = 17;
-            pictureBox21.TabStop = false;
-            // 
-            // richTextBox11
-            // 
-            richTextBox11.BackColor = SystemColors.ActiveBorder;
-            richTextBox11.BorderStyle = BorderStyle.None;
-            richTextBox11.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            richTextBox11.ForeColor = SystemColors.Window;
-            richTextBox11.Location = new Point(0, 190);
-            richTextBox11.Margin = new Padding(0);
-            richTextBox11.Name = "richTextBox11";
-            richTextBox11.ReadOnly = true;
-            richTextBox11.ScrollBars = RichTextBoxScrollBars.None;
-            richTextBox11.Size = new Size(250, 100);
-            richTextBox11.TabIndex = 18;
-            richTextBox11.Text = resources.GetString("richTextBox11.Text");
-            richTextBox11.WordWrap = false;
-            richTextBox11.ZoomFactor = 0.95F;
-            // 
-            // textBox12
-            // 
-            textBox12.BackColor = SystemColors.ActiveBorder;
-            textBox12.BorderStyle = BorderStyle.None;
-            textBox12.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox12.ForeColor = SystemColors.Window;
-            textBox12.Location = new Point(0, 135);
-            textBox12.Margin = new Padding(0);
-            textBox12.Multiline = true;
-            textBox12.Name = "textBox12";
-            textBox12.ReadOnly = true;
-            textBox12.Size = new Size(250, 50);
-            textBox12.TabIndex = 19;
-            textBox12.TabStop = false;
-            textBox12.Text = "  Featured free Unreal\r\n  Marketplace content\r\n  June 2024";
-            // 
             // UC_Home
             // 
             AutoScaleMode = AutoScaleMode.None;
@@ -1057,10 +1059,12 @@
             FC_Panel.ResumeLayout(false);
             panel7.ResumeLayout(false);
             panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox21).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox17).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox18).EndInit();
             panel6.ResumeLayout(false);
             panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox20).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
             panel5.ResumeLayout(false);
@@ -1099,8 +1103,6 @@
             FS_Panel.ResumeLayout(false);
             FS_Panel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox20).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox21).EndInit();
             ResumeLayout(false);
         }
 
