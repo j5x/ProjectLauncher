@@ -98,6 +98,15 @@
             FS_Panel = new Panel();
             textBox9 = new TextBox();
             pictureBox2 = new PictureBox();
+            panel8 = new Panel();
+            textBox13 = new TextBox();
+            pictureBox22 = new PictureBox();
+            panel9 = new Panel();
+            textBox14 = new TextBox();
+            pictureBox23 = new PictureBox();
+            panel10 = new Panel();
+            textBox15 = new TextBox();
+            pictureBox24 = new PictureBox();
             panel1.SuspendLayout();
             BL_Panel.SuspendLayout();
             FC_Panel.SuspendLayout();
@@ -135,10 +144,19 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             FS_Panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox22).BeginInit();
+            panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox23).BeginInit();
+            panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox24).BeginInit();
             SuspendLayout();
             // 
             // panel1
             // 
+            panel1.Controls.Add(panel10);
+            panel1.Controls.Add(panel9);
+            panel1.Controls.Add(panel8);
             panel1.Controls.Add(BL_Panel);
             panel1.Controls.Add(textBox6);
             panel1.Controls.Add(CR_LPanel);
@@ -236,7 +254,7 @@
             textBox3.BorderStyle = BorderStyle.None;
             textBox3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             textBox3.ForeColor = SystemColors.Window;
-            textBox3.Location = new Point(844, 607);
+            textBox3.Location = new Point(845, 600);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(200, 22);
             textBox3.TabIndex = 16;
@@ -248,7 +266,7 @@
             textBox5.BorderStyle = BorderStyle.None;
             textBox5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             textBox5.ForeColor = SystemColors.Window;
-            textBox5.Location = new Point(844, 375);
+            textBox5.Location = new Point(845, 375);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(200, 22);
             textBox5.TabIndex = 15;
@@ -1017,7 +1035,7 @@
             FS_Panel.Location = new Point(844, 405);
             FS_Panel.Margin = new Padding(0);
             FS_Panel.Name = "FS_Panel";
-            FS_Panel.Size = new Size(200, 188);
+            FS_Panel.Size = new Size(200, 145);
             FS_Panel.TabIndex = 2;
             // 
             // textBox9
@@ -1025,7 +1043,7 @@
             textBox9.BackColor = SystemColors.ActiveCaptionText;
             textBox9.BorderStyle = BorderStyle.FixedSingle;
             textBox9.ForeColor = SystemColors.Window;
-            textBox9.Location = new Point(-1, 160);
+            textBox9.Location = new Point(1, 123);
             textBox9.Margin = new Padding(0);
             textBox9.Name = "textBox9";
             textBox9.Size = new Size(200, 27);
@@ -1035,13 +1053,115 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(-1, 0);
+            pictureBox2.Location = new Point(0, 0);
             pictureBox2.Margin = new Padding(0);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(200, 160);
+            pictureBox2.Size = new Size(200, 150);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
+            // 
+            // panel8
+            // 
+            panel8.BorderStyle = BorderStyle.FixedSingle;
+            panel8.Controls.Add(textBox13);
+            panel8.Controls.Add(pictureBox22);
+            panel8.Location = new Point(844, 632);
+            panel8.Margin = new Padding(0);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(200, 180);
+            panel8.TabIndex = 21;
+            // 
+            // textBox13
+            // 
+            textBox13.BackColor = SystemColors.ActiveCaptionText;
+            textBox13.BorderStyle = BorderStyle.FixedSingle;
+            textBox13.ForeColor = SystemColors.Window;
+            textBox13.Location = new Point(1, 150);
+            textBox13.Margin = new Padding(0);
+            textBox13.Name = "textBox13";
+            textBox13.Size = new Size(200, 27);
+            textBox13.TabIndex = 1;
+            textBox13.Text = "  DogTown Garage K9";
+            // 
+            // pictureBox22
+            // 
+            pictureBox22.Image = (Image)resources.GetObject("pictureBox22.Image");
+            pictureBox22.Location = new Point(0, 0);
+            pictureBox22.Margin = new Padding(0);
+            pictureBox22.Name = "pictureBox22";
+            pictureBox22.Size = new Size(200, 150);
+            pictureBox22.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox22.TabIndex = 0;
+            pictureBox22.TabStop = false;
+            // 
+            // panel9
+            // 
+            panel9.BorderStyle = BorderStyle.FixedSingle;
+            panel9.Controls.Add(textBox14);
+            panel9.Controls.Add(pictureBox23);
+            panel9.Location = new Point(846, 821);
+            panel9.Margin = new Padding(0);
+            panel9.Name = "panel9";
+            panel9.Size = new Size(200, 180);
+            panel9.TabIndex = 22;
+            // 
+            // textBox14
+            // 
+            textBox14.BackColor = SystemColors.ActiveCaptionText;
+            textBox14.BorderStyle = BorderStyle.FixedSingle;
+            textBox14.ForeColor = SystemColors.Window;
+            textBox14.Location = new Point(1, 150);
+            textBox14.Margin = new Padding(0);
+            textBox14.Name = "textBox14";
+            textBox14.Size = new Size(200, 27);
+            textBox14.TabIndex = 1;
+            textBox14.Text = "  Druid";
+            // 
+            // pictureBox23
+            // 
+            pictureBox23.Image = (Image)resources.GetObject("pictureBox23.Image");
+            pictureBox23.Location = new Point(0, 0);
+            pictureBox23.Margin = new Padding(0);
+            pictureBox23.Name = "pictureBox23";
+            pictureBox23.Size = new Size(200, 150);
+            pictureBox23.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox23.TabIndex = 0;
+            pictureBox23.TabStop = false;
+            // 
+            // panel10
+            // 
+            panel10.BorderStyle = BorderStyle.FixedSingle;
+            panel10.Controls.Add(textBox15);
+            panel10.Controls.Add(pictureBox24);
+            panel10.Location = new Point(848, 1011);
+            panel10.Margin = new Padding(0);
+            panel10.Name = "panel10";
+            panel10.Size = new Size(200, 180);
+            panel10.TabIndex = 23;
+            // 
+            // textBox15
+            // 
+            textBox15.BackColor = SystemColors.ActiveCaptionText;
+            textBox15.BorderStyle = BorderStyle.FixedSingle;
+            textBox15.ForeColor = SystemColors.Window;
+            textBox15.Location = new Point(1, 150);
+            textBox15.Margin = new Padding(0);
+            textBox15.Name = "textBox15";
+            textBox15.Size = new Size(200, 27);
+            textBox15.TabIndex = 1;
+            textBox15.Text = "  Sleepy Valley";
+            // 
+            // pictureBox24
+            // 
+            pictureBox24.Image = (Image)resources.GetObject("pictureBox24.Image");
+            pictureBox24.Location = new Point(0, 0);
+            pictureBox24.Margin = new Padding(0);
+            pictureBox24.Name = "pictureBox24";
+            pictureBox24.Size = new Size(200, 150);
+            pictureBox24.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox24.TabIndex = 0;
+            pictureBox24.TabStop = false;
             // 
             // UC_Home
             // 
@@ -1103,6 +1223,15 @@
             FS_Panel.ResumeLayout(false);
             FS_Panel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            panel8.ResumeLayout(false);
+            panel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox22).EndInit();
+            panel9.ResumeLayout(false);
+            panel9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox23).EndInit();
+            panel10.ResumeLayout(false);
+            panel10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox24).EndInit();
             ResumeLayout(false);
         }
 
@@ -1177,5 +1306,14 @@
         private PictureBox pictureBox21;
         private RichTextBox richTextBox10;
         private PictureBox pictureBox20;
+        private Panel panel10;
+        private TextBox textBox15;
+        private PictureBox pictureBox24;
+        private Panel panel9;
+        private TextBox textBox14;
+        private PictureBox pictureBox23;
+        private Panel panel8;
+        private TextBox textBox13;
+        private PictureBox pictureBox22;
     }
 }
