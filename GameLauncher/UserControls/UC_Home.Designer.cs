@@ -264,7 +264,7 @@
             FC_Panel.Location = new Point(10, 400);
             FC_Panel.Margin = new Padding(6);
             FC_Panel.Name = "FC_Panel";
-            FC_Panel.Size = new Size(780, 775);
+            FC_Panel.Size = new Size(780, 780);
             FC_Panel.TabIndex = 14;
             // 
             // panel7
@@ -276,7 +276,7 @@
             panel7.Controls.Add(richTextBox10);
             panel7.Controls.Add(pictureBox17);
             panel7.Controls.Add(pictureBox18);
-            panel7.Location = new Point(530, 415);
+            panel7.Location = new Point(530, 420);
             panel7.Margin = new Padding(0);
             panel7.Name = "panel7";
             panel7.Size = new Size(250, 350);
@@ -372,7 +372,7 @@
             panel6.Controls.Add(textBox11);
             panel6.Controls.Add(pictureBox15);
             panel6.Controls.Add(pictureBox16);
-            panel6.Location = new Point(265, 415);
+            panel6.Location = new Point(265, 420);
             panel6.Margin = new Padding(0);
             panel6.Name = "panel6";
             panel6.Size = new Size(250, 350);
@@ -468,7 +468,7 @@
             panel5.Controls.Add(richTextBox7);
             panel5.Controls.Add(textBox10);
             panel5.Controls.Add(pictureBox14);
-            panel5.Location = new Point(0, 415);
+            panel5.Location = new Point(0, 420);
             panel5.Margin = new Padding(0);
             panel5.Name = "panel5";
             panel5.Size = new Size(250, 350);
