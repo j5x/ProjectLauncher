@@ -1120,6 +1120,7 @@
             pictureBox12.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox12.TabIndex = 15;
             pictureBox12.TabStop = false;
+            pictureBox12.Click += FC_Container02_Click;
             // 
             // richTextBox3
             // 
@@ -1136,6 +1137,7 @@
             richTextBox3.TabIndex = 11;
             richTextBox3.Text = resources.GetString("richTextBox3.Text");
             richTextBox3.ZoomFactor = 0.95F;
+            richTextBox3.Click += FC_Container02_Click;
             // 
             // richTextBox5
             // 
@@ -1148,6 +1150,7 @@
             richTextBox5.Size = new Size(384, 54);
             richTextBox5.TabIndex = 14;
             richTextBox5.Text = "     \n     Inside Unreal";
+            richTextBox5.Click += FC_Container02_Click;
             // 
             // textBox8
             // 
@@ -1165,6 +1168,7 @@
             textBox8.TabStop = false;
             textBox8.Text = "Inside Unreal | Game Animation\r\nSample Walkthrough\r\n";
             textBox8.TextAlign = HorizontalAlignment.Center;
+            textBox8.Click += FC_Container02_Click;
             // 
             // pictureBox9
             // 
@@ -1177,6 +1181,7 @@
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox9.TabIndex = 0;
             pictureBox9.TabStop = false;
+            pictureBox9.Click += FC_Container02_Click;
             // 
             // textBox2
             // 
@@ -1270,6 +1275,7 @@
             textBox12.TabIndex = 19;
             textBox12.TabStop = false;
             textBox12.Text = "  Featured free Unreal\r\n  Marketplace content\r\n  June 2024";
+            textBox12.Click += FC_Container05_Click;
             // 
             // richTextBox11
             // 
@@ -1287,6 +1293,7 @@
             richTextBox11.Text = resources.GetString("richTextBox11.Text");
             richTextBox11.WordWrap = false;
             richTextBox11.ZoomFactor = 0.95F;
+            richTextBox11.Click += FC_Container05_Click;
             // 
             // pictureBox21
             // 
@@ -1299,6 +1306,7 @@
             pictureBox21.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox21.TabIndex = 17;
             pictureBox21.TabStop = false;
+            pictureBox21.Click += FC_Container05_Click;
             // 
             // richTextBox10
             // 
@@ -1311,6 +1319,7 @@
             richTextBox10.Size = new Size(254, 54);
             richTextBox10.TabIndex = 17;
             richTextBox10.Text = "     \n     News";
+            richTextBox10.Click += FC_Container05_Click;
             // 
             // pictureBox17
             // 
@@ -1335,6 +1344,7 @@
             pictureBox18.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox18.TabIndex = 0;
             pictureBox18.TabStop = false;
+            pictureBox18.Click += FC_Container05_Click;
             // 
             // FC_Container04
             // 
@@ -1363,6 +1373,7 @@
             pictureBox20.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox20.TabIndex = 15;
             pictureBox20.TabStop = false;
+            pictureBox20.Click += FC_Container04_Click;
             // 
             // richTextBox8
             // 
@@ -1375,6 +1386,7 @@
             richTextBox8.Size = new Size(254, 54);
             richTextBox8.TabIndex = 16;
             richTextBox8.Text = "     \n     TechBlog";
+            richTextBox8.Click += FC_Container04_Click;
             // 
             // richTextBox9
             // 
@@ -1392,6 +1404,7 @@
             richTextBox9.Text = resources.GetString("richTextBox9.Text");
             richTextBox9.WordWrap = false;
             richTextBox9.ZoomFactor = 0.95F;
+            richTextBox9.Click += FC_Container04_Click;
             // 
             // textBox11
             // 
@@ -1408,6 +1421,7 @@
             textBox11.TabIndex = 14;
             textBox11.TabStop = false;
             textBox11.Text = "  Welcome to the New\r\n  Unreal Engine Website";
+            textBox11.Click += FC_Container04_Click;
             // 
             // pictureBox15
             // 
@@ -1432,6 +1446,7 @@
             pictureBox16.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox16.TabIndex = 0;
             pictureBox16.TabStop = false;
+            pictureBox16.Click += FC_Container04_Click;
             // 
             // FC_Container03
             // 
@@ -1460,6 +1475,7 @@
             pictureBox19.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox19.TabIndex = 14;
             pictureBox19.TabStop = false;
+            pictureBox19.Click += FC_Container03_Click;
             // 
             // pictureBox13
             // 
@@ -1484,6 +1500,7 @@
             richTextBox6.Size = new Size(254, 54);
             richTextBox6.TabIndex = 12;
             richTextBox6.Text = "     \n     News";
+            richTextBox6.Click += FC_Container03_Click;
             // 
             // richTextBox7
             // 
@@ -1501,6 +1518,7 @@
             richTextBox7.Text = resources.GetString("richTextBox7.Text");
             richTextBox7.WordWrap = false;
             richTextBox7.ZoomFactor = 0.95F;
+            richTextBox7.Click += FC_Container03_Click;
             // 
             // textBox10
             // 
@@ -1517,6 +1535,7 @@
             textBox10.TabIndex = 1;
             textBox10.TabStop = false;
             textBox10.Text = "  Nanite GPU-Driven \r\n  Materials";
+            textBox10.Click += FC_Container03_Click;
             // 
             // pictureBox14
             // 
@@ -1529,6 +1548,7 @@
             pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox14.TabIndex = 0;
             pictureBox14.TabStop = false;
+            pictureBox14.Click += FC_Container03_Click;
             // 
             // FC_Container01
             // 
@@ -1556,6 +1576,7 @@
             pictureBox10.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox10.TabIndex = 13;
             pictureBox10.TabStop = false;
+            pictureBox10.Click += FC_Container01_Click;
             // 
             // richTextBox4
             // 
@@ -1568,6 +1589,7 @@
             richTextBox4.Size = new Size(404, 54);
             richTextBox4.TabIndex = 12;
             richTextBox4.Text = "  \n     Game Animation Sample Project";
+            richTextBox4.Click += FC_Container01_Click;
             // 
             // richTextBox2
             // 
@@ -1584,6 +1606,7 @@
             richTextBox2.TabIndex = 11;
             richTextBox2.Text = "    This project includes 500+ AAA quality animations to help you get \n    started with Motion Matching.";
             richTextBox2.ZoomFactor = 0.95F;
+            richTextBox2.Click += FC_Container01_Click;
             // 
             // textBox7
             // 
@@ -1601,6 +1624,7 @@
             textBox7.TabStop = false;
             textBox7.Text = "Game Animation Sample Project \r\nReleased!";
             textBox7.TextAlign = HorizontalAlignment.Center;
+            textBox7.Click += FC_Container01_Click;
             // 
             // pictureBox8
             // 
@@ -1613,6 +1637,7 @@
             pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox8.TabIndex = 0;
             pictureBox8.TabStop = false;
+            pictureBox8.Click += FC_Container01_Click;
             // 
             // Section02_Home
             // 
