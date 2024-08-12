@@ -93,7 +93,7 @@
             pictureBox25 = new PictureBox();
             richTextBox16 = new RichTextBox();
             textBox17 = new TextBox();
-            panel2 = new Panel();
+            FC_Container02 = new Panel();
             pictureBox12 = new PictureBox();
             richTextBox3 = new RichTextBox();
             richTextBox5 = new RichTextBox();
@@ -104,21 +104,21 @@
             textBox3 = new TextBox();
             textBox5 = new TextBox();
             FC_Panel = new Panel();
-            panel7 = new Panel();
+            FC_Container05 = new Panel();
             textBox12 = new TextBox();
             richTextBox11 = new RichTextBox();
             pictureBox21 = new PictureBox();
             richTextBox10 = new RichTextBox();
             pictureBox17 = new PictureBox();
             pictureBox18 = new PictureBox();
-            panel6 = new Panel();
+            FC_Container04 = new Panel();
             pictureBox20 = new PictureBox();
             richTextBox8 = new RichTextBox();
             richTextBox9 = new RichTextBox();
             textBox11 = new TextBox();
             pictureBox15 = new PictureBox();
             pictureBox16 = new PictureBox();
-            panel5 = new Panel();
+            FC_Container03 = new Panel();
             pictureBox19 = new PictureBox();
             pictureBox13 = new PictureBox();
             richTextBox6 = new RichTextBox();
@@ -191,19 +191,19 @@
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox26).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox25).BeginInit();
-            panel2.SuspendLayout();
+            FC_Container02.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             FC_Panel.SuspendLayout();
-            panel7.SuspendLayout();
+            FC_Container05.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox21).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox18).BeginInit();
-            panel6.SuspendLayout();
+            FC_Container04.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox20).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
-            panel5.SuspendLayout();
+            FC_Container03.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox19).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
@@ -237,7 +237,7 @@
             panel1.Controls.Add(BL_Panel);
             panel1.Controls.Add(textBox6);
             panel1.Controls.Add(CR_LPanel);
-            panel1.Controls.Add(panel2);
+            panel1.Controls.Add(FC_Container02);
             panel1.Controls.Add(textBox2);
             panel1.Controls.Add(WS_LPanel);
             panel1.Controls.Add(textBox3);
@@ -1095,18 +1095,18 @@
             textBox17.TabStop = false;
             textBox17.Text = "Unreal\r\nSlackers";
             // 
-            // panel2
+            // FC_Container02
             // 
-            panel2.BackColor = SystemColors.ActiveBorder;
-            panel2.Controls.Add(pictureBox12);
-            panel2.Controls.Add(richTextBox3);
-            panel2.Controls.Add(richTextBox5);
-            panel2.Controls.Add(textBox8);
-            panel2.Controls.Add(pictureBox9);
-            panel2.Location = new Point(416, 400);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(380, 400);
-            panel2.TabIndex = 4;
+            FC_Container02.BackColor = SystemColors.ActiveBorder;
+            FC_Container02.Controls.Add(pictureBox12);
+            FC_Container02.Controls.Add(richTextBox3);
+            FC_Container02.Controls.Add(richTextBox5);
+            FC_Container02.Controls.Add(textBox8);
+            FC_Container02.Controls.Add(pictureBox9);
+            FC_Container02.Location = new Point(416, 400);
+            FC_Container02.Name = "FC_Container02";
+            FC_Container02.Size = new Size(380, 400);
+            FC_Container02.TabIndex = 4;
             // 
             // pictureBox12
             // 
@@ -1228,9 +1228,9 @@
             // 
             // FC_Panel
             // 
-            FC_Panel.Controls.Add(panel7);
-            FC_Panel.Controls.Add(panel6);
-            FC_Panel.Controls.Add(panel5);
+            FC_Panel.Controls.Add(FC_Container05);
+            FC_Panel.Controls.Add(FC_Container04);
+            FC_Panel.Controls.Add(FC_Container03);
             FC_Panel.Controls.Add(FC_Container01);
             FC_Panel.Location = new Point(10, 400);
             FC_Panel.Margin = new Padding(6);
@@ -1238,20 +1238,20 @@
             FC_Panel.Size = new Size(808, 800);
             FC_Panel.TabIndex = 14;
             // 
-            // panel7
+            // FC_Container05
             // 
-            panel7.BackColor = SystemColors.ActiveBorder;
-            panel7.Controls.Add(textBox12);
-            panel7.Controls.Add(richTextBox11);
-            panel7.Controls.Add(pictureBox21);
-            panel7.Controls.Add(richTextBox10);
-            panel7.Controls.Add(pictureBox17);
-            panel7.Controls.Add(pictureBox18);
-            panel7.Location = new Point(536, 420);
-            panel7.Margin = new Padding(0);
-            panel7.Name = "panel7";
-            panel7.Size = new Size(250, 350);
-            panel7.TabIndex = 15;
+            FC_Container05.BackColor = SystemColors.ActiveBorder;
+            FC_Container05.Controls.Add(textBox12);
+            FC_Container05.Controls.Add(richTextBox11);
+            FC_Container05.Controls.Add(pictureBox21);
+            FC_Container05.Controls.Add(richTextBox10);
+            FC_Container05.Controls.Add(pictureBox17);
+            FC_Container05.Controls.Add(pictureBox18);
+            FC_Container05.Location = new Point(536, 420);
+            FC_Container05.Margin = new Padding(0);
+            FC_Container05.Name = "FC_Container05";
+            FC_Container05.Size = new Size(250, 350);
+            FC_Container05.TabIndex = 15;
             // 
             // textBox12
             // 
@@ -1334,20 +1334,20 @@
             pictureBox18.TabIndex = 0;
             pictureBox18.TabStop = false;
             // 
-            // panel6
+            // FC_Container04
             // 
-            panel6.BackColor = SystemColors.ActiveBorder;
-            panel6.Controls.Add(pictureBox20);
-            panel6.Controls.Add(richTextBox8);
-            panel6.Controls.Add(richTextBox9);
-            panel6.Controls.Add(textBox11);
-            panel6.Controls.Add(pictureBox15);
-            panel6.Controls.Add(pictureBox16);
-            panel6.Location = new Point(271, 420);
-            panel6.Margin = new Padding(0);
-            panel6.Name = "panel6";
-            panel6.Size = new Size(250, 350);
-            panel6.TabIndex = 14;
+            FC_Container04.BackColor = SystemColors.ActiveBorder;
+            FC_Container04.Controls.Add(pictureBox20);
+            FC_Container04.Controls.Add(richTextBox8);
+            FC_Container04.Controls.Add(richTextBox9);
+            FC_Container04.Controls.Add(textBox11);
+            FC_Container04.Controls.Add(pictureBox15);
+            FC_Container04.Controls.Add(pictureBox16);
+            FC_Container04.Location = new Point(271, 420);
+            FC_Container04.Margin = new Padding(0);
+            FC_Container04.Name = "FC_Container04";
+            FC_Container04.Size = new Size(250, 350);
+            FC_Container04.TabIndex = 14;
             // 
             // pictureBox20
             // 
@@ -1430,20 +1430,20 @@
             pictureBox16.TabIndex = 0;
             pictureBox16.TabStop = false;
             // 
-            // panel5
+            // FC_Container03
             // 
-            panel5.BackColor = SystemColors.ActiveBorder;
-            panel5.Controls.Add(pictureBox19);
-            panel5.Controls.Add(pictureBox13);
-            panel5.Controls.Add(richTextBox6);
-            panel5.Controls.Add(richTextBox7);
-            panel5.Controls.Add(textBox10);
-            panel5.Controls.Add(pictureBox14);
-            panel5.Location = new Point(6, 420);
-            panel5.Margin = new Padding(0);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(250, 350);
-            panel5.TabIndex = 5;
+            FC_Container03.BackColor = SystemColors.ActiveBorder;
+            FC_Container03.Controls.Add(pictureBox19);
+            FC_Container03.Controls.Add(pictureBox13);
+            FC_Container03.Controls.Add(richTextBox6);
+            FC_Container03.Controls.Add(richTextBox7);
+            FC_Container03.Controls.Add(textBox10);
+            FC_Container03.Controls.Add(pictureBox14);
+            FC_Container03.Location = new Point(6, 420);
+            FC_Container03.Margin = new Padding(0);
+            FC_Container03.Name = "FC_Container03";
+            FC_Container03.Size = new Size(250, 350);
+            FC_Container03.TabIndex = 5;
             // 
             // pictureBox19
             // 
@@ -2004,23 +2004,23 @@
             panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox26).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox25).EndInit();
-            panel2.ResumeLayout(false);
-            panel2.PerformLayout();
+            FC_Container02.ResumeLayout(false);
+            FC_Container02.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             FC_Panel.ResumeLayout(false);
-            panel7.ResumeLayout(false);
-            panel7.PerformLayout();
+            FC_Container05.ResumeLayout(false);
+            FC_Container05.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox21).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox17).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox18).EndInit();
-            panel6.ResumeLayout(false);
-            panel6.PerformLayout();
+            FC_Container04.ResumeLayout(false);
+            FC_Container04.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox20).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
-            panel5.ResumeLayout(false);
-            panel5.PerformLayout();
+            FC_Container03.ResumeLayout(false);
+            FC_Container03.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox19).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
@@ -2092,7 +2092,7 @@
         private PictureBox pictureBox8;
         private TextBox textBox7;
         private RichTextBox richTextBox2;
-        private Panel panel2;
+        private Panel FC_Container02;
         private RichTextBox richTextBox3;
         private TextBox textBox8;
         private PictureBox pictureBox9;
@@ -2102,16 +2102,16 @@
         private PictureBox pictureBox12;
         private RichTextBox richTextBox5;
         private TextBox textBox9;
-        private Panel panel5;
+        private Panel FC_Container03;
         private PictureBox pictureBox13;
         private RichTextBox richTextBox6;
         private RichTextBox richTextBox7;
         private TextBox textBox10;
         private PictureBox pictureBox14;
-        private Panel panel6;
+        private Panel FC_Container04;
         private PictureBox pictureBox15;
         private PictureBox pictureBox16;
-        private Panel panel7;
+        private Panel FC_Container05;
         private PictureBox pictureBox17;
         private PictureBox pictureBox18;
         private TextBox textBox11;
