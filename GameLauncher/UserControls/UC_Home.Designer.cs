@@ -230,6 +230,7 @@
             // 
             // panel1
             // 
+            panel1.AutoScroll = true;
             panel1.Controls.Add(panel10);
             panel1.Controls.Add(panel9);
             panel1.Controls.Add(panel8);
@@ -247,14 +248,13 @@
             panel1.Controls.Add(textBox4);
             panel1.Controls.Add(FS_Panel);
             panel1.Location = new Point(0, 0);
-            panel1.Margin = new Padding(4);
+            panel1.Margin = new Padding(0);
             panel1.Name = "panel1";
             panel1.Size = new Size(1060, 2500);
             panel1.TabIndex = 0;
             // 
             // panel10
             // 
-            panel10.BorderStyle = BorderStyle.FixedSingle;
             panel10.Controls.Add(richTextBox15);
             panel10.Controls.Add(textBox15);
             panel10.Controls.Add(pictureBox24);
@@ -269,7 +269,7 @@
             richTextBox15.BackColor = Color.FromArgb(99, 108, 112);
             richTextBox15.BorderStyle = BorderStyle.None;
             richTextBox15.ForeColor = SystemColors.Window;
-            richTextBox15.Location = new Point(0, 152);
+            richTextBox15.Location = new Point(0, 153);
             richTextBox15.Name = "richTextBox15";
             richTextBox15.Size = new Size(200, 24);
             richTextBox15.TabIndex = 27;
@@ -314,7 +314,7 @@
             richTextBox14.BackColor = Color.FromArgb(99, 108, 112);
             richTextBox14.BorderStyle = BorderStyle.None;
             richTextBox14.ForeColor = SystemColors.Window;
-            richTextBox14.Location = new Point(0, 152);
+            richTextBox14.Location = new Point(0, 153);
             richTextBox14.Name = "richTextBox14";
             richTextBox14.Size = new Size(200, 24);
             richTextBox14.TabIndex = 26;
@@ -360,9 +360,9 @@
             richTextBox13.BackColor = Color.FromArgb(99, 108, 112);
             richTextBox13.BorderStyle = BorderStyle.None;
             richTextBox13.ForeColor = SystemColors.Window;
-            richTextBox13.Location = new Point(0, 151);
+            richTextBox13.Location = new Point(0, 153);
             richTextBox13.Name = "richTextBox13";
-            richTextBox13.Size = new Size(199, 24);
+            richTextBox13.Size = new Size(200, 24);
             richTextBox13.TabIndex = 25;
             richTextBox13.Text = "  DogTown Garage K9";
             // 
@@ -381,7 +381,7 @@
             // pictureBox22
             // 
             pictureBox22.Image = (Image)resources.GetObject("pictureBox22.Image");
-            pictureBox22.Location = new Point(1, 0);
+            pictureBox22.Location = new Point(0, 0);
             pictureBox22.Margin = new Padding(0);
             pictureBox22.Name = "pictureBox22";
             pictureBox22.Size = new Size(200, 150);
@@ -956,8 +956,8 @@
             CR_LPanel.Location = new Point(844, 1280);
             CR_LPanel.Name = "CR_LPanel";
             CR_LPanel.RowCount = 2;
-            CR_LPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 40F));
-            CR_LPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 60F));
+            CR_LPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 38.0555573F));
+            CR_LPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 61.9444427F));
             CR_LPanel.Size = new Size(200, 360);
             CR_LPanel.TabIndex = 18;
             // 
@@ -967,7 +967,8 @@
             panel4.Controls.Add(pictureBox29);
             panel4.Controls.Add(richTextBox18);
             panel4.Controls.Add(textBox18);
-            panel4.Location = new Point(3, 147);
+            panel4.Location = new Point(3, 145);
+            panel4.Margin = new Padding(3, 8, 3, 3);
             panel4.Name = "panel4";
             panel4.Size = new Size(194, 120);
             panel4.TabIndex = 25;
@@ -1033,7 +1034,8 @@
             panel3.Controls.Add(pictureBox25);
             panel3.Controls.Add(richTextBox16);
             panel3.Controls.Add(textBox17);
-            panel3.Location = new Point(3, 3);
+            panel3.Location = new Point(3, 8);
+            panel3.Margin = new Padding(3, 8, 3, 3);
             panel3.Name = "panel3";
             panel3.Size = new Size(194, 120);
             panel3.TabIndex = 24;
@@ -1537,6 +1539,7 @@
             FC_Container01.Name = "FC_Container01";
             FC_Container01.Size = new Size(380, 400);
             FC_Container01.TabIndex = 0;
+            FC_Container01.Click += FC_Container01_Click;
             // 
             // pictureBox10
             // 
@@ -1913,7 +1916,7 @@
             richTextBox12.BackColor = Color.FromArgb(99, 108, 112);
             richTextBox12.BorderStyle = BorderStyle.None;
             richTextBox12.ForeColor = SystemColors.Window;
-            richTextBox12.Location = new Point(0, 143);
+            richTextBox12.Location = new Point(0, 144);
             richTextBox12.Name = "richTextBox12";
             richTextBox12.Size = new Size(199, 24);
             richTextBox12.TabIndex = 24;
