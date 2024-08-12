@@ -1107,6 +1107,7 @@
             FC_Container02.Name = "FC_Container02";
             FC_Container02.Size = new Size(380, 400);
             FC_Container02.TabIndex = 4;
+            FC_Container02.Click += FC_Container02_Click;
             // 
             // pictureBox12
             // 
@@ -1252,6 +1253,7 @@
             FC_Container05.Name = "FC_Container05";
             FC_Container05.Size = new Size(250, 350);
             FC_Container05.TabIndex = 15;
+            FC_Container05.Click += FC_Container05_Click;
             // 
             // textBox12
             // 
@@ -1348,6 +1350,7 @@
             FC_Container04.Name = "FC_Container04";
             FC_Container04.Size = new Size(250, 350);
             FC_Container04.TabIndex = 14;
+            FC_Container04.Click += FC_Container04_Click;
             // 
             // pictureBox20
             // 
@@ -1444,6 +1447,7 @@
             FC_Container03.Name = "FC_Container03";
             FC_Container03.Size = new Size(250, 350);
             FC_Container03.TabIndex = 5;
+            FC_Container03.Click += FC_Container03_Click;
             // 
             // pictureBox19
             // 

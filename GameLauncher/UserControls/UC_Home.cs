@@ -40,5 +40,22 @@ namespace GameLauncher.UserControls
         {
             RedirectToHyperlink("https://www.veldboomstudios.com/");
         }
+
+        private void FC_Container02_Click(object sender, EventArgs e)
+        {
+            RedirectToHyperlink("https://www.veldboomstudios.com/");
+        }
+        private void FC_Container03_Click(object sender, EventArgs e)
+        {
+            RedirectToHyperlink("https://www.veldboomstudios.com/");
+        }
+        private void FC_Container04_Click(object sender, EventArgs e)
+        {
+            RedirectToHyperlink("https://www.veldboomstudios.com/");
+        }
+        private void FC_Container05_Click(object sender, EventArgs e)
+        {
+            RedirectToHyperlink("https://www.veldboomstudios.com/");
+        }
     }
 }
