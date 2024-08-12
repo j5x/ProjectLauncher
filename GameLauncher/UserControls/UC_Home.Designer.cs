@@ -1662,6 +1662,7 @@
             HyperlinkedIconBox05.Name = "HyperlinkedIconBox05";
             HyperlinkedIconBox05.Size = new Size(105, 25);
             HyperlinkedIconBox05.TabIndex = 18;
+            HyperlinkedIconBox05.Click += HyperlinkedIconBox05_Click;
             // 
             // pictureBox7
             // 
@@ -1674,6 +1675,7 @@
             pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox7.TabIndex = 12;
             pictureBox7.TabStop = false;
+            pictureBox7.Click += HyperlinkedIconBox05_Click;
             // 
             // linkLabel5
             // 
@@ -1691,6 +1693,7 @@
             linkLabel5.TabStop = true;
             linkLabel5.Text = "Roadmap";
             linkLabel5.TextAlign = ContentAlignment.MiddleCenter;
+            linkLabel5.Click += HyperlinkedIconBox05_Click;
             // 
             // HyperlinkedIconBox04
             // 
@@ -1701,6 +1704,7 @@
             HyperlinkedIconBox04.Name = "HyperlinkedIconBox04";
             HyperlinkedIconBox04.Size = new Size(100, 25);
             HyperlinkedIconBox04.TabIndex = 17;
+            HyperlinkedIconBox04.Click += HyperlinkedIconBox04_Click;
             // 
             // pictureBox6
             // 
@@ -1713,6 +1717,7 @@
             pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox6.TabIndex = 12;
             pictureBox6.TabStop = false;
+            pictureBox6.Click += HyperlinkedIconBox04_Click;
             // 
             // linkLabel4
             // 
@@ -1730,6 +1735,7 @@
             linkLabel4.TabStop = true;
             linkLabel4.Text = "Forums";
             linkLabel4.TextAlign = ContentAlignment.MiddleCenter;
+            linkLabel4.Click += HyperlinkedIconBox04_Click;
             // 
             // HyperlinkedIconBox03
             // 
@@ -1740,6 +1746,7 @@
             HyperlinkedIconBox03.Name = "HyperlinkedIconBox03";
             HyperlinkedIconBox03.Size = new Size(100, 25);
             HyperlinkedIconBox03.TabIndex = 16;
+            HyperlinkedIconBox03.Click += HyperlinkedIconBox03_Click;
             // 
             // pictureBox5
             // 
@@ -1752,6 +1759,7 @@
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox5.TabIndex = 12;
             pictureBox5.TabStop = false;
+            pictureBox5.Click += HyperlinkedIconBox03_Click;
             // 
             // linkLabel3
             // 
@@ -1769,6 +1777,7 @@
             linkLabel3.TabStop = true;
             linkLabel3.Text = "Q&A";
             linkLabel3.TextAlign = ContentAlignment.MiddleCenter;
+            linkLabel3.Click += HyperlinkedIconBox03_Click;
             // 
             // HyperlinkedIconBox02
             // 
@@ -1779,6 +1788,7 @@
             HyperlinkedIconBox02.Name = "HyperlinkedIconBox02";
             HyperlinkedIconBox02.Size = new Size(100, 25);
             HyperlinkedIconBox02.TabIndex = 15;
+            HyperlinkedIconBox02.Click += HyperlinkedIconBox02_Click;
             // 
             // pictureBox4
             // 
@@ -1791,6 +1801,7 @@
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox4.TabIndex = 12;
             pictureBox4.TabStop = false;
+            pictureBox4.Click += HyperlinkedIconBox02_Click;
             // 
             // linkLabel2
             // 
@@ -1809,6 +1820,7 @@
             linkLabel2.TabStop = true;
             linkLabel2.Text = "YouTube";
             linkLabel2.TextAlign = ContentAlignment.MiddleCenter;
+            linkLabel2.Click += HyperlinkedIconBox02_Click;
             // 
             // HyperlinkedIconBox01
             // 
@@ -1819,6 +1831,7 @@
             HyperlinkedIconBox01.Name = "HyperlinkedIconBox01";
             HyperlinkedIconBox01.Size = new Size(100, 25);
             HyperlinkedIconBox01.TabIndex = 14;
+            HyperlinkedIconBox01.Click += HyperlinkedIconBox01_Click;
             // 
             // pictureBox3
             // 
@@ -1831,6 +1844,7 @@
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 12;
             pictureBox3.TabStop = false;
+            pictureBox3.Click += HyperlinkedIconBox01_Click;
             // 
             // linkLabel1
             // 
@@ -1849,6 +1863,7 @@
             linkLabel1.TabStop = true;
             linkLabel1.Text = "News";
             linkLabel1.TextAlign = ContentAlignment.MiddleCenter;
+            linkLabel1.Click += HyperlinkedIconBox01_Click;
             // 
             // Section1_Home
             // 

@@ -27,20 +27,42 @@ namespace GameLauncher.UserControls
                     FileName = url,
                     UseShellExecute = true
                 };
-         
                 System.Diagnostics.Process.Start(psi);
             }
+
             catch (Exception ex)
             {
                 MessageBox.Show($"Unable to open link: {url}. Error: {ex.Message}");
             }
         }
 
+        //Header Section Voids.
+        private void HyperlinkedIconBox01_Click(object sender, EventArgs e)
+        {
+            RedirectToHyperlink("https://www.veldboomstudios.com/about");
+        }
+        private void HyperlinkedIconBox02_Click(object sender, EventArgs e)
+        {
+            RedirectToHyperlink("https://www.youtube.com/channel/UCSAnpMzHeUCVUvHCYMksDkA");
+        }
+        private void HyperlinkedIconBox03_Click(object sender, EventArgs e)
+        {
+            RedirectToHyperlink("https://www.veldboomstudios.com/contact");
+        }
+        private void HyperlinkedIconBox04_Click(object sender, EventArgs e)
+        {
+            RedirectToHyperlink("https://www.veldboomstudios.com/");
+        }
+        private void HyperlinkedIconBox05_Click(object sender, EventArgs e)
+        {
+            RedirectToHyperlink("https://app.milanote.com/1SeusM1tAfUc9r/road-maps?p=rJlMlHn83pm");
+        }
+
+        ///Featured Content Voids.
         private void FC_Container01_Click(object sender, EventArgs e)
         {
             RedirectToHyperlink("https://www.veldboomstudios.com/");
         }
-
         private void FC_Container02_Click(object sender, EventArgs e)
         {
             RedirectToHyperlink("https://www.veldboomstudios.com/");
@@ -57,5 +79,6 @@ namespace GameLauncher.UserControls
         {
             RedirectToHyperlink("https://www.veldboomstudios.com/");
         }
+
     }
 }
