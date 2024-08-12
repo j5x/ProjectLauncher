@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Home));
             panel1 = new Panel();
-            flowLayoutPanel1 = new FlowLayoutPanel();
             panel10 = new Panel();
             richTextBox15 = new RichTextBox();
             textBox15 = new TextBox();
@@ -44,18 +43,44 @@
             textBox13 = new TextBox();
             pictureBox22 = new PictureBox();
             BL_Panel = new Panel();
-            panel13 = new Panel();
-            richTextBox20 = new RichTextBox();
-            textBox20 = new TextBox();
-            pictureBox31 = new PictureBox();
-            panel12 = new Panel();
-            richTextBox19 = new RichTextBox();
-            textBox19 = new TextBox();
-            pictureBox30 = new PictureBox();
+            flowLayoutPanel2 = new FlowLayoutPanel();
             panel11 = new Panel();
             richTextBox17 = new RichTextBox();
             textBox16 = new TextBox();
             pictureBox27 = new PictureBox();
+            panel12 = new Panel();
+            richTextBox19 = new RichTextBox();
+            textBox19 = new TextBox();
+            pictureBox30 = new PictureBox();
+            panel13 = new Panel();
+            richTextBox20 = new RichTextBox();
+            textBox20 = new TextBox();
+            pictureBox31 = new PictureBox();
+            panel14 = new Panel();
+            richTextBox21 = new RichTextBox();
+            textBox21 = new TextBox();
+            pictureBox32 = new PictureBox();
+            panel15 = new Panel();
+            richTextBox22 = new RichTextBox();
+            textBox22 = new TextBox();
+            pictureBox33 = new PictureBox();
+            panel16 = new Panel();
+            richTextBox23 = new RichTextBox();
+            textBox23 = new TextBox();
+            pictureBox34 = new PictureBox();
+            panel17 = new Panel();
+            richTextBox24 = new RichTextBox();
+            textBox24 = new TextBox();
+            pictureBox35 = new PictureBox();
+            panel18 = new Panel();
+            richTextBox25 = new RichTextBox();
+            textBox25 = new TextBox();
+            pictureBox36 = new PictureBox();
+            panel19 = new Panel();
+            richTextBox26 = new RichTextBox();
+            textBox26 = new TextBox();
+            pictureBox37 = new PictureBox();
+            button1 = new Button();
             textBox6 = new TextBox();
             CR_LPanel = new TableLayoutPanel();
             panel4 = new Panel();
@@ -140,12 +165,25 @@
             panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox22).BeginInit();
             BL_Panel.SuspendLayout();
-            panel13.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox31).BeginInit();
-            panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox30).BeginInit();
+            flowLayoutPanel2.SuspendLayout();
             panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox27).BeginInit();
+            panel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox30).BeginInit();
+            panel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox31).BeginInit();
+            panel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox32).BeginInit();
+            panel15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox33).BeginInit();
+            panel16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox34).BeginInit();
+            panel17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox35).BeginInit();
+            panel18.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox36).BeginInit();
+            panel19.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox37).BeginInit();
             CR_LPanel.SuspendLayout();
             panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox28).BeginInit();
@@ -192,7 +230,6 @@
             // 
             // panel1
             // 
-            panel1.Controls.Add(flowLayoutPanel1);
             panel1.Controls.Add(panel10);
             panel1.Controls.Add(panel9);
             panel1.Controls.Add(panel8);
@@ -212,15 +249,8 @@
             panel1.Location = new Point(0, 0);
             panel1.Margin = new Padding(4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1060, 2446);
+            panel1.Size = new Size(1060, 2500);
             panel1.TabIndex = 0;
-            // 
-            // flowLayoutPanel1
-            // 
-            flowLayoutPanel1.Location = new Point(408, 1204);
-            flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(200, 100);
-            flowLayoutPanel1.TabIndex = 15;
             // 
             // panel10
             // 
@@ -330,7 +360,7 @@
             richTextBox13.BackColor = Color.FromArgb(99, 108, 112);
             richTextBox13.BorderStyle = BorderStyle.None;
             richTextBox13.ForeColor = SystemColors.Window;
-            richTextBox13.Location = new Point(1, 152);
+            richTextBox13.Location = new Point(0, 151);
             richTextBox13.Name = "richTextBox13";
             richTextBox13.Size = new Size(199, 24);
             richTextBox13.TabIndex = 25;
@@ -361,69 +391,86 @@
             // 
             // BL_Panel
             // 
-            BL_Panel.Controls.Add(panel13);
-            BL_Panel.Controls.Add(panel12);
-            BL_Panel.Controls.Add(panel11);
-            BL_Panel.Location = new Point(13, 1280);
+            BL_Panel.Controls.Add(flowLayoutPanel2);
+            BL_Panel.Location = new Point(10, 1280);
             BL_Panel.Name = "BL_Panel";
-            BL_Panel.Size = new Size(800, 1112);
+            BL_Panel.Size = new Size(808, 1200);
             BL_Panel.TabIndex = 20;
             // 
-            // panel13
+            // flowLayoutPanel2
             // 
-            panel13.BackColor = SystemColors.ActiveBorder;
-            panel13.Controls.Add(richTextBox20);
-            panel13.Controls.Add(textBox20);
-            panel13.Controls.Add(pictureBox31);
-            panel13.Location = new Point(12, 750);
-            panel13.Margin = new Padding(0);
-            panel13.Name = "panel13";
-            panel13.Size = new Size(250, 350);
-            panel13.TabIndex = 13;
+            flowLayoutPanel2.Controls.Add(panel11);
+            flowLayoutPanel2.Controls.Add(panel12);
+            flowLayoutPanel2.Controls.Add(panel13);
+            flowLayoutPanel2.Controls.Add(panel14);
+            flowLayoutPanel2.Controls.Add(panel15);
+            flowLayoutPanel2.Controls.Add(panel16);
+            flowLayoutPanel2.Controls.Add(panel17);
+            flowLayoutPanel2.Controls.Add(panel18);
+            flowLayoutPanel2.Controls.Add(panel19);
+            flowLayoutPanel2.Controls.Add(button1);
+            flowLayoutPanel2.Dock = DockStyle.Fill;
+            flowLayoutPanel2.Location = new Point(0, 0);
+            flowLayoutPanel2.Margin = new Padding(0);
+            flowLayoutPanel2.Name = "flowLayoutPanel2";
+            flowLayoutPanel2.Size = new Size(808, 1200);
+            flowLayoutPanel2.TabIndex = 14;
             // 
-            // richTextBox20
+            // panel11
             // 
-            richTextBox20.BackColor = SystemColors.ActiveBorder;
-            richTextBox20.BorderStyle = BorderStyle.None;
-            richTextBox20.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            richTextBox20.ForeColor = SystemColors.Window;
-            richTextBox20.Location = new Point(2, 215);
-            richTextBox20.Margin = new Padding(0);
-            richTextBox20.Name = "richTextBox20";
-            richTextBox20.ReadOnly = true;
-            richTextBox20.ScrollBars = RichTextBoxScrollBars.None;
-            richTextBox20.Size = new Size(250, 135);
-            richTextBox20.TabIndex = 11;
-            richTextBox20.Text = "   Welcome, early birds!\n   Now's your chance to save $50 on your\n   Unreal Fest Seattle 2024 tickets and get\n   ready for three action-packed days of\n   learning, inspirational speakers, and\n   more.";
-            richTextBox20.ZoomFactor = 1.025F;
+            panel11.BackColor = SystemColors.ActiveBorder;
+            panel11.Controls.Add(richTextBox17);
+            panel11.Controls.Add(textBox16);
+            panel11.Controls.Add(pictureBox27);
+            panel11.Location = new Point(6, 8);
+            panel11.Margin = new Padding(6, 8, 10, 8);
+            panel11.Name = "panel11";
+            panel11.Size = new Size(250, 350);
+            panel11.TabIndex = 6;
             // 
-            // textBox20
+            // richTextBox17
             // 
-            textBox20.BackColor = SystemColors.ActiveBorder;
-            textBox20.BorderStyle = BorderStyle.None;
-            textBox20.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox20.ForeColor = SystemColors.Window;
-            textBox20.Location = new Point(0, 135);
-            textBox20.Margin = new Padding(0);
-            textBox20.Multiline = true;
-            textBox20.Name = "textBox20";
-            textBox20.ReadOnly = true;
-            textBox20.Size = new Size(250, 75);
-            textBox20.TabIndex = 1;
-            textBox20.TabStop = false;
-            textBox20.Text = "  Unreal Fest Seattle 2024 \r\n  -early bird tickets on\r\n  sale";
+            richTextBox17.BackColor = SystemColors.ActiveBorder;
+            richTextBox17.BorderStyle = BorderStyle.None;
+            richTextBox17.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            richTextBox17.ForeColor = SystemColors.Window;
+            richTextBox17.Location = new Point(2, 215);
+            richTextBox17.Margin = new Padding(0);
+            richTextBox17.Name = "richTextBox17";
+            richTextBox17.ReadOnly = true;
+            richTextBox17.ScrollBars = RichTextBoxScrollBars.None;
+            richTextBox17.Size = new Size(250, 135);
+            richTextBox17.TabIndex = 11;
+            richTextBox17.Text = "   Welcome, early birds!\n   Now's your chance to save $50 on your\n   Unreal Fest Seattle 2024 tickets and get\n   ready for three action-packed days of\n   learning, inspirational speakers, and\n   more.";
+            richTextBox17.ZoomFactor = 1.025F;
             // 
-            // pictureBox31
+            // textBox16
             // 
-            pictureBox31.Dock = DockStyle.Top;
-            pictureBox31.Image = (Image)resources.GetObject("pictureBox31.Image");
-            pictureBox31.Location = new Point(0, 0);
-            pictureBox31.Margin = new Padding(0);
-            pictureBox31.Name = "pictureBox31";
-            pictureBox31.Size = new Size(250, 125);
-            pictureBox31.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox31.TabIndex = 0;
-            pictureBox31.TabStop = false;
+            textBox16.BackColor = SystemColors.ActiveBorder;
+            textBox16.BorderStyle = BorderStyle.None;
+            textBox16.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox16.ForeColor = SystemColors.Window;
+            textBox16.Location = new Point(0, 135);
+            textBox16.Margin = new Padding(0);
+            textBox16.Multiline = true;
+            textBox16.Name = "textBox16";
+            textBox16.ReadOnly = true;
+            textBox16.Size = new Size(250, 75);
+            textBox16.TabIndex = 1;
+            textBox16.TabStop = false;
+            textBox16.Text = "  Unreal Fest Seattle 2024 \r\n  -early bird tickets on\r\n  sale";
+            // 
+            // pictureBox27
+            // 
+            pictureBox27.Dock = DockStyle.Top;
+            pictureBox27.Image = (Image)resources.GetObject("pictureBox27.Image");
+            pictureBox27.Location = new Point(0, 0);
+            pictureBox27.Margin = new Padding(0);
+            pictureBox27.Name = "pictureBox27";
+            pictureBox27.Size = new Size(250, 125);
+            pictureBox27.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox27.TabIndex = 0;
+            pictureBox27.TabStop = false;
             // 
             // panel12
             // 
@@ -431,8 +478,8 @@
             panel12.Controls.Add(richTextBox19);
             panel12.Controls.Add(textBox19);
             panel12.Controls.Add(pictureBox30);
-            panel12.Location = new Point(12, 380);
-            panel12.Margin = new Padding(0);
+            panel12.Location = new Point(276, 8);
+            panel12.Margin = new Padding(10, 8, 10, 8);
             panel12.Name = "panel12";
             panel12.Size = new Size(250, 350);
             panel12.TabIndex = 12;
@@ -481,61 +528,412 @@
             pictureBox30.TabIndex = 0;
             pictureBox30.TabStop = false;
             // 
-            // panel11
+            // panel13
             // 
-            panel11.BackColor = SystemColors.ActiveBorder;
-            panel11.Controls.Add(richTextBox17);
-            panel11.Controls.Add(textBox16);
-            panel11.Controls.Add(pictureBox27);
-            panel11.Location = new Point(12, 12);
-            panel11.Margin = new Padding(0);
-            panel11.Name = "panel11";
-            panel11.Size = new Size(250, 350);
-            panel11.TabIndex = 6;
+            panel13.BackColor = SystemColors.ActiveBorder;
+            panel13.Controls.Add(richTextBox20);
+            panel13.Controls.Add(textBox20);
+            panel13.Controls.Add(pictureBox31);
+            panel13.Location = new Point(546, 8);
+            panel13.Margin = new Padding(10, 8, 6, 8);
+            panel13.Name = "panel13";
+            panel13.Size = new Size(250, 350);
+            panel13.TabIndex = 13;
             // 
-            // richTextBox17
+            // richTextBox20
             // 
-            richTextBox17.BackColor = SystemColors.ActiveBorder;
-            richTextBox17.BorderStyle = BorderStyle.None;
-            richTextBox17.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            richTextBox17.ForeColor = SystemColors.Window;
-            richTextBox17.Location = new Point(2, 215);
-            richTextBox17.Margin = new Padding(0);
-            richTextBox17.Name = "richTextBox17";
-            richTextBox17.ReadOnly = true;
-            richTextBox17.ScrollBars = RichTextBoxScrollBars.None;
-            richTextBox17.Size = new Size(250, 135);
-            richTextBox17.TabIndex = 11;
-            richTextBox17.Text = "   Welcome, early birds!\n   Now's your chance to save $50 on your\n   Unreal Fest Seattle 2024 tickets and get\n   ready for three action-packed days of\n   learning, inspirational speakers, and\n   more.";
-            richTextBox17.ZoomFactor = 1.025F;
+            richTextBox20.BackColor = SystemColors.ActiveBorder;
+            richTextBox20.BorderStyle = BorderStyle.None;
+            richTextBox20.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            richTextBox20.ForeColor = SystemColors.Window;
+            richTextBox20.Location = new Point(2, 215);
+            richTextBox20.Margin = new Padding(0);
+            richTextBox20.Name = "richTextBox20";
+            richTextBox20.ReadOnly = true;
+            richTextBox20.ScrollBars = RichTextBoxScrollBars.None;
+            richTextBox20.Size = new Size(250, 135);
+            richTextBox20.TabIndex = 11;
+            richTextBox20.Text = "   Welcome, early birds!\n   Now's your chance to save $50 on your\n   Unreal Fest Seattle 2024 tickets and get\n   ready for three action-packed days of\n   learning, inspirational speakers, and\n   more.";
+            richTextBox20.ZoomFactor = 1.025F;
             // 
-            // textBox16
+            // textBox20
             // 
-            textBox16.BackColor = SystemColors.ActiveBorder;
-            textBox16.BorderStyle = BorderStyle.None;
-            textBox16.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox16.ForeColor = SystemColors.Window;
-            textBox16.Location = new Point(0, 135);
-            textBox16.Margin = new Padding(0);
-            textBox16.Multiline = true;
-            textBox16.Name = "textBox16";
-            textBox16.ReadOnly = true;
-            textBox16.Size = new Size(250, 75);
-            textBox16.TabIndex = 1;
-            textBox16.TabStop = false;
-            textBox16.Text = "  Unreal Fest Seattle 2024 \r\n  -early bird tickets on\r\n  sale";
+            textBox20.BackColor = SystemColors.ActiveBorder;
+            textBox20.BorderStyle = BorderStyle.None;
+            textBox20.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox20.ForeColor = SystemColors.Window;
+            textBox20.Location = new Point(0, 135);
+            textBox20.Margin = new Padding(0);
+            textBox20.Multiline = true;
+            textBox20.Name = "textBox20";
+            textBox20.ReadOnly = true;
+            textBox20.Size = new Size(250, 75);
+            textBox20.TabIndex = 1;
+            textBox20.TabStop = false;
+            textBox20.Text = "  Unreal Fest Seattle 2024 \r\n  -early bird tickets on\r\n  sale";
             // 
-            // pictureBox27
+            // pictureBox31
             // 
-            pictureBox27.Dock = DockStyle.Top;
-            pictureBox27.Image = (Image)resources.GetObject("pictureBox27.Image");
-            pictureBox27.Location = new Point(0, 0);
-            pictureBox27.Margin = new Padding(0);
-            pictureBox27.Name = "pictureBox27";
-            pictureBox27.Size = new Size(250, 125);
-            pictureBox27.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox27.TabIndex = 0;
-            pictureBox27.TabStop = false;
+            pictureBox31.Dock = DockStyle.Top;
+            pictureBox31.Image = (Image)resources.GetObject("pictureBox31.Image");
+            pictureBox31.Location = new Point(0, 0);
+            pictureBox31.Margin = new Padding(0);
+            pictureBox31.Name = "pictureBox31";
+            pictureBox31.Size = new Size(250, 125);
+            pictureBox31.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox31.TabIndex = 0;
+            pictureBox31.TabStop = false;
+            // 
+            // panel14
+            // 
+            panel14.BackColor = SystemColors.ActiveBorder;
+            panel14.Controls.Add(richTextBox21);
+            panel14.Controls.Add(textBox21);
+            panel14.Controls.Add(pictureBox32);
+            panel14.Location = new Point(6, 374);
+            panel14.Margin = new Padding(6, 8, 10, 8);
+            panel14.Name = "panel14";
+            panel14.Size = new Size(250, 350);
+            panel14.TabIndex = 14;
+            // 
+            // richTextBox21
+            // 
+            richTextBox21.BackColor = SystemColors.ActiveBorder;
+            richTextBox21.BorderStyle = BorderStyle.None;
+            richTextBox21.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            richTextBox21.ForeColor = SystemColors.Window;
+            richTextBox21.Location = new Point(2, 215);
+            richTextBox21.Margin = new Padding(0);
+            richTextBox21.Name = "richTextBox21";
+            richTextBox21.ReadOnly = true;
+            richTextBox21.ScrollBars = RichTextBoxScrollBars.None;
+            richTextBox21.Size = new Size(250, 135);
+            richTextBox21.TabIndex = 11;
+            richTextBox21.Text = "   Welcome, early birds!\n   Now's your chance to save $50 on your\n   Unreal Fest Seattle 2024 tickets and get\n   ready for three action-packed days of\n   learning, inspirational speakers, and\n   more.";
+            richTextBox21.ZoomFactor = 1.025F;
+            // 
+            // textBox21
+            // 
+            textBox21.BackColor = SystemColors.ActiveBorder;
+            textBox21.BorderStyle = BorderStyle.None;
+            textBox21.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox21.ForeColor = SystemColors.Window;
+            textBox21.Location = new Point(0, 135);
+            textBox21.Margin = new Padding(0);
+            textBox21.Multiline = true;
+            textBox21.Name = "textBox21";
+            textBox21.ReadOnly = true;
+            textBox21.Size = new Size(250, 75);
+            textBox21.TabIndex = 1;
+            textBox21.TabStop = false;
+            textBox21.Text = "  Unreal Fest Seattle 2024 \r\n  -early bird tickets on\r\n  sale";
+            // 
+            // pictureBox32
+            // 
+            pictureBox32.Dock = DockStyle.Top;
+            pictureBox32.Image = (Image)resources.GetObject("pictureBox32.Image");
+            pictureBox32.Location = new Point(0, 0);
+            pictureBox32.Margin = new Padding(0);
+            pictureBox32.Name = "pictureBox32";
+            pictureBox32.Size = new Size(250, 125);
+            pictureBox32.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox32.TabIndex = 0;
+            pictureBox32.TabStop = false;
+            // 
+            // panel15
+            // 
+            panel15.BackColor = SystemColors.ActiveBorder;
+            panel15.Controls.Add(richTextBox22);
+            panel15.Controls.Add(textBox22);
+            panel15.Controls.Add(pictureBox33);
+            panel15.Location = new Point(276, 374);
+            panel15.Margin = new Padding(10, 8, 10, 8);
+            panel15.Name = "panel15";
+            panel15.Size = new Size(250, 350);
+            panel15.TabIndex = 14;
+            // 
+            // richTextBox22
+            // 
+            richTextBox22.BackColor = SystemColors.ActiveBorder;
+            richTextBox22.BorderStyle = BorderStyle.None;
+            richTextBox22.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            richTextBox22.ForeColor = SystemColors.Window;
+            richTextBox22.Location = new Point(2, 215);
+            richTextBox22.Margin = new Padding(0);
+            richTextBox22.Name = "richTextBox22";
+            richTextBox22.ReadOnly = true;
+            richTextBox22.ScrollBars = RichTextBoxScrollBars.None;
+            richTextBox22.Size = new Size(250, 135);
+            richTextBox22.TabIndex = 11;
+            richTextBox22.Text = "   Welcome, early birds!\n   Now's your chance to save $50 on your\n   Unreal Fest Seattle 2024 tickets and get\n   ready for three action-packed days of\n   learning, inspirational speakers, and\n   more.";
+            richTextBox22.ZoomFactor = 1.025F;
+            // 
+            // textBox22
+            // 
+            textBox22.BackColor = SystemColors.ActiveBorder;
+            textBox22.BorderStyle = BorderStyle.None;
+            textBox22.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox22.ForeColor = SystemColors.Window;
+            textBox22.Location = new Point(0, 135);
+            textBox22.Margin = new Padding(0);
+            textBox22.Multiline = true;
+            textBox22.Name = "textBox22";
+            textBox22.ReadOnly = true;
+            textBox22.Size = new Size(250, 75);
+            textBox22.TabIndex = 1;
+            textBox22.TabStop = false;
+            textBox22.Text = "  Unreal Fest Seattle 2024 \r\n  -early bird tickets on\r\n  sale";
+            // 
+            // pictureBox33
+            // 
+            pictureBox33.Dock = DockStyle.Top;
+            pictureBox33.Image = (Image)resources.GetObject("pictureBox33.Image");
+            pictureBox33.Location = new Point(0, 0);
+            pictureBox33.Margin = new Padding(0);
+            pictureBox33.Name = "pictureBox33";
+            pictureBox33.Size = new Size(250, 125);
+            pictureBox33.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox33.TabIndex = 0;
+            pictureBox33.TabStop = false;
+            // 
+            // panel16
+            // 
+            panel16.BackColor = SystemColors.ActiveBorder;
+            panel16.Controls.Add(richTextBox23);
+            panel16.Controls.Add(textBox23);
+            panel16.Controls.Add(pictureBox34);
+            panel16.Location = new Point(546, 374);
+            panel16.Margin = new Padding(10, 8, 6, 8);
+            panel16.Name = "panel16";
+            panel16.Size = new Size(250, 350);
+            panel16.TabIndex = 14;
+            // 
+            // richTextBox23
+            // 
+            richTextBox23.BackColor = SystemColors.ActiveBorder;
+            richTextBox23.BorderStyle = BorderStyle.None;
+            richTextBox23.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            richTextBox23.ForeColor = SystemColors.Window;
+            richTextBox23.Location = new Point(2, 215);
+            richTextBox23.Margin = new Padding(0);
+            richTextBox23.Name = "richTextBox23";
+            richTextBox23.ReadOnly = true;
+            richTextBox23.ScrollBars = RichTextBoxScrollBars.None;
+            richTextBox23.Size = new Size(250, 135);
+            richTextBox23.TabIndex = 11;
+            richTextBox23.Text = "   Welcome, early birds!\n   Now's your chance to save $50 on your\n   Unreal Fest Seattle 2024 tickets and get\n   ready for three action-packed days of\n   learning, inspirational speakers, and\n   more.";
+            richTextBox23.ZoomFactor = 1.025F;
+            // 
+            // textBox23
+            // 
+            textBox23.BackColor = SystemColors.ActiveBorder;
+            textBox23.BorderStyle = BorderStyle.None;
+            textBox23.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox23.ForeColor = SystemColors.Window;
+            textBox23.Location = new Point(0, 135);
+            textBox23.Margin = new Padding(0);
+            textBox23.Multiline = true;
+            textBox23.Name = "textBox23";
+            textBox23.ReadOnly = true;
+            textBox23.Size = new Size(250, 75);
+            textBox23.TabIndex = 1;
+            textBox23.TabStop = false;
+            textBox23.Text = "  Unreal Fest Seattle 2024 \r\n  -early bird tickets on\r\n  sale";
+            // 
+            // pictureBox34
+            // 
+            pictureBox34.Dock = DockStyle.Top;
+            pictureBox34.Image = (Image)resources.GetObject("pictureBox34.Image");
+            pictureBox34.Location = new Point(0, 0);
+            pictureBox34.Margin = new Padding(0);
+            pictureBox34.Name = "pictureBox34";
+            pictureBox34.Size = new Size(250, 125);
+            pictureBox34.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox34.TabIndex = 0;
+            pictureBox34.TabStop = false;
+            // 
+            // panel17
+            // 
+            panel17.BackColor = SystemColors.ActiveBorder;
+            panel17.Controls.Add(richTextBox24);
+            panel17.Controls.Add(textBox24);
+            panel17.Controls.Add(pictureBox35);
+            panel17.Location = new Point(6, 740);
+            panel17.Margin = new Padding(6, 8, 10, 32);
+            panel17.Name = "panel17";
+            panel17.Size = new Size(250, 350);
+            panel17.TabIndex = 15;
+            // 
+            // richTextBox24
+            // 
+            richTextBox24.BackColor = SystemColors.ActiveBorder;
+            richTextBox24.BorderStyle = BorderStyle.None;
+            richTextBox24.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            richTextBox24.ForeColor = SystemColors.Window;
+            richTextBox24.Location = new Point(2, 215);
+            richTextBox24.Margin = new Padding(0);
+            richTextBox24.Name = "richTextBox24";
+            richTextBox24.ReadOnly = true;
+            richTextBox24.ScrollBars = RichTextBoxScrollBars.None;
+            richTextBox24.Size = new Size(250, 135);
+            richTextBox24.TabIndex = 11;
+            richTextBox24.Text = "   Welcome, early birds!\n   Now's your chance to save $50 on your\n   Unreal Fest Seattle 2024 tickets and get\n   ready for three action-packed days of\n   learning, inspirational speakers, and\n   more.";
+            richTextBox24.ZoomFactor = 1.025F;
+            // 
+            // textBox24
+            // 
+            textBox24.BackColor = SystemColors.ActiveBorder;
+            textBox24.BorderStyle = BorderStyle.None;
+            textBox24.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox24.ForeColor = SystemColors.Window;
+            textBox24.Location = new Point(0, 135);
+            textBox24.Margin = new Padding(0);
+            textBox24.Multiline = true;
+            textBox24.Name = "textBox24";
+            textBox24.ReadOnly = true;
+            textBox24.Size = new Size(250, 75);
+            textBox24.TabIndex = 1;
+            textBox24.TabStop = false;
+            textBox24.Text = "  Unreal Fest Seattle 2024 \r\n  -early bird tickets on\r\n  sale";
+            // 
+            // pictureBox35
+            // 
+            pictureBox35.Dock = DockStyle.Top;
+            pictureBox35.Image = (Image)resources.GetObject("pictureBox35.Image");
+            pictureBox35.Location = new Point(0, 0);
+            pictureBox35.Margin = new Padding(0);
+            pictureBox35.Name = "pictureBox35";
+            pictureBox35.Size = new Size(250, 125);
+            pictureBox35.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox35.TabIndex = 0;
+            pictureBox35.TabStop = false;
+            // 
+            // panel18
+            // 
+            panel18.BackColor = SystemColors.ActiveBorder;
+            panel18.Controls.Add(richTextBox25);
+            panel18.Controls.Add(textBox25);
+            panel18.Controls.Add(pictureBox36);
+            panel18.Location = new Point(276, 740);
+            panel18.Margin = new Padding(10, 8, 10, 32);
+            panel18.Name = "panel18";
+            panel18.Size = new Size(250, 350);
+            panel18.TabIndex = 14;
+            // 
+            // richTextBox25
+            // 
+            richTextBox25.BackColor = SystemColors.ActiveBorder;
+            richTextBox25.BorderStyle = BorderStyle.None;
+            richTextBox25.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            richTextBox25.ForeColor = SystemColors.Window;
+            richTextBox25.Location = new Point(2, 215);
+            richTextBox25.Margin = new Padding(0);
+            richTextBox25.Name = "richTextBox25";
+            richTextBox25.ReadOnly = true;
+            richTextBox25.ScrollBars = RichTextBoxScrollBars.None;
+            richTextBox25.Size = new Size(250, 135);
+            richTextBox25.TabIndex = 11;
+            richTextBox25.Text = "   Welcome, early birds!\n   Now's your chance to save $50 on your\n   Unreal Fest Seattle 2024 tickets and get\n   ready for three action-packed days of\n   learning, inspirational speakers, and\n   more.";
+            richTextBox25.ZoomFactor = 1.025F;
+            // 
+            // textBox25
+            // 
+            textBox25.BackColor = SystemColors.ActiveBorder;
+            textBox25.BorderStyle = BorderStyle.None;
+            textBox25.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox25.ForeColor = SystemColors.Window;
+            textBox25.Location = new Point(0, 135);
+            textBox25.Margin = new Padding(0);
+            textBox25.Multiline = true;
+            textBox25.Name = "textBox25";
+            textBox25.ReadOnly = true;
+            textBox25.Size = new Size(250, 75);
+            textBox25.TabIndex = 1;
+            textBox25.TabStop = false;
+            textBox25.Text = "  Unreal Fest Seattle 2024 \r\n  -early bird tickets on\r\n  sale";
+            // 
+            // pictureBox36
+            // 
+            pictureBox36.Dock = DockStyle.Top;
+            pictureBox36.Image = (Image)resources.GetObject("pictureBox36.Image");
+            pictureBox36.Location = new Point(0, 0);
+            pictureBox36.Margin = new Padding(0);
+            pictureBox36.Name = "pictureBox36";
+            pictureBox36.Size = new Size(250, 125);
+            pictureBox36.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox36.TabIndex = 0;
+            pictureBox36.TabStop = false;
+            // 
+            // panel19
+            // 
+            panel19.BackColor = SystemColors.ActiveBorder;
+            panel19.Controls.Add(richTextBox26);
+            panel19.Controls.Add(textBox26);
+            panel19.Controls.Add(pictureBox37);
+            panel19.Location = new Point(546, 740);
+            panel19.Margin = new Padding(10, 8, 6, 32);
+            panel19.Name = "panel19";
+            panel19.Size = new Size(250, 350);
+            panel19.TabIndex = 14;
+            // 
+            // richTextBox26
+            // 
+            richTextBox26.BackColor = SystemColors.ActiveBorder;
+            richTextBox26.BorderStyle = BorderStyle.None;
+            richTextBox26.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            richTextBox26.ForeColor = SystemColors.Window;
+            richTextBox26.Location = new Point(2, 215);
+            richTextBox26.Margin = new Padding(0);
+            richTextBox26.Name = "richTextBox26";
+            richTextBox26.ReadOnly = true;
+            richTextBox26.ScrollBars = RichTextBoxScrollBars.None;
+            richTextBox26.Size = new Size(250, 135);
+            richTextBox26.TabIndex = 11;
+            richTextBox26.Text = "   Welcome, early birds!\n   Now's your chance to save $50 on your\n   Unreal Fest Seattle 2024 tickets and get\n   ready for three action-packed days of\n   learning, inspirational speakers, and\n   more.";
+            richTextBox26.ZoomFactor = 1.025F;
+            // 
+            // textBox26
+            // 
+            textBox26.BackColor = SystemColors.ActiveBorder;
+            textBox26.BorderStyle = BorderStyle.None;
+            textBox26.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox26.ForeColor = SystemColors.Window;
+            textBox26.Location = new Point(0, 135);
+            textBox26.Margin = new Padding(0);
+            textBox26.Multiline = true;
+            textBox26.Name = "textBox26";
+            textBox26.ReadOnly = true;
+            textBox26.Size = new Size(250, 75);
+            textBox26.TabIndex = 1;
+            textBox26.TabStop = false;
+            textBox26.Text = "  Unreal Fest Seattle 2024 \r\n  -early bird tickets on\r\n  sale";
+            // 
+            // pictureBox37
+            // 
+            pictureBox37.Dock = DockStyle.Top;
+            pictureBox37.Image = (Image)resources.GetObject("pictureBox37.Image");
+            pictureBox37.Location = new Point(0, 0);
+            pictureBox37.Margin = new Padding(0);
+            pictureBox37.Name = "pictureBox37";
+            pictureBox37.Size = new Size(250, 125);
+            pictureBox37.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox37.TabIndex = 0;
+            pictureBox37.TabStop = false;
+            // 
+            // button1
+            // 
+            button1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            button1.BackColor = SystemColors.ActiveBorder;
+            flowLayoutPanel2.SetFlowBreak(button1, true);
+            button1.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.ForeColor = SystemColors.Window;
+            button1.Location = new Point(16, 1130);
+            button1.Margin = new Padding(16, 8, 12, 4);
+            button1.Name = "button1";
+            button1.Size = new Size(764, 50);
+            button1.TabIndex = 16;
+            button1.Text = "View More Blog Entries";
+            button1.UseVisualStyleBackColor = false;
             // 
             // textBox6
             // 
@@ -703,7 +1101,7 @@
             panel2.Controls.Add(richTextBox5);
             panel2.Controls.Add(textBox8);
             panel2.Controls.Add(pictureBox9);
-            panel2.Location = new Point(410, 400);
+            panel2.Location = new Point(416, 400);
             panel2.Name = "panel2";
             panel2.Size = new Size(380, 400);
             panel2.TabIndex = 4;
@@ -828,7 +1226,6 @@
             // 
             // FC_Panel
             // 
-            FC_Panel.BorderStyle = BorderStyle.FixedSingle;
             FC_Panel.Controls.Add(panel7);
             FC_Panel.Controls.Add(panel6);
             FC_Panel.Controls.Add(panel5);
@@ -836,7 +1233,7 @@
             FC_Panel.Location = new Point(10, 400);
             FC_Panel.Margin = new Padding(6);
             FC_Panel.Name = "FC_Panel";
-            FC_Panel.Size = new Size(780, 780);
+            FC_Panel.Size = new Size(808, 800);
             FC_Panel.TabIndex = 14;
             // 
             // panel7
@@ -848,7 +1245,7 @@
             panel7.Controls.Add(richTextBox10);
             panel7.Controls.Add(pictureBox17);
             panel7.Controls.Add(pictureBox18);
-            panel7.Location = new Point(530, 420);
+            panel7.Location = new Point(536, 420);
             panel7.Margin = new Padding(0);
             panel7.Name = "panel7";
             panel7.Size = new Size(250, 350);
@@ -944,7 +1341,7 @@
             panel6.Controls.Add(textBox11);
             panel6.Controls.Add(pictureBox15);
             panel6.Controls.Add(pictureBox16);
-            panel6.Location = new Point(265, 420);
+            panel6.Location = new Point(271, 420);
             panel6.Margin = new Padding(0);
             panel6.Name = "panel6";
             panel6.Size = new Size(250, 350);
@@ -1040,7 +1437,7 @@
             panel5.Controls.Add(richTextBox7);
             panel5.Controls.Add(textBox10);
             panel5.Controls.Add(pictureBox14);
-            panel5.Location = new Point(0, 420);
+            panel5.Location = new Point(6, 420);
             panel5.Margin = new Padding(0);
             panel5.Name = "panel5";
             panel5.Size = new Size(250, 350);
@@ -1135,7 +1532,7 @@
             FC_Container01.Controls.Add(richTextBox2);
             FC_Container01.Controls.Add(textBox7);
             FC_Container01.Controls.Add(pictureBox8);
-            FC_Container01.Location = new Point(0, 0);
+            FC_Container01.Location = new Point(6, 0);
             FC_Container01.Margin = new Padding(0);
             FC_Container01.Name = "FC_Container01";
             FC_Container01.Size = new Size(380, 400);
@@ -1554,7 +1951,7 @@
             Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
             Margin = new Padding(3, 4, 3, 4);
             Name = "UC_Home";
-            Size = new Size(1080, 2450);
+            Size = new Size(1080, 2500);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             panel10.ResumeLayout(false);
@@ -1567,15 +1964,34 @@
             panel8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox22).EndInit();
             BL_Panel.ResumeLayout(false);
-            panel13.ResumeLayout(false);
-            panel13.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox31).EndInit();
-            panel12.ResumeLayout(false);
-            panel12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox30).EndInit();
+            flowLayoutPanel2.ResumeLayout(false);
             panel11.ResumeLayout(false);
             panel11.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox27).EndInit();
+            panel12.ResumeLayout(false);
+            panel12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox30).EndInit();
+            panel13.ResumeLayout(false);
+            panel13.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox31).EndInit();
+            panel14.ResumeLayout(false);
+            panel14.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox32).EndInit();
+            panel15.ResumeLayout(false);
+            panel15.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox33).EndInit();
+            panel16.ResumeLayout(false);
+            panel16.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox34).EndInit();
+            panel17.ResumeLayout(false);
+            panel17.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox35).EndInit();
+            panel18.ResumeLayout(false);
+            panel18.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox36).EndInit();
+            panel19.ResumeLayout(false);
+            panel19.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox37).EndInit();
             CR_LPanel.ResumeLayout(false);
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
@@ -1721,7 +2137,6 @@
         private RichTextBox richTextBox17;
         private TextBox textBox16;
         private PictureBox pictureBox27;
-        private FlowLayoutPanel flowLayoutPanel1;
         private TextBox textBox17;
         private PictureBox pictureBox25;
         private RichTextBox richTextBox16;
@@ -1740,5 +2155,31 @@
         private RichTextBox richTextBox20;
         private TextBox textBox20;
         private PictureBox pictureBox31;
+        private FlowLayoutPanel flowLayoutPanel2;
+        private Panel panel14;
+        private RichTextBox richTextBox21;
+        private TextBox textBox21;
+        private PictureBox pictureBox32;
+        private Panel panel15;
+        private RichTextBox richTextBox22;
+        private TextBox textBox22;
+        private PictureBox pictureBox33;
+        private Panel panel16;
+        private RichTextBox richTextBox23;
+        private TextBox textBox23;
+        private PictureBox pictureBox34;
+        private Panel panel17;
+        private RichTextBox richTextBox24;
+        private TextBox textBox24;
+        private PictureBox pictureBox35;
+        private Panel panel18;
+        private RichTextBox richTextBox25;
+        private TextBox textBox25;
+        private PictureBox pictureBox36;
+        private Panel panel19;
+        private RichTextBox richTextBox26;
+        private TextBox textBox26;
+        private PictureBox pictureBox37;
+        private Button button1;
     }
 }
