@@ -1877,6 +1877,7 @@
             Section1_Home.Name = "Section1_Home";
             Section1_Home.Size = new Size(1031, 225);
             Section1_Home.TabIndex = 12;
+            Section1_Home.Click += Section1_Home_Click;
             // 
             // pictureBox11
             // 
@@ -1919,6 +1920,7 @@
             richTextBox1.TabIndex = 10;
             richTextBox1.Text = resources.GetString("richTextBox1.Text");
             richTextBox1.ZoomFactor = 0.82F;
+            richTextBox1.Click += Section1_Home_Click;
             // 
             // pictureBox1
             // 
@@ -1930,6 +1932,7 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += Section1_Home_Click;
             // 
             // textBox4
             // 

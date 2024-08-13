@@ -37,6 +37,11 @@ namespace GameLauncher.UserControls
         }
 
         //Header Section Voids.
+        private void Section1_Home_Click(object sender, EventArgs e)
+        {
+            RedirectToHyperlink("https://www.veldboomstudios.com/projects/project-three-8zgh7-x5e5y");
+        }
+
         private void HyperlinkedIconBox01_Click(object sender, EventArgs e)
         {
             RedirectToHyperlink("https://www.veldboomstudios.com/about");
@@ -80,5 +85,6 @@ namespace GameLauncher.UserControls
             RedirectToHyperlink("https://www.veldboomstudios.com/");
         }
 
+        
     }
 }

@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|solutionrelative:gamelauncher\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|c:\\users\\jahva\\c# projects\\gamelauncher\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|solutionrelative:gamelauncher\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|C:\\Users\\Jahva\\C# Projects\\gamelauncher\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|solutionrelative:gamelauncher\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|c:\\users\\jahva\\c# projects\\gamelauncher\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|solutionrelative:gamelauncher\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|c:\\users\\jahva\\c# projects\\gamelauncher\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|solutionrelative:gamelauncher\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{049B3439-E4CB-4EDC-8307-24BFC3D78A7D}|GameLauncher\\GameLauncher.csproj|c:\\users\\jahva\\c# projects\\gamelauncher\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Jahva\\C# Projects\\GameLauncher\\Form2.cs",
               "RelativeDocumentMoniker": "GameLauncher\\Form2.cs",
@@ -90,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\Jahva\\C# Projects\\GameLauncher\\Form2.cs",
               "RelativeDocumentMoniker": "GameLauncher\\Form2.cs",
@@ -104,13 +104,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "UC_Home.cs",
               "DocumentMoniker": "C:\\Users\\Jahva\\C# Projects\\GameLauncher\\UserControls\\UC_Home.cs",
               "RelativeDocumentMoniker": "GameLauncher\\UserControls\\UC_Home.cs",
               "ToolTip": "C:\\Users\\Jahva\\C# Projects\\GameLauncher\\UserControls\\UC_Home.cs",
               "RelativeToolTip": "GameLauncher\\UserControls\\UC_Home.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAJAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwCsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-23T00:47:41.391Z",
               "IsPinned": true,
