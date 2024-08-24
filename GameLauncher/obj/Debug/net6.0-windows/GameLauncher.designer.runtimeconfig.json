@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Jahva\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Jahva\\.nuget\\packages",
+      "C:\\Users\\siege\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\siege\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {

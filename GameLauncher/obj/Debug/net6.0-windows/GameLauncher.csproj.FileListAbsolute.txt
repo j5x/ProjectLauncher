@@ -175,3 +175,6 @@ C:\Users\Jahva\C# Projects\GameLauncher\obj\Debug\net6.0-windows\refint\GameLaun
 C:\Users\Jahva\C# Projects\GameLauncher\obj\Debug\net6.0-windows\GameLauncher.pdb
 C:\Users\Jahva\C# Projects\GameLauncher\obj\Debug\net6.0-windows\GameLauncher.genruntimeconfig.cache
 C:\Users\Jahva\C# Projects\GameLauncher\obj\Debug\net6.0-windows\ref\GameLauncher.dll
+C:\Code\ProjectLauncher\GameLauncher\obj\Debug\net6.0-windows\GameLauncher.Form2.resources
+C:\Code\ProjectLauncher\GameLauncher\obj\Debug\net6.0-windows\GameLauncher.UserControls.UC_Home.resources
+C:\Code\ProjectLauncher\GameLauncher\obj\Debug\net6.0-windows\GameLauncher.UserControls.UC_Projects.resources

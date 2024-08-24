@@ -18,17 +18,17 @@ namespace GameLauncher
 
         private void button1_Click(object sender, EventArgs e)
         {
-            LaunchGame("BloonzV1.1");
+            LaunchGame("isleofeline");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            DownloadGame("BloonzV1.1");
+            DownloadGame("isleofeline");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            CheckForUpdates("BloonzV1.1");
+            CheckForUpdates("isleofeline");
         }
 
         private void LaunchGame(string gameName)
@@ -82,7 +82,7 @@ namespace GameLauncher
                     if (saveDialog.ShowDialog() == DialogResult.OK)
                     {
                         // Construct the URL for the game download
-                        string downloadUrl = "https://github.com/MikeHuijgen/BO-TowerDefends/releases/download/Version1.1/Bloonz.Version.1.1.zip";
+                        string downloadUrl = "https://www.dropbox.com/scl/fi/bivi3cns8b4swl2f0ia33/Windows.zip?rlkey=t7vdos3lh8yw75p3m35vft3nr&st=foqjox0c&dl=1";
 
                         // Specify the download path
                         string downloadPath = saveDialog.FileName;
